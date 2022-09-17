@@ -1,6 +1,6 @@
-PWD /Users/maul/Developer/code/project/skripsi/latex
+PWD /Users/maul/Developer/code/project/skripsi/MyThesis
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/maul/Developer/code/project/skripsi/latex/template-skripsi.tex
+INPUT /Users/maul/Developer/code/project/skripsi/MyThesis/template-skripsi.tex
 OUTPUT template-skripsi.log
 INPUT ./jtetiskripsi.cls
 INPUT ./jtetiskripsi.cls
