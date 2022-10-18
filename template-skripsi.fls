@@ -981,13 +981,6 @@ INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
 INPUT template-skripsi.toc
 OUTPUT template-skripsi.toc
-INPUT ./template-skripsi.lof
-INPUT template-skripsi.lof
-INPUT template-skripsi.lof
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
-OUTPUT template-skripsi.lof
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT ./bab1.tex
 INPUT ./bab1.tex
 INPUT ./bab1.tex
@@ -998,13 +991,9 @@ INPUT ./bab1.tex
 INPUT bab1.tex
 INPUT ./bab1.tex
 INPUT bab1.tex
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
-INPUT gambar/budidaya-ikan-lele-jawa.png
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
-INPUT ./gambar/budidaya-ikan-lele-jawa.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT ./template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT ./template-skripsi.bbl
