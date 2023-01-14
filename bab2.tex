@@ -120,7 +120,101 @@ Dalam bisnis modern, terdapat tiga metode yang digunakan dalam menghitung biaya 
 \section{Perputaran Persediaan}
 \section{EOQ}
 
-\textit{Economic order quantity} (EOQ) merupakan 
+\textit{Economic order quantity} (EOQ) merupakan jumlah persediaan yang digunakan untuk meminimalkan jumlah dan biaya pemesanan yang terkait dengan bahan baku atau persediaan barang dagangan. Intinya, EOQ merupakan \textit{set point} yang dibuat dan digunakan untuk menjadi acuan dalam membantu perusahaan meminimalkan total biaya persediaan.
+
+Dua faktor penting yang menjadi penentu dalam menentukan \textit{economic order quantity} (EOQ) adalah biaya pemesanan dan biaya penyimpanan.
+
+\begin{enumerate}
+	\item Biaya pemesanan
+	
+	Biaya pemesanan merupakan biaya yang dikeluarkan setiap pesanan. Contoh hal yang termasuk biaya pemesanan adalah biaya pengiriman, biaya pemrosesan pembayaran, dan lain-lain.
+
+	\item Biaya persediaan
+	
+	Biaya persediaan merupakan biaya yang dikeluarkan untuk menyimpan persediaan di toko atau gudang. Contoh hal yang termasuk dalam biaya penyimpaan adalah biaya sewa ruang penyimpanan, pajak properti, dan lain-lain.
+\end{enumerate}
+
+Formula atau rumus yang digunakan untuk menentukan EOQ adalah:
+
+\[EOQ=\sqrt{\frac{2 \times D \times Co}{Ch}}\]
+
+\begin{itemize}
+	\item D = \textit{Demand per year} (Kebutuhan per tahun)
+	\item Co = \textit{Cost per order} (Biaya per pesanan)
+	\item Ch = \textit{Cost of holding per unit of inventory} (Biaya persediaan per unit)
+\end{itemize}
+
+\textbf{Contoh Kasus}
+
+Sebuah material DX digunakan rutin setiap tahunnya. Data kebutuhan per tahun, biaya pemesanan, dan biaya persediaan per unit adalah sebagai berikut.
+
+\begin{itemize}
+	\item Kebutuhan tahunan = 2400 unit
+	\item Biaya per pesanan = \${10} per pesanan
+	\item Biaya persediaan per unit = \${0.30} per unit
+\end{itemize}
+
+Diketahui:
+\begin{itemize}
+	\item D = \textit{Demand per year} (Kebutuhan per tahun) -> 2400 bola tennis
+	\item Co = \textit{Cost per order} (Biaya per pesanan) -> \${10}
+	\item Ch = \textit{Cost of holding per unit of inventory} (Biaya persediaan per unit) -> \${0.30}
+\end{itemize}
+
+Maka, EOQ-nya adalah sebagai berikut.
+
+\begin{equation}
+    \begin{split}
+		EOQ
+		&= \sqrt{\frac{2 \times D \times Co}{Ch}} \\
+		&= \sqrt{\frac{2 \times 2,400 \times 10}{0.30}} \\
+		&= \sqrt{\frac{48,000}{0.30}} \\
+		&= \sqrt{160,000} \\
+		&= 400
+    \end{split}
+\end{equation}
+
+Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat dihitung berapa jumlah penjualan tahunan, biaya pemesanan tahunan, biaya penyimpaan tahunan, dan juga kombinasi dari biaya pemesanan tahunan dan biaya persediaan tahunan sebagai berikut.
+
+\textbf{Jumlah penjualan tahunan}
+
+= Kebutuhan tahunan / EOQ
+
+= 2,400 unit / 400 unit
+
+= 6 pesanan per tahun
+
+\textbf{Biaya pemesanan tahunan}
+
+= Jumlah penjualan tahunan * Biaya pemesanan per unit
+
+= 6 pesanan * \${10}
+
+= \${60}
+
+\textbf{Biaya penyimpanan tahunan}
+
+= Rata-rata unit * Biaya penyimpanan
+
+= (400/2) * 0.3
+
+= \${60}
+
+\textbf{Kombinasi antara biaya pemesanan dan biaya penyimpaan}
+
+= Biaya pemesanan tahunan + biaya penyimpanan tahunan
+
+= \${60} + \${60}
+
+= \${120}
+
+MASUKKIN TABELNYA
+
+Pada tabel diatas, dapat dilihat bahwa dengan data yang sama menghasilkan hitungan yang berbeda tergantung dari berapa banyak jumlah penjualan tahunannya.
+
+Dari hitungan EOQ yang sudah dilakukan sebelumnya, jumlah penjualan tahunan sebesar 6 pesanan per tahun mendapatkan biaya kombinasi yang lebih sedikit dan stabil dibandingkan dengan kurang atau lebih dari 6 pesanan per tahunnya. Hal ini dikarenakan jika semakin kecil angka penjualan tahunannya maka hal tersebut akan berdampak pada tingginya biaya penyimpanan yang menyebabkan ketidakseimbangan antara biaya pemesanan dan biaya penyimpanan. Sementara itu, jika penjualan pertahunnya itu tinggi maka hal tersebut akan berdampak pada tingginya biaya pemesanan yang menyebabkan hal yang serupa.
+
+Jadi, dapat disimpulkan bahwa perhitungan EOQ ini bersifat konstan terhadap biaya pemesanan dan biaya penyimpanan.
 
 \section{ROP}
 \section{Safety Stok}
