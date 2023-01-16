@@ -75,39 +75,168 @@ Dalam bisnis modern, terdapat tiga metode yang digunakan dalam menghitung biaya 
 	
 	\textit{First-in, first-out} atau FIFO adalah metode dimana aset yang diproduksi dan diperoleh terlebih dahulu juga dijual atau digunakan terlebih dahulu. Saat menggunakan FIFO sebagai metode pilihan, gunakan perhitungan ini:
 	
-	
-	\textbf{HPP = biaya persediaan terlama X jumlah persediaan yang terjual}
+	\textbf{HPP = biaya persediaan terlama $\times$ jumlah persediaan yang terjual}
 
 	Contoh FIFO:
-	\begin{enumerate}
-		\item Temukan unit yang tersedia untuk dijual
-		\item Temukan jumlah unit yang terjual
-		\item Temukan inventaris akhir
-		\item Gunakan rumus FIFO
-	\end{enumerate}
+
+	Gunakan data tabel dibawah ini untuk menentukan HPP menggunakan metode FIFO.
+
+	\begin{table}[h!]
+		\begin{center}
+		  \caption{Contoh data dalam persediaan barang}
+		  \label{tab:table1}
+		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+			\hline
+			1 Maret & Inventaris awal & 65 unit, \${15} per unit\\
+			5 Maret & Beli &  130 unit, \${10} per unit\\
+			10 Maret & Jual &  95 unit, \${20} per unit\\
+			12 Maret & Beli &  35 unit, \${15} per unit\\
+			15 Maret & Beli &  75 unit, \${20} per unit\\
+			21 Maret & Jual &  115 unit, \${30} per unit\\
+			28 Maret & Jual &  60 unit, \${35} per unit\\
+		  \end{tabular}
+		\end{center}
+	  \end{table}
+
+	  \begin{enumerate}
+		\item \textbf{Tentukan jumlah unit yang tersedia untuk dijual}
+		
+		Tentukan jumlah unit yang tersedia untuk dijual dengan menjumlahkan semua unit beli dengan inventaris awal.
+
+		\textbf{Unit yang tersedia untuk dijual = 65 + 130 + 35 + 75}
+
+		\textbf{Unit yang tersedia untuk dijual = 305}
+
+		Terdapat 305 unit yang tersedia untuk dijual.
+
+		\item \textbf{Tentukan jumlah unit yang dijual}
+		
+		Tentukan jumlah unit yang dijual dengan menjumlahkan semua unit yang dijual.
+
+		\textbf{Unit dijual = 95 + 115 + 60}
+
+		\textbf{Unit dijual = 270}
+
+		Ada 270 unit yang dijual.
+
+		\item \textbf{Tentukan nilai inventaris akhir}
+		
+		Tentukan nilai inventaris akhir dengan cara mengurangi jumlah unit yang tersedia untuk dijual dengan jumlah unit yang dijual.
+
+		\textbf{Inventaris akhir = Jumlah unit yang tersedia untuk dijual - jumlah unit yang dijual}
+
+		\textbf{Inventaris akhir = 305 - 270}
+
+		\textbf{Inventaris akhir = 35}
+
+		Ada 35 unit yang tersisa pada inventaris akhir.
+
+		\item \textbf{Menentukan HPP menggunakan rumus FIFO}
+		
+		Biaya persediaan terlama dapat ditentukan dengan nilai inventaris awal. Nilai tersebut didapat dengan mengalikan persediaan awal dan harga per unitnya. 
+
+		\textbf{HPP = biaya persediaan terlama $\times$ jumlah persediaan yang dijual}
+
+		\textbf{HPP = (65 $\times$ 15) $\times$ 270}
+
+		\textbf{HPP = 263,250}
+
+		Biaya barang yang dijual adalah \${263,250}.
+
+	  \end{enumerate}
 
 	\item Last In, First Out (LIFO)
 	
 	\textit{Last-in, first-out} atau LIFO adalah metode yang mencatat barang-barang yang baru saja diproduksi sebagai barang yang terjual lebih dulu. Saat menggunakan LIFO sebagai metode pilihan, gunakan perhitungan ini:
 
-
-	\textbf{HPP = biaya persediaan terakhir X jumlah persediaan yang terjual}
+	\textbf{HPP = biaya persediaan terakhir $\times$ jumlah persediaan yang terjual}
 
 	Contoh LIFO:
+
+	Gunakan data tabel dibawah ini untuk menentukan HPP menggunakan metode LIFO.
+
+	\begin{table}[h!]
+		\begin{center}
+		  \caption{Contoh data dalam persediaan barang}
+		  \label{tab:table2}
+		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+			\hline
+			3 April & Inventaris awal & 70 unit, \${15} per unit\\
+			6 April & Beli &  125 unit, \${10} per unit\\
+			10 April & Beli &  90 unit, \${20} per unit\\
+			13 April & Jual &  40 unit, \${15} per unit\\
+			16 April & Beli &  50 unit, \${15} per unit\\
+			23 April & Jual &  100 unit, \${20} per unit\\
+			29 April & Jual &  70 unit, \${20} per unit\\
+		  \end{tabular}
+		\end{center}
+	  \end{table}
+
 	\begin{enumerate}
-		\item Tentukan biaya persediaan terbaru
-		\item Temukan jumlah unit yang terjual
+		\item \textbf{Menentukan biaya persediaan terbaru}
+		
+		Untuk mencari biaya persediaan terbaru dapat dilakukan dengan menggunakan data pada inventaris awal.
+
+		\textbf{Biaya persediaan terbaru = 70 $\times$ 15}
+
+		\textbf{Biaya persediaan terbaru = 1,050}
+
+		Biaya persediaan terbaru adalah \${1,050}.
+
+		\item \textbf{Temukan jumlah unit yang dijual}
+		
+		Temukan jumlah unit yang terjual dengan menambahkan semua unit yang dijual.
+
+		\textbf{Jumlah unit yang dijual = 40 + 100 + 70}
+
+		\textbf{Jumlah unit yang dijual = 210}
+
+		Ada 210 unit yang dijual.
+
 		\item Gunakan rumus LIFO
+		
+		Gunakan biaya persediaan terbaru dan total unit yang dijual untuk menentukan nilai HPP-nya.
+
+		\textbf{HPP = biaya persediaan terbaru $\times$ jumlah persediaan yang dijual}
+
+		\textbf{HPP = 1,050 $\times$ 210}
+
+		\textbf{HPP = 220,500}
+
+		Biaya barang yang dijual adalah \${220,500}.
+
 	\end{enumerate}
 
 	\item Rata-rata tertimbang
 	
 	Rata-rata tertimbang atau biaya rata-rata tertimbang yang biasa dikenal sebagai \textit{Weighted Average Cost} (WAC) adalah metode yang menentukan jumlah masuk ke HPP dan persediaan melalui penggunaan rata-rata tertimbang. Saat menggunakan WAC, gunakan perhitungan ini:
 
-
 	\textbf{WAC per unit = harga pokok barang yang tersedia / unit yang tersedia}
 
-	contoh WAC:
+	Contoh WAC:
+
+	Gunakan data tabel dibawah ini untuk menentukan rata-rata tertimbang dengan rumus WAC.
+
+	\begin{table}[h!]
+		\begin{center}
+		  \caption{Contoh data dalam persediaan barang}
+		  \label{tab:table3}
+		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+			\hline
+			3 Mei & Inventaris awal & 70 unit, \${15} per unit\\
+			6 Mei & Beli &  125 unit, \${10} per unit\\
+			10 Mei & Beli &  90 unit, \${20} per unit\\
+			13 Mei & Jual &  40 unit, \${15} per unit\\
+			16 Mei & Beli &  50 unit, \${15} per unit\\
+			23 Mei & Jual &  100 unit, \${20} per unit\\
+			29 Mei & Jual &  70 unit, \${20} per unit\\
+		  \end{tabular}
+		\end{center}
+	  \end{table}
+
 	\begin{enumerate}
 		\item Tentukan biaya setiap penjualan
 		\item Tambahkan penjualan Anda bersama-sama
