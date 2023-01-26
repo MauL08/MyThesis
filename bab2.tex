@@ -300,7 +300,12 @@ Dua faktor penting yang menjadi penentu dalam menentukan \textit{economic order 
 
 Formula atau rumus yang digunakan untuk menentukan EOQ adalah:
 
-\[EOQ=\sqrt{\frac{2 \times D \times Co}{Ch}}\]
+\begin{equation}
+    \begin{split}
+		EOQ
+		&= \sqrt{\frac{2 \times D \times Co}{Ch}}
+    \end{split}
+\end{equation}
 
 \begin{itemize}
 	\item D = \textit{Demand per year} (Kebutuhan per tahun)
@@ -372,7 +377,23 @@ Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat
 
 = \${120}
 
-MASUKKIN TABELNYA
+\begin{table}[h!]
+	\begin{center}
+	  \caption{Tabel EOQ}
+	  \label{tab:table4}
+	  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+		\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+		\hline
+		3 Mei & Inventaris awal & 30 unit, \${15} per unit\\
+		6 Mei & Beli &  50 unit, \${15} per unit\\
+		11 Mei & Jual &  25 unit, \${25} per unit\\
+		15 Mei & Jual &  30 unit, \${10} per unit\\
+		18 Mei & Beli &  15 unit, \${25} per unit\\
+		22 Mei & Beli &  25 unit, \${35} per unit\\
+		25 Mei & Jual &  35 unit, \${30} per unit\\
+	  \end{tabular}
+	\end{center}
+  \end{table}
 
 Pada tabel diatas, dapat dilihat bahwa dengan data yang sama menghasilkan hitungan yang berbeda tergantung dari berapa banyak jumlah penjualan tahunannya.
 
@@ -386,17 +407,138 @@ Dalam EOQ, ditentukan titik pemesanan kembali atau \textit{reorder point} yang b
 
 Untuk menentukan waktu pemesanan kembali atau \textit{reorder point} dapat dilakukan dengan rumus berikut.
 
-ROP = (LT $\times$ AU) + SS
+\begin{equation}
+    \begin{split}
+		ROP
+		&= LT \times AU + SS
+    \end{split}
+\end{equation}
 
-ROP = \textit{Reorder point}, yaitu tingkat dimana perusahaan harus memesan kembali.
+\begin{itemize}
+	\item ROP = \textit{Reorder point}, yaitu tingkat dimana perusahaan harus memesan kembali. 
+	\item LT = \textit{Leadtime}, yaitu masa kadaluarsa antara pemesanan sampai dengan kedatangan bahan.
+	\item AU = \textit{Average usage}, yaitu pemakaian rata-rata dalam pemakaian tertentu.
+	\item SS = \textit{Safety stok} yaitu besarnya persediaan atau bisa dibilang \textit{minimum inventory point}.
+\end{itemize}
 
-LT = \textit{Leadtime}, yaitu masa kadaluarsa antara pemesanan sampai dengan kedatangan bahan.
+Dalam menutupi kebutuhan persediaan, hal yang perlu dilakukan adalah pemesanan bahan. Pemesanan bahan yang diperlukan pada saat persediaan mencapai titik tertentu (\textit{order point system}) dan pemesanan yang diperlukan pada saat waktu tertentu yang sudah ditetapkan telah tercapai (\textit{order cycle system}).
 
-AU = \textit{Average usage}, yaitu pemakaian rata-rata dalam pemakaian tertentu.
+\begin{enumerate}
+	\item Order Point System
+	
 
-SS = \textit{Safety stok} yaitu besarnya persediaan atau bisa dibilang \textit{minimum inventory point}.
+	\textit{Order point system} adalah suatu sistem dimana pesanan dilakukan apabila persediaan yang ada telah mencapai tingkat tertentu. Jadi dengan sistem ini, ditentukan jumlah persediaan pada tingkatan tertentu yang merupakan batas tenggat waktu dilakukannya pemesanan yang disebut \textit{reorder point}. Dalam sistem ini, pesanan yang jumlahnya tetap dari bahan-bahan yang dipesan disebut dengan \textit{fixed order quantity system}. 
 
-\section{Safety Stok}
-\section{Analisa Persediaan}
-\section{Pengendalian Sistem Persediaan}
+	Keuntungan dari sistem ini adalah pemantauan jumlah dan waktu pemesanan dapat dilakukan dengan mudah dan cepat.
 
+	Dalam pelaksanaan sistem ini, dapat dilakukan dua variasi sebagai berikut.
+
+	\begin{enumerate}
+		\item \textit{Two bin and bag account system}
+		
+		Dengan cara ini, dapat digunakan dua kantong atau \textit{bin} dimana kantong pertama merupakan tempat persediaan bahan yang jumlahnya sama dengan jumlah persediaan pada tingkat \textit{order point} dan berfungsi sebagai persediaan cadangan. Sedangkan persediaan bahan-bahan selebihnya ditempatkan pada kantong kedua.
+
+		Penggunaan bahan-bahan dimulai dari kantong kedua sampai habis dan ketika kantong kedua sudah habis maka diharuskan untuk melakukan pemesanan kembali.
+
+		Sistem ini adalah sistem yang sederhana dan mudah untuk dilakukan pengendalian bahan ataupun pencatatan.
+
+		\item \textit{One storage bin system}
+		
+		Dengan cara ini, hanya menggunakan satu kantong persediaan. Didalam kantong persediaan ini diadakan pembagian persediaan menjadi dua bagian. Bagian pertama dibagi untuk memenuhi kebutuhan bahan-bahan sehari-hari, sementara bagian kedua digunakan untuk memenuhi kebutuhan bahan-bahan selama periode pengisian kembali.
+
+		Cara ini memberikan keuntungan berupa kesederhanaan dalam pencatatan persediaan.
+	\end{enumerate}
+
+	\item \textit{Order Cycle System}
+	
+	\textit{Order cycle system} adalah sistem pemesanan bahan yang dimana jarak antara pemesanan tetap, sebagai contoh tiap minggu atau tiap bulan. Jadi, dengan sistem ini ditentukan waktu pemesanan dengan jarak yang konstan. Karena didasarkan pada jarak waktu yang konstan, maka pemesanan dilakukan tanpa memperhatikan jumlah persediaan yang masih ada.
+
+	\textit{Order cycle system} dapat digunakan untuk memantau persediaan barang yang mempunyai banyak jenis.
+
+	Sistem ini termasuk salah satu sistem yang kaku dan mahal, karena setiap interval barang harus diperhatikan dan harus diperkirakan dahulu mengenai pemakaian barang tersebut di masa yang akan datang. Jika terdapat kesalahan perkiraan, maka dapat terjadi ketidakakuratan persediaan sehingga persediaan dapat berlebihan atau kehabisan persediaan.
+\end{enumerate}
+
+\textbf{Contoh Kasus}
+
+Ada seorang penjual baju gamis asal luar negeri. Dimisalkan pemasok tidak pernah mengalami kendala terkait stok barang. Akan tetapi, untuk pengambilan barang tersebut dibutuhkan waktu 5 hari.
+
+Setelah itu, pesanan penjual akan dikirim ke Indonesia dan memerlukan waktu paling cepat 14 hari.
+
+Sesampainya di Indonesia, barang tersebut harus diperiksa lagi oleh bea cukai dan memerlukan waktu selama satu minggu. Kemudian, barang tersebut baru bisa diterima melalui jalur darat selama 3 hari.
+
+Berdasarkan contoh kasus diatas, maka total \textit{lead time} adalah.
+
+\textbf{LT} = 5 + 14 + 7 + 3 = 29 Hari
+
+Data tersebut menjelaskan bahwa penjual harus mempunyai stok baju gamis selama masa tersebut untuk bisa dijual sampai pengiriman selanjutnya. Agar dapat terhindar dari kehabisan persediaan sebelum barang yang penjual pesan dari pemasok tiba, maka dapat dilakukan antisipasi \textit{demand}.
+
+Cara menghitung \textit{demand} adalah dengan mengalikan \textit{lead time} dengan nilai rata-rata penjualan harian si penjual.
+
+Misalkan penjual dapat menjual baju gamis sebanyak 15 gamis perhari, maka \textbf{\textit{Lead Time Demand}}-nya adalah.
+
+Lead Time Demand = Lead Time $\times$ Rata-rata Penjualan Perhari
+
+Lead Time Demand = 29 $\times$ 15 = 435.
+
+Artinya, penjual harus menyediakan 435 baju gamis untuk mengantisipasi pesanan pelanggan sehingga barang yang dikirim oleh pemasok tiba.
+
+\section{Safety Stock}
+
+Persediaan pengamanan atau bisa disebut sebagai  \textit{safety stock} adalah persediaan yang dilakukan untuk mengantisipasi ketidakpastian permintaan dan penyediaan. Apabila \textit{safety stock} tidak mampu mengantisipasi ketidakpastian tersebut, maka dapat terjadi kekurangan persediaan (\textit{stockout}).
+
+Dalam menentukan \textit{safety stock}, dapat dilakukan dengan rumus berikut.
+
+\begin{equation}
+    \begin{split}
+		SS
+		&= (M - A) \times T 
+    \end{split}
+\end{equation}
+
+\begin{itemize}
+	\item SS = Safety stock
+	\item M = Pemakaian maksimum per bulan
+	\item A = Pemakaian rata-rata per bulan
+	\item T = Waktu tunggu
+\end{itemize}
+
+Dengan adanya \textit{safety stock} akan mengantisipasi jika terjadi sesuatu yang menghambat pembelian sehingga stok barang persediaan masih ada untuk beberapa waktu kedepan.
+
+\section{Pengendalian Persediaan}
+
+Pengendalian Persediaan adalah suatu model yang digunakan untuk menyelesaikan masalah yang terkait dengan usaha pengendalian barang dalam suatu aktifitas perusahaan.
+
+Persediaan yang terlalu berlebihan akan merugikan, karena berarti akan lebih banyak modal yang diperlukan, serta biaya yang diperlukan untuk persediaan.
+
+Menurut Sunyoto (2012:225), Sistem pengendalian persediaan merupakan serangkaian pengendalian untuk menentukan tingkat persediaan yang harus dijaga. Sistem ini menentukan dan menjamin tersedianya persediaan yang tepat dalam kualitas dan waktu yang tepat. Jika persediaan terlalu sedikit dapat mengakibatkan resiko terjadinya kekurangan persediaan atau bisa dibilang \textit{stockout}. Bila persediaan dilebihkan, maka biaya penyimpaan dan modal yang diperlukan akan bertambah. Sebaliknya, jika persediaan dikurangi maka akan mengalami \textit{stockout} (kehabisan barang).
+ 
+Menurut Assauri (2004), Pengendalian persediaan dapat dikatakan sebagai suatu kegiatan untuk menentukan tingkat dan komposisi dari persediaan sehingga perusahaan dapat melindungi kelancaran produksi dan penjualan serta kebutuhan-kebutuhan perusahaan dengan efisien.
+
+Pada dasarnya, pengendalian persediaan akan mempermudah operasi perusahaan untuk memproduksi barang-barang, disimpan di gudang dan sampai ke konsumen. Persediaan yang terlalu besar (\textit{overstock}) merupakan pemborosan karena menyebabkan tingginya beban biaya untuk inventaris barang-barang tersebut, sementara jika persediaan terlalu kecil maka dapat menyebabkan proses produksi terhenti sehingga konsumen akan pergi karena permintaannya tidak terpenuhi. Intinya, pengendalian persediaan akan mempermudah atau memperlancar jalannya operasi perusahaan dalam mengelola barang. 
+
+Dalam pengendalian persediaan terdapat tiga aspek yang perlu dipertimbangkan, yaitu:
+
+\begin{enumerate}
+	\item Sistem pengadaan persediaan
+	
+	Perusahaan harus menentukan sistem pengadaan persediaan dengan memperhatikan faktor-faktor yang mempengaruhi pengendalian persediaan.
+
+	\item Penentuan jumlah persediaan
+	
+	Penentuan jumlah persediaan merupakan aspek penting dalam pengendalian persediaan, kekurangan dan kelebihan jumlah persediaan akan mempengaruhi tingkat keuntungan yang diperoleh perusahaan.
+
+	\item Administrasi persediaan
+	
+	Dalam menjalankan pengendalian persediaan, diperlukan administrasi persediaan yang baik dan teratur.
+\end{enumerate}
+
+Agar pengendalian persediaan dapat dilakukan dengan maksimal, menurut Assauri (2004:176) ada faktor-faktor yang harus dipertimbangkan dalam menjalankan pengendalian persediaan, antara lain:
+
+\begin{enumerate}
+	\item Adanya fasilitas pergudangan yang cukup luas dan teratur
+	\item Adanya sistem administrasi pencatatan dan pemeriksaan atas penerimaan dan pengeluaran barang
+	\item Sumber daya yang menguasai sistem administrasi pengendalian persediaan yang digunakan perusahaan
+	\item Perencanaan untuk mengganti barang yang telah digunakan dan barang yang sudah lama berada dalam gudang sehingga usang
+	\item Informasi dari bagian produksi tentang sifat teknis barang, daya tahan produk dan lamanya produksi, untuk melakukan perencanaan pengendalian persediaan
+	\item Informasi dari bagian penjualan tentang tingkat penjualan produk perusahaan, sehingga bagian persediaan bisa menentukan besarnya persediaan yang seharusnya ada sehingga tidak terjadi kekurangan persediaan yang mengakibatkan pesanan konsumen tidak terpenuhi.
+\end{enumerate}
