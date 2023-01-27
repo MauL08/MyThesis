@@ -377,23 +377,26 @@ Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat
 
 = \${120}
 
-\begin{table}[h!]
-	\begin{center}
-	  \caption{Tabel EOQ}
-	  \label{tab:table4}
-	  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-		\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
-		\hline
-		3 Mei & Inventaris awal & 30 unit, \${15} per unit\\
-		6 Mei & Beli &  50 unit, \${15} per unit\\
-		11 Mei & Jual &  25 unit, \${25} per unit\\
-		15 Mei & Jual &  30 unit, \${10} per unit\\
-		18 Mei & Beli &  15 unit, \${25} per unit\\
-		22 Mei & Beli &  25 unit, \${35} per unit\\
-		25 Mei & Jual &  35 unit, \${30} per unit\\
-	  \end{tabular}
-	\end{center}
-  \end{table}
+\begin{center}
+	\begin{table}[h!]
+			  \caption{Tabel EOQ}
+			  \label{tab:table4}
+			  \begin{tabular}{|p{0.1\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+			\hline
+			\multicolumn{1}{|c|}{Number of} & \multicolumn{1}{|c|}{Number of} & \multicolumn{1}{|c|}{Average Units} & \multicolumn{3}{c|}{Ordering and Holding Costs} \\
+			\cline{4-6}
+			\multicolumn{1}{|c|}{Orders} & \multicolumn{1}{|c|}{Units per Order} & \multicolumn{1}{|c|}{in Inventory} & Ordering Cost & Holding Cost & Combined Cost \\
+			\hline
+				1 Maret & Inventaris awal & 65 unit, \${15} per unit & a & b & c\\ \hline
+				5 Maret & Beli &  130 unit, \${10} per unit & a & b & c\\ \hline
+				10 Maret & Jual &  95 unit, \${20} per unit & a & b & c\\ \hline
+				12 Maret & Beli &  35 unit, \${15} per unit & a & b & c\\ \hline
+				15 Maret & Beli &  75 unit, \${20} per unit & a & b & c\\ \hline
+				21 Maret & Jual &  115 unit, \${30} per unit & a & b & c\\ \hline
+				28 Maret & Jual &  60 unit, \${35} per unit & a & b & c\\ \hline
+			  \end{tabular}
+	\end{table}
+\end{center}
 
 Pada tabel diatas, dapat dilihat bahwa dengan data yang sama menghasilkan hitungan yang berbeda tergantung dari berapa banyak jumlah penjualan tahunannya.
 
