@@ -8,7 +8,7 @@
 
 \section{Pengertian Persediaan dan Manajemen Persediaan}
 
-Persediaan adalah sebuah stok barang yang dimiliki oleh sebuah perusahaan. Persediaan dapat berupa bahan mentah, bahan baku, barang jadi, barang dalam proses, hingga bahan pembantu. Persediaan atau stok barang merupakan aset perusahaan yang berharga, karena hal ini berkaitan erat dengan proses produksi. Persediaan yang tidak terstruktur akan membuat perusahaan merugi, sehingga penting untuk menerapkan manajemen persediaan dalam sebuah bisnis atau usaha.
+Pada buku \citep{dasarmanajemen}, dijelaskan bahwa persediaan adalah sebuah stok barang yang dimiliki oleh sebuah perusahaan. Persediaan dapat berupa bahan mentah, bahan baku, barang jadi, barang dalam proses, hingga bahan pembantu. Persediaan atau stok barang merupakan aset perusahaan yang berharga, karena hal ini berkaitan erat dengan proses produksi. Persediaan yang tidak terstruktur akan membuat perusahaan merugi, sehingga penting untuk menerapkan manajemen persediaan dalam sebuah bisnis atau usaha.
 
 Manajemen persediaan adalah sebuah cara untuk melakukan pengawasan, kontrol, pengelolaan terhadap persediaan atau stok barang yang dimiliki oleh sebuah perusahaan. Segala bentuk kegiatan atau aktivitas yang berkaitan dengan memperoleh, menyimpan, hingga menggunakan persediaan merupakan bagian dari manajemen persediaan.
 
@@ -295,7 +295,7 @@ Dua faktor penting yang menjadi penentu dalam menentukan \textit{economic order 
 
 	\item Biaya persediaan
 	
-	Biaya persediaan merupakan biaya yang dikeluarkan untuk menyimpan persediaan di toko atau gudang. Contoh hal yang termasuk dalam biaya penyimpaan adalah biaya sewa ruang penyimpanan, pajak properti, dan lain-lain.
+	Biaya persediaan merupakan biaya yang dikeluarkan untuk menyimpan persediaan di toko atau gudang. Contoh hal yang termasuk dalam biaya penyimpanan adalah biaya sewa ruang penyimpanan, pajak properti, dan lain-lain.
 \end{enumerate}
 
 Formula atau rumus yang digunakan untuk menentukan EOQ adalah:
@@ -343,7 +343,7 @@ Maka, EOQ-nya adalah sebagai berikut.
     \end{split}
 \end{equation}
 
-Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat dihitung berapa jumlah penjualan tahunan, biaya pemesanan tahunan, biaya penyimpaan tahunan, dan juga kombinasi dari biaya pemesanan tahunan dan biaya persediaan tahunan sebagai berikut.
+Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat dihitung berapa jumlah penjualan tahunan, biaya pemesanan tahunan, biaya penyimpanan tahunan, dan juga kombinasi dari biaya pemesanan tahunan dan biaya persediaan tahunan sebagai berikut.
 
 \textbf{Jumlah penjualan tahunan}
 
@@ -369,7 +369,7 @@ Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat
 
 = \${60}
 
-\textbf{Kombinasi antara biaya pemesanan dan biaya penyimpaan}
+\textbf{Kombinasi antara biaya pemesanan dan biaya penyimpanan}
 
 = Biaya pemesanan tahunan + biaya penyimpanan tahunan
 
@@ -377,36 +377,46 @@ Dapat dilihat bahwa EOQ dari material DX adalah sebesar 400 unit. Sekarang dapat
 
 = \${120}
 
-\begin{center}
-	\begin{table}[h!]
-			  \caption{Tabel EOQ}
-			  \label{tab:table4}
-			  \begin{tabular}{|p{0.1\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-			\hline
-			\multicolumn{1}{|c|}{Number of} & \multicolumn{1}{|c|}{Number of} & \multicolumn{1}{|c|}{Average Units} & \multicolumn{3}{c|}{Ordering and Holding Costs} \\
-			\cline{4-6}
-			\multicolumn{1}{|c|}{Orders} & \multicolumn{1}{|c|}{Units per Order} & \multicolumn{1}{|c|}{in Inventory} & Ordering Cost & Holding Cost & Combined Cost \\
-			\hline
-				1 Maret & Inventaris awal & 65 unit, \${15} per unit & a & b & c\\ \hline
-				5 Maret & Beli &  130 unit, \${10} per unit & a & b & c\\ \hline
-				10 Maret & Jual &  95 unit, \${20} per unit & a & b & c\\ \hline
-				12 Maret & Beli &  35 unit, \${15} per unit & a & b & c\\ \hline
-				15 Maret & Beli &  75 unit, \${20} per unit & a & b & c\\ \hline
-				21 Maret & Jual &  115 unit, \${30} per unit & a & b & c\\ \hline
-				28 Maret & Jual &  60 unit, \${35} per unit & a & b & c\\ \hline
-			  \end{tabular}
-	\end{table}
-\end{center}
+\begin{table}[h!]
+	\caption{Tabel Hasil Perhitungan EOQ}
+	\label{tab:table4}
+	\begin{tabular}{|m{0.1\linewidth}|m{0.1\linewidth}|m{0.13\linewidth}|m{0.13\linewidth}|m{0.16\linewidth}|m{0.13\linewidth}|} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+	\hline
+	\multicolumn{1}{|c|}{Jumlah Pesanan} & \multicolumn{1}{|c|}{Nilai} & \multicolumn{1}{|c|}{Rata-rata barang} & \multicolumn{3}{c|}{Biaya Pemesanan dan Penyimpanan} \\
+	\cline{4-6}
+	\multicolumn{1}{|c|}{Per Tahun} & \multicolumn{1}{|c|}{EOQ} & \multicolumn{1}{|c|}{dalam Persediaan} & Biaya Pemesanan & Biaya Penyimpanan & Biaya Gabungan \\
+	\hline
+		1 & 2,400 & 1,200 & 10 & 360 & 370\\ \hline
+		2 & 1,200 & 600 & 20 & 180 & 200\\ \hline
+		3 & 800 & 400 & 30 & 120 & 150\\ \hline
+		4 & 600 & 300 & 40 & 90 & 130\\ \hline
+		5 & 480 & 240 & 50 & 72 & 122\\ \hline
+		\textbf{6} & \textbf{400} & \textbf{200} & \textbf{60} & \textbf{60} & \textbf{120}\\ \hline
+		7 & 343 & 172 & 70 & 52 & 122\\ \hline
+		8 & 300 & 150 & 80 & 45 & 125\\ \hline
+	\end{tabular}
+\end{table}
 
-Pada tabel diatas, dapat dilihat bahwa dengan data yang sama menghasilkan hitungan yang berbeda tergantung dari berapa banyak jumlah penjualan tahunannya.
 
-Dari hitungan EOQ yang sudah dilakukan sebelumnya, jumlah penjualan tahunan sebesar 6 pesanan per tahun mendapatkan biaya kombinasi yang lebih sedikit dan stabil dibandingkan dengan kurang atau lebih dari 6 pesanan per tahunnya. Hal ini dikarenakan jika semakin kecil angka penjualan tahunannya maka hal tersebut akan berdampak pada tingginya biaya penyimpanan yang menyebabkan ketidakseimbangan antara biaya pemesanan dan biaya penyimpanan. Sementara itu, jika penjualan pertahunnya itu tinggi maka hal tersebut akan berdampak pada tingginya biaya pemesanan yang menyebabkan hal yang serupa.
+Pada Tabel 2.4, dapat dilihat bahwa dengan data yang sama menghasilkan hitungan yang berbeda tergantung dari berapa banyak jumlah penjualan tahunannya.
 
-Jadi, dapat disimpulkan bahwa perhitungan EOQ ini bersifat konstan terhadap biaya pemesanan dan biaya penyimpanan.
+Dari hitungan EOQ yang sudah dilakukan sebelumnya, jumlah penjualan tahunan sebesar 6 pesanan per tahun mendapatkan biaya kombinasi yang lebih sedikit dan stabil dibandingkan dengan kurang atau lebih dari 6 pesanan per tahunnya. Hal ini dikarenakan jika semakin kecil angka penjualan tahunannya maka hal tersebut akan berdampak pada tingginya biaya penyimpanan yang menyebabkan ketidakseimbangan antara biaya pemesanan dan biaya penyimpanan. Sementara itu, jika penjualan pertahunnya itu tinggi maka hal tersebut akan berdampak pada tingginya biaya pemesanan yang menyebabkan hal yang serupa. Jadi, dapat disimpulkan bahwa perhitungan EOQ ini bersifat konstan terhadap biaya pemesanan dan biaya penyimpanan.
+
+Dari kesimpulan diatas, ada beberapa hal yang harus diperhatikan dalam penggunaan metode EOQ ini, yaitu:
+
+\begin{enumerate}
+	\item Jumlah kebutuhan barang per periode stabil
+	\item Hanya ada dua macam biaya yang relevan, yaitu biaya pemesanan dan biaya penyimpanan
+	\item Biaya pemesanan selalu sama
+	\item Biaya penyimpanan per unit selalu sama
+	\item Usia barang tidak cepat rusak
+	\item Harga barang tetap
+	\item Barang tersedia tak terbatas.
+\end{enumerate}
 
 \section{ROP}
 
-Dalam EOQ, ditentukan titik pemesanan kembali atau \textit{reorder point} yang biasa dikenal sebagai (ROP), yaitu jumlah persediaan tetap setiap kali pemesanan. ROP dilakukan bila persediaan bisa memenuhi kebutuhan produksi selama masa tenggang waktu. ROP menghendaki pengecekan kartu catatan secara teratur.
+Pada buku \citep{pengendalianpersediaan}, dijelaskan bahwa dalam EOQ ditentukan titik pemesanan kembali atau \textit{reorder point} yang biasa dikenal sebagai (ROP), yaitu jumlah persediaan tetap setiap kali pemesanan. ROP dilakukan bila persediaan bisa memenuhi kebutuhan produksi selama masa tenggang waktu pemesanan. ROP menghendaki pengecekan kartu catatan secara teratur.
 
 Untuk menentukan waktu pemesanan kembali atau \textit{reorder point} dapat dilakukan dengan rumus berikut.
 
@@ -513,7 +523,7 @@ Pengendalian Persediaan adalah suatu model yang digunakan untuk menyelesaikan ma
 
 Persediaan yang terlalu berlebihan akan merugikan, karena berarti akan lebih banyak modal yang diperlukan, serta biaya yang diperlukan untuk persediaan.
 
-Menurut Sunyoto (2012:225), Sistem pengendalian persediaan merupakan serangkaian pengendalian untuk menentukan tingkat persediaan yang harus dijaga. Sistem ini menentukan dan menjamin tersedianya persediaan yang tepat dalam kualitas dan waktu yang tepat. Jika persediaan terlalu sedikit dapat mengakibatkan resiko terjadinya kekurangan persediaan atau bisa dibilang \textit{stockout}. Bila persediaan dilebihkan, maka biaya penyimpaan dan modal yang diperlukan akan bertambah. Sebaliknya, jika persediaan dikurangi maka akan mengalami \textit{stockout} (kehabisan barang).
+Menurut Sunyoto (2012:225), Sistem pengendalian persediaan merupakan serangkaian pengendalian untuk menentukan tingkat persediaan yang harus dijaga. Sistem ini menentukan dan menjamin tersedianya persediaan yang tepat dalam kualitas dan waktu yang tepat. Jika persediaan terlalu sedikit dapat mengakibatkan resiko terjadinya kekurangan persediaan atau bisa dibilang \textit{stockout}. Bila persediaan dilebihkan, maka biaya penyimpanan dan modal yang diperlukan akan bertambah. Sebaliknya, jika persediaan dikurangi maka akan mengalami \textit{stockout} (kehabisan barang).
  
 Menurut Assauri (2004), Pengendalian persediaan dapat dikatakan sebagai suatu kegiatan untuk menentukan tingkat dan komposisi dari persediaan sehingga perusahaan dapat melindungi kelancaran produksi dan penjualan serta kebutuhan-kebutuhan perusahaan dengan efisien.
 
