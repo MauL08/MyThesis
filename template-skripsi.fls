@@ -867,6 +867,9 @@ INPUT bab1.aux
 INPUT .\bab2.aux
 INPUT bab2.aux
 INPUT bab2.aux
+INPUT .\bab3.aux
+INPUT bab3.aux
+INPUT bab3.aux
 OUTPUT template-skripsi.aux
 INPUT C:\Users\akbar\DevTools\MikTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\akbar\DevTools\MikTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -983,6 +986,9 @@ INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmro8t.tfm
 INPUT .\template-skripsi.toc
 INPUT template-skripsi.toc
 INPUT template-skripsi.toc
+INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Users\akbar\DevTools\MikTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 OUTPUT template-skripsi.toc
 INPUT .\bab1.tex
 INPUT .\bab1.tex
@@ -994,9 +1000,6 @@ INPUT .\bab1.tex
 INPUT bab1.tex
 INPUT .\bab1.tex
 INPUT bab1.tex
-INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\akbar\DevTools\MikTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\bab2.tex
 INPUT .\bab2.tex
 INPUT .\bab2.tex
@@ -1013,6 +1016,16 @@ INPUT C:\Users\akbar\DevTools\MikTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\akbar\DevTools\MikTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\akbar\DevTools\MikTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\akbar\DevTools\MikTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\bab3.tex
+INPUT .\bab3.tex
+INPUT .\bab3.tex
+OUTPUT bab3.aux
+INPUT .\bab3.tex
+INPUT .\bab3.tex
+INPUT .\bab3.tex
+INPUT bab3.tex
+INPUT .\bab3.tex
+INPUT bab3.tex
 INPUT .\template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT .\template-skripsi.bbl
@@ -1027,6 +1040,9 @@ INPUT bab1.aux
 INPUT .\bab2.aux
 INPUT bab2.aux
 INPUT bab2.aux
+INPUT .\bab3.aux
+INPUT bab3.aux
+INPUT bab3.aux
 INPUT .\template-skripsi.out
 INPUT .\template-skripsi.out
 INPUT C:\Users\akbar\DevTools\MikTeX\fonts\enc\dvips\base\8r.enc

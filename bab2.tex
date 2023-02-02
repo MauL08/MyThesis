@@ -8,7 +8,7 @@
 
 \section{Pengertian Persediaan dan Manajemen Persediaan}
 
-Pada buku \citep{dasarmanajemen}, dijelaskan bahwa persediaan adalah sebuah stok barang yang dimiliki oleh sebuah perusahaan. Persediaan dapat berupa bahan mentah, bahan baku, barang jadi, barang dalam proses, hingga bahan pembantu. Persediaan atau stok barang merupakan aset perusahaan yang berharga, karena hal ini berkaitan erat dengan proses produksi. Persediaan yang tidak terstruktur akan membuat perusahaan merugi, sehingga penting untuk menerapkan manajemen persediaan dalam sebuah bisnis atau usaha.
+Pada buku Dasar-Dasar Manajemen \citep{dasarmanajemen}, dijelaskan bahwa persediaan adalah sebuah stok barang yang dimiliki oleh sebuah perusahaan. Persediaan dapat berupa bahan mentah, bahan baku, barang jadi, barang dalam proses, hingga bahan pembantu. Persediaan atau stok barang merupakan aset perusahaan yang berharga, karena hal ini berkaitan erat dengan proses produksi. Persediaan yang tidak terstruktur akan membuat perusahaan merugi, sehingga penting untuk menerapkan manajemen persediaan dalam sebuah bisnis atau usaha.
 
 Manajemen persediaan adalah sebuah cara untuk melakukan pengawasan, kontrol, pengelolaan terhadap persediaan atau stok barang yang dimiliki oleh sebuah perusahaan. Segala bentuk kegiatan atau aktivitas yang berkaitan dengan memperoleh, menyimpan, hingga menggunakan persediaan merupakan bagian dari manajemen persediaan.
 
@@ -61,226 +61,299 @@ Penetapan biaya persediaan atau evaluasi persediaan memungkinkan perusahaan untu
 Untuk menentukan biaya persediaan, diperlukan lima langkah-langkah sebagai berikut.
 
 \begin{enumerate}
-	\item Menentukan periode waktu tertentu dimana Anda perlu menemukan nilai inventaris anda.
+	\item Menentukan periode waktu tertentu yang dimana perlu menemukan nilai inventaris.
 	\item Memastikan stok atau persediaan barang selalu tersedia.
 	\item Mengurangi resiko bahan baku yang datang terlambat.
 	\item Menjaga jumlah persediaan yang ada di pasaran tetap stabil.
 	\item Mengantisipasi kemungkinan adanya perubahan, baik dari segi penawaran maupun permintaan.
 \end{enumerate}
 
-Dalam bisnis modern, terdapat tiga metode yang digunakan dalam menghitung biaya persediaan, yaitu:
+Pada buku Pengendalian Persediaan \citep{pengendalianpersediaan}, dijelaskan bahwa terdapat beberapa metode yang digunakan untuk menentukan biaya persediaan, antara lain:
 
-\begin{enumerate}
-	\item First In, First Out (FIFO)
-	
-	\textit{First-in, first-out} atau FIFO adalah metode dimana aset yang diproduksi dan diperoleh terlebih dahulu juga dijual atau digunakan terlebih dahulu. Saat menggunakan FIFO sebagai metode pilihan, gunakan perhitungan ini:
-	
-	\textbf{HPP = biaya persediaan terlama $\times$ jumlah persediaan yang terjual}
+\subsection{Metode identifikasi khusus (\textit{Specific Identification Method})}
 
-	Contoh FIFO:
+Dalam metode ini, setiap jenis barang yang ada di gudang harus diberi tanda sesuai dengan harga pokok per satuan barang tersebut dibeli. Jika terdapat barang yang harga satuannya berbeda dengan harga satuan barang yang ada di gudang, maka harus dipisahkan penyimpanannya dan diberi tanda pada harga berapa barang tersebut dibeli.
 
-	Gunakan data tabel dibawah ini untuk menentukan HPP menggunakan metode FIFO.
+Masalah yang ada pada metode ini terletak dalam penyimpanan barang di gudang. Meskipun jenis barangnya sama, namun jika harga pokok per satuannya berbeda maka barang tersebut harus disimpan secara terpisah agar mudah diidentifikasi saat pemakaian nanti.
 
-	\begin{table}[h!]
+\subsection{Metode FIFO (\textit{First-in, First-out})}
+
+Metode FIFO merupakan metode penentuan biaya persediaan dengan anggapan bahwa harga pokok per satuan barang yang pertama masuk dalam gudang digunakan untuk menentukan harga barang yang pertama kali dipakai. Sebagai contoh dapat dilihat perhitungan berikut.
+
+Data mengenai barang saat minggu pertama bulan Januari 2020 sebagai berikut.
+
+	\begin{table}[H]	
 		\begin{center}
-		  \caption{Contoh data dalam persediaan barang}
-		  \label{tab:table1}
-		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+			\caption{Data tabel pada barang bulan Januari 2020}
+			\label{tab:table1}
+			\begin{tabular}{c|c} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+			\textbf{Tanggal} & \textbf{Deskripsi} \\
 			\hline
-			1 Maret & Inventaris awal & 65 unit, \${15} per unit\\
-			5 Maret & Beli &  130 unit, \${10} per unit\\
-			10 Maret & Jual &  95 unit, \${20} per unit\\
-			12 Maret & Beli &  35 unit, \${15} per unit\\
-			15 Maret & Beli &  75 unit, \${20} per unit\\
-			21 Maret & Jual &  115 unit, \${30} per unit\\
-			28 Maret & Jual &  60 unit, \${35} per unit\\
-		  \end{tabular}
+			01 Januari 2020 & Persediaan 8,000 kg dengan harga Rp1.000,00/kg \\
+			08 Januari 2020 & Melakukan pembelian barang sebesar 12,000 kg \\
+			&  dengan harga Rp1.200,00/kg \\
+			09 Januari 2020 & Masuk proses produksi sebanyak 15,000 kg \\
+			\end{tabular}
 		\end{center}
-	  \end{table}
+	\end{table}
 
-	  \begin{enumerate}
-		\item \textbf{Tentukan jumlah unit yang tersedia untuk dijual}
-		
-		Tentukan jumlah unit yang tersedia untuk dijual dengan menjumlahkan semua unit beli dengan inventaris awal.
+Barang yang masuk pertama yaitu barang yang pertama kali digunakan dalam proses produksi. Berdasarkan data pada tabel diatas, dapat dihitung biaya persediaannya dengan cara dibawah ini. 
 
-		\textbf{Unit yang tersedia untuk dijual = 65 + 130 + 35 + 75}
+8,000 kg $\times$ Rp1.000,00 = Rp8.000.000,00
 
-		\textbf{Unit yang tersedia untuk dijual = 305}
+7,000 kg $\times$ Rp1.200,00 = Rp8.400.000,00
 
-		Terdapat 305 unit yang tersedia untuk dijual.
+Total = 15.000 kg = Rp16.400.000,00
 
-		\item \textbf{Tentukan jumlah unit yang dijual}
-		
-		Tentukan jumlah unit yang dijual dengan menjumlahkan semua unit yang dijual.
+\textbf{Biaya Persediaan akhir} = 5.000 kg $\times$ Rp1.200,00 = Rp6.000.000,00
 
-		\textbf{Unit dijual = 95 + 115 + 60}
+\subsection{Metode LIFO (\textit{Last-in, Last-out})}
 
-		\textbf{Unit dijual = 270}
+Metode LIFO merupakan metode penentuan biaya persediaan dengan anggapan bahwa harga pokok per satuan barang yang terakhir masuk dalam persediaan dipakai untuk menentukan harga pokok barang yang pertama kali dipakai dalam produksi. Sebagai contoh dapat dilihat perhitungan dengan data tabel yang sama.
 
-		Ada 270 unit yang dijual.
+Barang yang terakhir masuk merupakan barang yang digunakan terlebih dahulu dalam proses produksi.
 
-		\item \textbf{Tentukan nilai inventaris akhir}
-		
-		Tentukan nilai inventaris akhir dengan cara mengurangi jumlah unit yang tersedia untuk dijual dengan jumlah unit yang dijual.
+12,000 kg $\times$ Rp1.200,00 = Rp14.400.000,00
 
-		\textbf{Inventaris akhir = Jumlah unit yang tersedia untuk dijual - jumlah unit yang dijual}
+3,000 kg $\times$ Rp1.000,00 = Rp3.000.000,00
 
-		\textbf{Inventaris akhir = 305 - 270}
+Total = 15.000 kg = Rp17.400.000,00
 
-		\textbf{Inventaris akhir = 35}
+\textbf{Biaya Persediaan akhir} = 5.000 kg $\times$ Rp1.000,00 = Rp5.000.000,00
 
-		Ada 35 unit yang tersisa pada inventaris akhir.
+\subsection{Metode rata-rata bergerak (\textit{Moving Average Method})}
 
-		\item \textbf{Menentukan HPP menggunakan rumus FIFO}
-		
-		Biaya persediaan terlama dapat ditentukan dengan nilai inventaris awal. Nilai tersebut didapat dengan mengalikan persediaan awal dan harga per unitnya. 
+Dalam metode ini, persediaan barang yang ada digudang dihitung harga pokok rata-ratanya dengan cara membagi total pokok dengan jumlah satuannya. Metode ini disebut juga rata-rata tertimbang, karena dalam menghitung rata-rata harga pokok persediaan barang, metode ini menggunakan kuantitas barang sebagai angka penimbangnya. Sebagai contoh dapat dilihat perhitungan dibawah dengan tabel yang sama seperti sebelumnya.
 
-		\textbf{HPP = biaya persediaan terlama $\times$ jumlah persediaan yang dijual}
+Biaya barang yang dipakai dalam proses produksi yaitu hasil kali kuantitas barang yang dipakai dan harga rata-rata per satuan.
 
-		\textbf{HPP = (65 $\times$ 15) $\times$ 270}
+8,000 kg $\times$ Rp1.000,00 = Rp8.000.000,00
 
-		\textbf{HPP = 263,250}
+12,000 kg $\times$ Rp1.200,00 = Rp14.000.000,00
 
-		Biaya barang yang dijual adalah \${263,250}.
+Total = 20.000 kg = Rp22.400.000,00
 
-	  \end{enumerate}
+Harga rata-rata = Rp22.400.000,00 : 20.000 kg = Rp1.120,00
 
-	\item Last In, First Out (LIFO)
+Total = 15.000 kg $\times$ Rp1.120,00 = Rp16.800.000,00
+
+\textbf{Biaya Persediaan akhir} = 5.000 kg $\times$ Rp1.120,00 = Rp5.600.000,00
+
+\subsection{Metode biaya standar}
+
+Pada metode ini, barang yang dibeli dicatat dalam kartu persediaan sebesar harga standar yaitu harga taksiran yang mencerminkan harga yang diharapkan akan terjadi dimasa yang akan datang. Harga standar merupakan harga yang diperkirakan untuk tahun tertentu.
+
+\subsection{Metode rata-rata harga pokok bahan pada akhir bulan}
+
+Dengan metode ini, pada akhir bulan dilakukan perhitungan harga pokok rata-rata per satuan tiap jenis persediaan barang yang ada digudang. Harga pokok rata-rata per satuan kemudian digunakan untuk menghitung harga pokok barang yang dipakai dalam produksi bulan berikutnya.
+
+% \subsection{First In, First Out (FIFO)} 
 	
-	\textit{Last-in, first-out} atau LIFO adalah metode yang mencatat barang-barang yang baru saja diproduksi sebagai barang yang terjual lebih dulu. Saat menggunakan LIFO sebagai metode pilihan, gunakan perhitungan ini:
+% 	\textit{First-in, first-out} atau FIFO adalah metode dimana aset yang diproduksi dan diperoleh terlebih dahulu juga dijual atau digunakan terlebih dahulu. Saat menggunakan FIFO sebagai metode pilihan, gunakan perhitungan ini untuk menentukan harga pokok penjualan (HPP)-nya:
+% 	\begin{equation}
+% 		\begin{split}
+% 			HPP
+% 			&= Biaya\;persediaan\;terlama \times Jumlah\;persediaan\;yang\;terjual
+% 		\end{split}
+% 	\end{equation}
 
-	\textbf{HPP = biaya persediaan terakhir $\times$ jumlah persediaan yang terjual}
+% 	\textbf{Contoh FIFO} : 
 
-	Contoh LIFO:
-
-	Gunakan data tabel dibawah ini untuk menentukan HPP menggunakan metode LIFO.
-
-	\begin{table}[h!]
-		\begin{center}
-		  \caption{Contoh data dalam persediaan barang}
-		  \label{tab:table2}
-		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
-			\hline
-			3 April & Inventaris awal & 70 unit, \${15} per unit\\
-			6 April & Beli &  125 unit, \${10} per unit\\
-			10 April & Beli &  90 unit, \${20} per unit\\
-			13 April & Jual &  40 unit, \${15} per unit\\
-			16 April & Beli &  50 unit, \${15} per unit\\
-			23 April & Jual &  100 unit, \${20} per unit\\
-			29 April & Jual &  70 unit, \${20} per unit\\
-		  \end{tabular}
-		\end{center}
-	  \end{table}
-
-	\begin{enumerate}
-		\item \textbf{Menentukan biaya persediaan terbaru}
+% 	\begin{table}[H]
+% 		\begin{center}
+% 		  \caption{Data tabel dalam persediaan barang}
+% 		  \label{tab:table1}
+% 		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+% 			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+% 			\hline
+% 			1 Maret & Inventaris awal & 65 unit, \${15} per unit\\
+% 			5 Maret & Beli &  130 unit, \${10} per unit\\
+% 			10 Maret & Jual &  95 unit, \${20} per unit\\
+% 			12 Maret & Beli &  35 unit, \${15} per unit\\
+% 			15 Maret & Beli &  75 unit, \${20} per unit\\
+% 			21 Maret & Jual &  115 unit, \${30} per unit\\
+% 			28 Maret & Jual &  60 unit, \${35} per unit\\
+% 		  \end{tabular}
+% 		\end{center}
+% 	  \end{table}
+% 	  \begin{enumerate}
+% 		\item \textbf{Tentukan jumlah unit yang tersedia untuk dijual}
 		
-		Untuk mencari biaya persediaan terbaru dapat dilakukan dengan menggunakan data pada inventaris awal.
+% 		Tentukan jumlah unit yang tersedia untuk dijual dengan menjumlahkan semua unit beli dengan inventaris awal.
 
-		\textbf{Biaya persediaan terbaru = 70 $\times$ 15}
+% 		\textbf{Unit yang tersedia untuk dijual = 65 + 130 + 35 + 75}
 
-		\textbf{Biaya persediaan terbaru = 1,050}
+% 		\textbf{Unit yang tersedia untuk dijual = 305}
 
-		Biaya persediaan terbaru adalah \${1,050}.
+% 		Terdapat 305 unit yang tersedia untuk dijual.
 
-		\item \textbf{Temukan jumlah unit yang dijual}
+% 		\item \textbf{Tentukan jumlah unit yang dijual}
 		
-		Temukan jumlah unit yang terjual dengan menambahkan semua unit yang dijual.
+% 		Tentukan jumlah unit yang dijual dengan menjumlahkan semua unit yang dijual.
 
-		\textbf{Jumlah unit yang dijual = 40 + 100 + 70}
+% 		\textbf{Unit dijual = 95 + 115 + 60}
 
-		\textbf{Jumlah unit yang dijual = 210}
+% 		\textbf{Unit dijual = 270}
 
-		Ada 210 unit yang dijual.
+% 		Ada 270 unit yang dijual.
 
-		\item Gunakan rumus LIFO
+% 		\item \textbf{Tentukan nilai inventaris akhir}
 		
-		Gunakan biaya persediaan terbaru dan total unit yang dijual untuk menentukan nilai HPP-nya.
+% 		Tentukan nilai inventaris akhir dengan cara mengurangi jumlah unit yang tersedia untuk dijual dengan jumlah unit yang dijual.
 
-		\textbf{HPP = biaya persediaan terbaru $\times$ jumlah persediaan yang dijual}
+% 		\textbf{Inventaris akhir = Jumlah unit yang tersedia untuk dijual - jumlah unit yang dijual}
 
-		\textbf{HPP = 1,050 $\times$ 210}
+% 		\textbf{Inventaris akhir = 305 - 270}
 
-		\textbf{HPP = 220,500}
+% 		\textbf{Inventaris akhir = 35}
 
-		Biaya barang yang dijual adalah \${220,500}.
+% 		Ada 35 unit yang tersisa pada inventaris akhir.
 
-	\end{enumerate}
+% 		\item \textbf{Menentukan HPP menggunakan rumus FIFO}
+		
+% 		Biaya persediaan terlama dapat ditentukan dengan nilai inventaris awal. Nilai tersebut didapat dengan mengalikan persediaan awal dan harga per unitnya. 
 
-	\item Rata-rata tertimbang
+% 		\textbf{HPP = biaya persediaan terlama $\times$ jumlah persediaan yang dijual}
+
+% 		\textbf{HPP = (65 $\times$ 15) $\times$ 270}
+
+% 		\textbf{HPP = 263,250}
+
+% 		Biaya barang yang dijual adalah \${263,250}.
+
+% 	  \end{enumerate}
+
+% \subsection{Last In, First Out (LIFO)}
 	
-	Rata-rata tertimbang atau biaya rata-rata tertimbang yang biasa dikenal sebagai \textit{Weighted Average Cost} (WAC) adalah metode yang menentukan jumlah masuk ke HPP dan persediaan melalui penggunaan rata-rata tertimbang. Saat menggunakan WAC, gunakan perhitungan ini:
+% 	\textit{Last-in, first-out} atau LIFO adalah metode yang mencatat barang-barang yang baru saja diproduksi sebagai barang yang terjual lebih dulu. Saat menggunakan LIFO sebagai metode pilihan, gunakan perhitungan ini untuk menentukan harga pokok penjualan (HPP)-nya:
+% 	\begin{equation}
+% 		\begin{split}
+% 			HPP
+% 			&= Biaya\;persediaan\;terakhir \times Jumlah\;persediaan\;yang\;terjual
+% 		\end{split}
+% 	\end{equation}
 
-	\textbf{WAC per unit = harga pokok barang yang tersedia / unit yang tersedia}
+% 	\textbf{Contoh LIFO} :
 
-	Contoh WAC:
+% 	\begin{table}[H]
+% 		\begin{center}
+% 		  \caption{Data tabel dalam persediaan barang}
+% 		  \label{tab:table2}
+% 		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+% 			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+% 			\hline
+% 			3 April & Inventaris awal & 70 unit, \${15} per unit\\
+% 			6 April & Beli &  125 unit, \${10} per unit\\
+% 			10 April & Beli &  90 unit, \${20} per unit\\
+% 			13 April & Jual &  40 unit, \${15} per unit\\
+% 			16 April & Beli &  50 unit, \${15} per unit\\
+% 			23 April & Jual &  100 unit, \${20} per unit\\
+% 			29 April & Jual &  70 unit, \${20} per unit\\
+% 		  \end{tabular}
+% 		\end{center}
+% 	  \end{table}
 
-	Gunakan data tabel dibawah ini untuk menentukan rata-rata tertimbang dengan rumus WAC.
-
-	\begin{table}[h!]
-		\begin{center}
-		  \caption{Contoh data dalam persediaan barang}
-		  \label{tab:table3}
-		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
-			\hline
-			3 Mei & Inventaris awal & 30 unit, \${15} per unit\\
-			6 Mei & Beli &  50 unit, \${15} per unit\\
-			11 Mei & Jual &  25 unit, \${25} per unit\\
-			15 Mei & Jual &  30 unit, \${10} per unit\\
-			18 Mei & Beli &  15 unit, \${25} per unit\\
-			22 Mei & Beli &  25 unit, \${35} per unit\\
-			25 Mei & Jual &  35 unit, \${30} per unit\\
-		  \end{tabular}
-		\end{center}
-	  \end{table}
-
-	\begin{enumerate}
-		\item Tentukan biaya setiap penjualan
+% 	\begin{enumerate}
+% 		\item \textbf{Menentukan biaya persediaan terbaru}
 		
-		Menentukan biaya setiap penjualan dengan menghitung harga dari masing-masing semua unit yang dijual.
+% 		Untuk mencari biaya persediaan terbaru dapat dilakukan dengan menggunakan data pada inventaris awal.
 
-		\textbf{Penjualan tanggal 11 Mei} = 25 $\times$ 25 = \textbf{\${625}}
+% 		\textbf{Biaya persediaan terbaru = 70 $\times$ 15}
 
-		\textbf{Penjualan tanggal 15 Mei} = 30 $\times$ 10 = \textbf{\${300}}
+% 		\textbf{Biaya persediaan terbaru = 1,050}
 
-		\textbf{Penjualan tanggal 25 Mei} = 35 $\times$ 30 = \textbf{\${1,050}}
+% 		Biaya persediaan terbaru adalah \${1,050}.
 
-		\item Menjumlahkan semua biaya setiap penjualan
+% 		\item \textbf{Temukan jumlah unit yang dijual}
 		
-		Menggabungkan semua biaya setiap penjualan dari unit yang dijual.
+% 		Temukan jumlah unit yang terjual dengan menambahkan semua unit yang dijual.
 
-		\textbf{Total biaya barang yang dijual = 625 + 300 + 1,050}
+% 		\textbf{Jumlah unit yang dijual = 40 + 100 + 70}
 
-		\textbf{Total biaya barang yang dijual = \${1,975}}
+% 		\textbf{Jumlah unit yang dijual = 210}
 
-		\item Temukan unit yang tersedia untuk dijual
+% 		Ada 210 unit yang dijual.
+
+% 		\item Gunakan rumus LIFO
 		
-		Totalkan semua unit yang tersedia untuk dijual dengan inventaris awal.
+% 		Gunakan biaya persediaan terbaru dan total unit yang dijual untuk menentukan nilai HPP-nya.
 
-		\textbf{Total unit yang tersedia untuk dijual = 30 + 50 + 15 + 25}
+% 		\textbf{HPP = biaya persediaan terbaru $\times$ jumlah persediaan yang dijual}
 
-		\textbf{Total unit yang tersedia untuk dijual = 120 unit}
+% 		\textbf{HPP = 1,050 $\times$ 210}
 
-		\item Gunakan rumus rata-rata tertimbang
+% 		\textbf{HPP = 220,500}
+
+% 		Biaya barang yang dijual adalah \${220,500}.
+
+% 	\end{enumerate}
+
+% 	\subsection{Rata-rata tertimbang}
+	
+% 	Rata-rata tertimbang atau biaya rata-rata tertimbang yang biasa dikenal sebagai \textit{Weighted Average Cost} (WAC) adalah metode yang menentukan jumlah masuk ke HPP dan persediaan melalui penggunaan rata-rata tertimbang. Saat menggunakan WAC, gunakan perhitungan ini:
+% 	\begin{equation}
+% 		\begin{split}
+% 			WAC\;per\;unit
+% 			&= Harga\;pokok\;barang\;yang\;tersedia \div unit\;yang\;tersedia
+% 		\end{split}
+% 	\end{equation}
+
+% 	\textbf{Contoh WAC} :
+% 	\begin{table}[H]
+% 		\begin{center}
+% 		  \caption{Data tabel dalam persediaan barang}
+% 		  \label{tab:table3}
+% 		  \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+% 			\textbf{Tanggal} & \textbf{Deskripsi} & \textbf{Unit dan Biaya} \\
+% 			\hline
+% 			3 Mei & Inventaris awal & 30 unit, \${15} per unit\\
+% 			6 Mei & Beli &  50 unit, \${15} per unit\\
+% 			11 Mei & Jual &  25 unit, \${25} per unit\\
+% 			15 Mei & Jual &  30 unit, \${10} per unit\\
+% 			18 Mei & Beli &  15 unit, \${25} per unit\\
+% 			22 Mei & Beli &  25 unit, \${35} per unit\\
+% 			25 Mei & Jual &  35 unit, \${30} per unit\\
+% 		  \end{tabular}
+% 		\end{center}
+% 	  \end{table}
+
+% 	\begin{enumerate}
+% 		\item Tentukan biaya setiap penjualan
 		
-		\textbf{WAC per unit = total biaya unit yang dijual / total unit yang dijual}
+% 		Menentukan biaya setiap penjualan dengan menghitung harga dari masing-masing semua unit yang dijual.
+
+% 		\textbf{Penjualan tanggal 11 Mei} = 25 $\times$ 25 = \textbf{\${625}}
+
+% 		\textbf{Penjualan tanggal 15 Mei} = 30 $\times$ 10 = \textbf{\${300}}
+
+% 		\textbf{Penjualan tanggal 25 Mei} = 35 $\times$ 30 = \textbf{\${1,050}}
+
+% 		\item Menjumlahkan semua biaya setiap penjualan
 		
-		\textbf{WAC per unit = 1,975 / 120}
+% 		Menggabungkan semua biaya setiap penjualan dari unit yang dijual.
+
+% 		\textbf{Harga pokok barang yang tersedia = 625 + 300 + 1,050}
+
+% 		\textbf{Harga pokok barang yang tersedia = \${1,975}}
+
+% 		\item Temukan unit yang tersedia untuk dijual
 		
-		\textbf{WAC per unit = \${16.49}}
+% 		Totalkan semua unit yang tersedia untuk dijual dengan inventaris awal.
 
-		Dari perhitungan tersebut, didapat biaya rata-rata tertimbang atau WAC-nya adalah \${16.49}
-	\end{enumerate}
-\end{enumerate}
+% 		\textbf{Unit yang tersedia untuk dijual = 30 + 50 + 15 + 25}
 
-\section{Perputaran Persediaan}
+% 		\textbf{Unit yang tersedia untuk dijual = 120 unit}
 
-Perputaran Persediaan mengukur keefektifan pengelolaan persediaan dan menggambarkan efisiensi perusahaan dalam mengelola persediaannya. Semakin tinggi tingkat perputaran persediaannya maka akan semakin efektif pengelolaan persediaannya. Berikut adalah rumus untuk menentukan perputaran persediaan.
+% 		\item Gunakan rumus rata-rata tertimbang
+		
+% 		\textbf{WAC per unit = harga pokok barang yang tersedia / unit yang tersedia}
+		
+% 		\textbf{WAC per unit = 1,975 / 120}
+		
+% 		\textbf{WAC per unit = \${16.49}}
 
-\textbf{Perputaran Persediaan = Harga Pokok Penjualan $\div$ Rata-rata Persediaan}
+% 		Dari perhitungan tersebut, didapat biaya rata-rata tertimbang atau WAC-nya adalah \${16.49}
+% 	\end{enumerate}
 
 \section{EOQ}
 
@@ -416,7 +489,7 @@ Dari kesimpulan diatas, ada beberapa hal yang harus diperhatikan dalam penggunaa
 
 \section{ROP}
 
-Pada buku \citep{pengendalianpersediaan}, dijelaskan bahwa dalam EOQ ditentukan titik pemesanan kembali atau \textit{reorder point} yang biasa dikenal sebagai (ROP), yaitu jumlah persediaan tetap setiap kali pemesanan. ROP dilakukan bila persediaan bisa memenuhi kebutuhan produksi selama masa tenggang waktu pemesanan. ROP menghendaki pengecekan kartu catatan secara teratur.
+Pada buku Pengendalian Persediaan \citep{pengendalianpersediaan}, dijelaskan bahwa dalam EOQ ditentukan titik pemesanan kembali atau \textit{reorder point} yang biasa dikenal sebagai (ROP), yaitu jumlah persediaan tetap setiap kali pemesanan. ROP dilakukan bila persediaan bisa memenuhi kebutuhan produksi selama masa tenggang waktu pemesanan. ROP menghendaki pengecekan kartu catatan secara teratur.
 
 Untuk menentukan waktu pemesanan kembali atau \textit{reorder point} dapat dilakukan dengan rumus berikut.
 
@@ -436,8 +509,7 @@ Untuk menentukan waktu pemesanan kembali atau \textit{reorder point} dapat dilak
 
 Dalam menutupi kebutuhan persediaan, hal yang perlu dilakukan adalah pemesanan bahan. Pemesanan bahan yang diperlukan pada saat persediaan mencapai titik tertentu (\textit{order point system}) dan pemesanan yang diperlukan pada saat waktu tertentu yang sudah ditetapkan telah tercapai (\textit{order cycle system}).
 
-\begin{enumerate}
-	\item Order Point System
+\subsection{Order Point System} 
 	
 
 	\textit{Order point system} adalah suatu sistem dimana pesanan dilakukan apabila persediaan yang ada telah mencapai tingkat tertentu. Jadi dengan sistem ini, ditentukan jumlah persediaan pada tingkatan tertentu yang merupakan batas tenggat waktu dilakukannya pemesanan yang disebut \textit{reorder point}. Dalam sistem ini, pesanan yang jumlahnya tetap dari bahan-bahan yang dipesan disebut dengan \textit{fixed order quantity system}. 
@@ -462,14 +534,12 @@ Dalam menutupi kebutuhan persediaan, hal yang perlu dilakukan adalah pemesanan b
 		Cara ini memberikan keuntungan berupa kesederhanaan dalam pencatatan persediaan.
 	\end{enumerate}
 
-	\item \textit{Order Cycle System}
+\subsection{Order Cycle System}
 	
-	\textit{Order cycle system} adalah sistem pemesanan bahan yang dimana jarak antara pemesanan tetap, sebagai contoh tiap minggu atau tiap bulan. Jadi, dengan sistem ini ditentukan waktu pemesanan dengan jarak yang konstan. Karena didasarkan pada jarak waktu yang konstan, maka pemesanan dilakukan tanpa memperhatikan jumlah persediaan yang masih ada.
-
-	\textit{Order cycle system} dapat digunakan untuk memantau persediaan barang yang mempunyai banyak jenis.
+	\textit{Order cycle system} adalah sistem pemesanan bahan yang dimana jarak antara pemesanan tetap, sebagai contoh tiap minggu atau tiap bulan. Jadi, dengan sistem ini ditentukan waktu pemesanan dengan jarak yang konstan. Karena didasarkan pada jarak waktu yang konstan, maka pemesanan dilakukan tanpa memperhatikan jumlah persediaan yang masih ada. \textit{Order cycle system} dapat digunakan untuk memantau persediaan barang yang mempunyai banyak jenis.
 
 	Sistem ini termasuk salah satu sistem yang kaku dan mahal, karena setiap interval barang harus diperhatikan dan harus diperkirakan dahulu mengenai pemakaian barang tersebut di masa yang akan datang. Jika terdapat kesalahan perkiraan, maka dapat terjadi ketidakakuratan persediaan sehingga persediaan dapat berlebihan atau kehabisan persediaan.
-\end{enumerate}
+
 
 % \textbf{Contoh Kasus}
 
@@ -560,6 +630,13 @@ Agar pengendalian persediaan dapat dilakukan dengan maksimal, menurut Assauri (2
 
 Pada buku \textit{Management Control} \citep{manajemencontrol}, dijelaskan bahwa penentuan harga transfer atau \textit{transfer pricing} merupakan proses harga penentuan harga yang ditetapkan dalam transaksi penjualan dan pembelian diantara berbagai unit organisasi pada kelompok perusahaan atau instansi yang sama.
 
-Dalam menentukan harga transfer, prinsip dasarnya adalah bahwa harga transfer sebaiknya serupa dengan harga yang akan dikenakan seandainya produk tersebut dijual ke konsumen luar atau dibeli dari pemasok luar. Ketika suatu perusahaan membeli atau menjual produk
-
-\section{Bahan Baku}
+% Dalam menentukan harga transfer, prinsip dasarnya adalah bahwa harga transfer sebaiknya serupa dengan harga yang akan dikenakan seandainya produk tersebut dijual ke konsumen luar atau dibeli dari pemasok luar. Ketika suatu perusahaan membeli atau menjual produk
+\subsection{Karakteristik Harga Transfer}
+\subsection{Syarat Terpenuhinya Harga Transfer}
+\subsection{Tujuan Penentuan Harga Transfer}
+\subsection{Dampak Penentuan Harga Transfer}
+\subsection{Kebijakan Penentuan Harga Transfer}
+\subsection{Prinsip Dasar Penentuan Harga Transfer}
+\subsection{Metode Penentuan Harga Transfer}
+\subsection{Administrasi Harga Transfer}
+\subsection{Harga Transfer Divisi Terintegrasi}
