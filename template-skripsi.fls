@@ -990,6 +990,10 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/ad
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT template-skripsi.toc
+INPUT ./template-skripsi.lof
+INPUT template-skripsi.lof
+INPUT template-skripsi.lof
+OUTPUT template-skripsi.lof
 INPUT ./bab1.tex
 INPUT ./bab1.tex
 INPUT ./bab1.tex
@@ -1026,6 +1030,13 @@ INPUT ./bab3.tex
 INPUT bab3.tex
 INPUT ./bab3.tex
 INPUT bab3.tex
+INPUT ./gambar/akbar/research_tree.png
+INPUT ./gambar/akbar/research_tree.png
+INPUT gambar/akbar/research_tree.png
+INPUT ./gambar/akbar/research_tree.png
+INPUT ./gambar/akbar/research_tree.png
+INPUT ./gambar/akbar/research_tree.png
+INPUT ./gambar/akbar/research_tree.png
 INPUT ./template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT ./template-skripsi.bbl
