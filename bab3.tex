@@ -22,11 +22,153 @@ Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang 
 
 \section{Metode Penentuan Nilai Jual}
 
-Dalam menentukan nilai jual, dapat digunakan rumus dibawah ini.
+Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada petani. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar petani tidak rugi, Wfeed sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
+\begin{equation}
+    \begin{split}
+		T
+		&= Wfeed \times P
+    \end{split}
+\end{equation}
+
+Rumus ini didasari oleh konversi antara kilogram pakan menjadi pertambahan berat sebagian besar bervariasi tergantung pada kasus tertentu. Terlepas dari itu ditentukan oleh semakin tinggi asupan protein, maka semakin rendah tingkat konversinya. Jika konversi ini dikaitkan sebagai Food Conversion Ratio  (FCR) yang dimana Wfish sebagai total berat dari semua ikan yang dipanen.
+\begin{equation}
+    \begin{split}
+		FCR
+		&= Wfeed \div Wfish
+    \end{split}
+\end{equation}
+
+Oleh karena itu, petani harus mencatat berapa banyak kilogram pakan yang diberikan sampai musim panen dari tiap kolam untuk menemukan nilai FCR-nya. Dalam masalah yang lebih kompleks, jika pakan memungkinkan datang dari berbagai sumber yang berhubungan dengan variasi asupan protein, FCR tidak dapat digunakan untuk menentukan hubungan antara jumlah pakan dan pertambahan berat.  Maka dari itu, sangat direkomendasikan untuk petani agar menggunakan satu sumber asupan protein tiap musim panen. Karena FCR sudah diketahui, selama musim panen berikutnya petani bisa memperkirakan berapa banyak pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan.
+\begin{equation}
+    \begin{split}
+		Wfish
+		&= Wfeed \div FCR
+    \end{split}
+\end{equation}
+
+Dengan itu bisa digunakan dalam mencari total jumlah pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan. 
+\begin{equation}
+    \begin{split}
+		Wfeed
+		&= Wfish \times FCR
+    \end{split}
+\end{equation}
+
+Jika persamaan 4 dikembangkan dengan memasukkan dua variabel yaitu Wi sebagai berat ikan dan n sebagai jumlah ikan, maka persamaan akan menjadi seperti berikut.
+\begin{equation}
+    \begin{split}
+		Wfish
+		&= \sum_{i=1}^n \times Wi
+    \end{split}
+\end{equation}
+
+Namun, menggunakan persamaan 5 akan mematikan tujuan dari persamaan 4, karena jika ingin menghitung pemakaian pakan diharuskan untuk menilai masing-masing ikan secara individu yang dimana itu tidak praktis. Jika menggunakan variabel Waf sebagai rata-rata dari berat ikan, maka persamaan akan menjadi sebagai berikut.
+\begin{equation}
+    \begin{split}
+		Waf
+		&= \frac{\sum_{i=1}^n \times Wi}{n}
+    \end{split}
+\end{equation}
+
+Sekarang dapat dengan mudah mencari perkiraan konsumsi pakan untuk musim panen berikutnya dengan persamaan,
+\begin{equation}
+    \begin{split}
+		Wfeed
+		&= Waf \times n \times FCR
+    \end{split}
+\end{equation}
 
 
+Jika persamaan 1 diupdate sehingga dapat ditemukan harga sesuai dengan persamaan,
+\begin{equation}
+    \begin{split}
+		Tunit
+		&= \frac{T}{n}
+    \end{split}
+\end{equation}
 
+Persamaan itu juga merujuk pada jumlah perdagangan dalam kilogram, oleh karena itu
+\begin{equation}
+    \begin{split}
+		k
+		&= \frac{1kg}{Waf}
+    \end{split}
+\end{equation}
 
+\begin{equation}
+    \begin{split}
+		Tk
+		&= Tunit \times k
+    \end{split}
+\end{equation}
+
+Sebagai contoh, dimisalkan mata uang yang digunakan adalah koin lalu FCR bernilai 1.5, ukuran target panen adalah 4 ikan per kilogram, di kolam terdapat 1000 ikan, dan harga pakan mencapai 10 koin.
+
+Dari data tersebut, dapat diketahui Waf = 1/4 kg, n = 1000. Karena itu, Wfeed bernilai 375 kg yang harus dipersiapkan. Selanjutnya, petani tidak bisa menjual semua hasil panen ikan seharga dibawah T = 3750 koin atau dibawah 15 koin per kilogram.
+
+Persamaan 1 sampai 10 memungkinan jika FCR konstan dengan treatment yang sama dan asupan protein yang sama. Seperti yang sudah dilakukan diawal, petani harus mengandalkan satu sumber protein tetapi untuk mempertahankan hal ini sulit dilakukan. Karena itu, PER (Protein Efficiency Ratio) diketahui untuk menentukan rasio massa tubuh yang diperoleh dengan gram protein yang dikonsumsi. Disini variabel Pfeed mendefinisikan asupan gram protein.
+\begin{equation}
+    \begin{split}
+		PER
+		&= \frac{Wfish}{Pfeed}
+    \end{split}
+\end{equation}
+
+Pada formula tersebut, menggantikan Wfeed pada persamaan 2 dengan Pfeed akan memberikan bentuk variabel yang sama namun struktur variabel yang terbalik. Hal ini juga memberikan kemungkinan untuk mencampur beberapa sumber protein yang berbeda dengan formula berikut.
+\begin{equation}
+    \begin{split}
+		PER
+		&= \frac{Wfish}{P^1_{feed} + P^2_{feed} + \dots + P^k_{feed}}
+    \end{split}
+\end{equation}
+
+\begin{equation}
+    \begin{split}
+		PER
+		&= \frac{Wfish}{\sum_{i=1}^k \times P^i_{feed}}
+    \end{split}
+\end{equation}
+
+Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dapat dilakukan pada FCR dan T sebagai berikut.
+\begin{equation}
+    \begin{split}
+		FCR
+		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{Wfish}
+    \end{split}
+\end{equation}
+
+\begin{equation}
+    \begin{split}
+		T
+		&= \sum_{i=1}^k \times W^k_{feed} \times P
+    \end{split}
+\end{equation}
+
+Pada persamaan 15, hanya memodelkan harga jual minimum barang perikanan agar terhindar dari kerugian. Karena itu, untuk mendapatkan keuntungan diperlukan model yang baru. Disini variabel Tp melambangkan dagangan yang memberikan keuntungan dan Fg sebagai pendapatan petani.
+\begin{equation}
+    \begin{split}
+		Tp
+		&= T + Fg
+    \end{split}
+\end{equation}
+
+Fg merepresentasikan berapa banyak jam kerja yang dilakukan petani untuk membudidayakan ikan. Hal ini dapat dijelaskan lebih rinci dalam
+\begin{equation}
+    \begin{split}
+		Fg
+		&= D \times S
+    \end{split}
+\end{equation}
+
+Dimana D mengartikan berapa banyak hari petani bekerja sampai musim panen dan S mengartikan upah yang mewakili pendapatan pekerjaan. Dalam berbudidaya, merupakan hal umum bagi petani ikan untuk menghabiskan waktu seharian penuh untuk mengembangkan dan memantau kolam, karena itu representasi hari lebih ideal. Sebab itu, petani yang lebih banyak menghabiskan waktunya sampai musim panen tiba harus mendapatkan pendapatan yang sesuai.
+
+Persamaan 15 berlaku jika budidaya ikan membudidayakan ikan tradisional secara tradisional. Dalam sistem intensif aquaculture khususnya BFT, dibutuhkan variabel yang mewakili biaya tambahan yang dikeluarkan untuk penggunaan teknologi. Variabel Ci merepresentasikan masing-masing biaya tambahan yang dikeluarkan dalam BFT untuk keseluruhan musim kawin.
+\begin{equation}
+    \begin{split}
+		T
+		&= \sum_{i=1}^k \times W^k_{feed} \times P + \sum_{i=1}^l \times C_i
+    \end{split}
+\end{equation}
 
 \section{Analisa Arsitektur Fitur}
 
@@ -38,11 +180,21 @@ Pada penelitian aplikasi yang sudah dikembangkan sebelumnya, terdapat use case y
 	\caption{Use Case Fitur Aplikasi pada Iterasi 1}
 \end{figure}
 
-Dari diagram use case tersebut, 
+Dari diagram use case tersebut, terdapat dua jenis pengguna yaitu user dan admin. User dan admin memiliki fitur yang sama dalam aplikasi tersebut, yang membedakan antara user dan admin adalah skala prioritas dari aplikasi. Sisi admin memungkinkan pengguna dapat mengatur lebih banyak fitur yang ada pada aplikasi dan mendapatkan akses untuk mengatur user non-admin. Fitur yang disediakan aplikasi dijelaskan sebagai berikut.
+
+\begin{enumerate}
+	\item \textbf{Registrasi, Aktivasi, Deaktivasi Kolam} = Fitur ini digunakan untuk mendaftarkan kolam yang akan dijadikan tempat budidaya ikan, kemudian fitur aktivasi dan deaktivasi kolam digunakan untuk mengontrol kolam yang sedang berjalan.
+	\item \textbf{Pemberian Pakan} = Fitur ini digunakan untuk mencatat data pakan yang diberikan pada kolam ikan di budidaya yang sedang berlangsung.
+	\item \textbf{Pencatatan Kualitas Air Harian dan Mingguan} = Fitur ini digunakan untuk mencatat kualitas air dari kolam di budidaya yang sedang berjalan dengan rentang waktu harian dan mingguan.
+	\item \textbf{Sortir Ikan} = Fitur ini digunakan untuk mengatur perpindahan ikan ke kolam lain.
+	\item \textbf{Grading Berat Ikan} = Fitur ini digunakan untuk mengatur ekosistem ikan berdasarkan berat agar mendapatkan keseragaman ukuran ikan dan meningkatkan efektivitas pemberikan pakan kepada ikan.
+	\item \textbf{Pencatatan Data Kematian Ikan} = Fitur ini digunakan untuk mencatat angka kematian ikan jika terdapat ikan yang mati ketika budidaya sedang berjalan.
+	\item \textbf{Treatment Kolam} = Fitur ini digunakan untuk melakukan pengaturan terhadap kolam ikan pada budidaya yang sedang berjalan.
+\end{enumerate}
 
 \section{Analisa Pengembangan Fitur}
 
-Pada analisa arsitektur fitur yang ada di aplikasi sebelumnya, dapat dilengkapi dengan fitur inventaris yang akan dilakukan pada penelitian ini. Fitur tersebut memiliki use case diagram seperti berikut.
+Dalam Iterasi 2 ini, fitur yang ditambahkan adalah fitur manajemen inventaris. Pada analisa arsitektur fitur yang ada di aplikasi sebelumnya, dapat dilengkapi dengan fitur inventaris yang akan dilakukan pada penelitian ini. Fitur tersebut memiliki use case diagram dengan referensi dari use case diagram aplikasi sebelumnya seperti berikut.
 
 \begin{figure}[H]
 	\centering
@@ -50,24 +202,79 @@ Pada analisa arsitektur fitur yang ada di aplikasi sebelumnya, dapat dilengkapi 
 	\caption{Use Case Fitur Aplikasi pada Iterasi 2}
 \end{figure}
 
+Fitur pencatatan inventaris merupakan fitur yang akan ada pada aplikasi yang berguna untuk para petani ikan mencatat semua hal yang berhubungan dengan budidaya perikanannya. Hal-hal yang dapat dicatat oleh petani pada fitur ini adalah sebagai berikut.
 
-% \section{Stories}
+\begin{enumerate}
+	\item Bahan Baku Pakan
+	\item Bahan Baku Material Organik
+	\item Listrik
+	\item Benih Ikan
+	\item Peralatan
+\end{enumerate}
 
-%     \subsection{Pencatatan Inventaris}
+Untuk design database dari fitur pencatatan inventaris dapat dilihat pada Gambar 3.4 berikut.
 
-%     \begin{enumerate}
-%         \item Bahan baku
-%         \begin{enumerate}
-%             \item Pakan
-%             \item Bahan organik
-%         \end{enumerate}
-%         \item Listrik
-%         \item Benih
-%     \end{enumerate}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.2\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.png}
+	\caption{Skema Database Fitur Inventaris}
+\end{figure}
 
-%     \subsection{Depresiasi Aset}
+\section{Perancangan Sistem}
 
-%     \begin{enumerate}
-%         \item Kadaluarsa bahan baku
-%         \item Penurunan kualitas
-%     \end{enumerate}
+Dalam mengembangkan fitur yang ada pada Iterasi 2 ini, penelitian dilakukan dengan metode Scrum. Metode Scrum merupakan metode yang sering digunakan dalam develop sebuah aplikasi karena dapat menyelesaikan masalah kompleks dengan efektif. Berikut penjelasan dari masing-masing elemen yang ada pada metode Scrum.
+
+\subsection{Product Backlog}
+
+Product Backlog adalah tugas-tugas yang \textbf{akan} dijalankan pada penelitian dan hal yang pertama kali dilakukan sebelum memulai riset. Daftar tugas yang ada pada Product Backlog ini akan dipindahkan pada Sprint Backlog tergantung pada skala prioritas dari task itu sendiiri. Berikut adalah tabel dari Product Backlog yang sudah berjalan.
+
+\begin{table}[H]	
+	\begin{center}
+		\caption{Tabel Product Backlog}
+		\label{tab:table5}
+		\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		\textbf{No} & \textbf{Stories} & \textbf{Role} & \textbf{Sprint} & \textbf{Status} \\
+		\hline
+		1 & Membuat fitur pencatatan inventaris & User & 1 & Uncomplete \\
+		\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint Backlog}
+
+Sprint Backlog adalah daftar tugas yang \textbf{harus} dijalankan selama masa Sprint berlangsung. Tugas yang ada pada Sprint Backlog bersifat fleksibel seiring dengan berjalannya Sprint. Berikut merupakan tabel dari Sprint Backlog yang sudah berjalan.
+
+\begin{table}[H]	
+	\begin{center}
+		\caption{Tabel Sprint 1 Backlog}
+		\label{tab:table6}
+		\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
+		\hline
+		1 & Membuat fitur pencatatan inventaris & Membuat skema database dari pencatatan inventaris & User & 1 & Uncomplete \\
+		 &  & Membuat mockup dari fitur inventaris & User & 1 & Uncomplete \\
+		\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint}
+
+Sprint merupakan kegiatan menyelesaikan daftar tugas yang ada pada Sprint Backlog dalam rentang waktu tertentu. Durasi Sprint sendiri bermacam-macam, bisa dari 1-4 minggu tergantung dari kesulitan tugas itu sendiri. Berikut merupakan list Sprint yang sudah berjalan.
+
+\begin{enumerate}
+	\item Sprint 1
+	
+	Sprint 1 dilaksanakan pada tanggal 15 Februari 2023 - XX Februari 2023. Pada Sprint 1 ini melakukan tugas yang ada pada Sprint 1 Backlog di Tabel 3.2.
+\end{enumerate}
+
+\subsection{Daily Scrum}
+
+Daily Scrum merupakan kegiatan rutin tiap minggu yang dilaksanakan dengan Scrum Master. Kegiatan ini dilakukan untuk reporting progres tugas yang dijalankan selama masa Sprint berlangsung kepada Scrum Master. Scrum Master bertugas untuk memberikan feedback saat Daily Scrum berlangsung.
+
+\subsection{Sprint Review dan Sprint Restropective}
+
+Sprint Review dan Sprint Restropective adalah kegiatan mengulas kembali tugas yang sudah dikerjakan pada saat durasi Sprint berlangsung. Kegiatan ini juga merupakan kegiatan menentukan tugas yang berhasil dan tidak berhasil selama Sprint berlangsung.
