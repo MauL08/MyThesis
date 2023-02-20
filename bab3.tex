@@ -22,59 +22,59 @@ Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang 
 
 \section{Metode Penentuan Nilai Jual}
 
-Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada petani. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar petani tidak rugi, Wfeed sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
+Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada petani. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar petani tidak rugi, $W_{feed}$ sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
 \begin{equation}
     \begin{split}
 		T
-		&= Wfeed \times P
+		&= W_{feed} \times P
     \end{split}
 \end{equation}
 
-Rumus ini didasari oleh konversi antara kilogram pakan menjadi pertambahan berat sebagian besar bervariasi tergantung pada kasus tertentu. Terlepas dari itu ditentukan oleh semakin tinggi asupan protein, maka semakin rendah tingkat konversinya. Jika konversi ini dikaitkan sebagai Food Conversion Ratio  (FCR) yang dimana Wfish sebagai total berat dari semua ikan yang dipanen.
+Rumus ini didasari oleh konversi antara kilogram pakan menjadi pertambahan berat sebagian besar bervariasi tergantung pada kasus tertentu. Terlepas dari itu ditentukan oleh semakin tinggi asupan protein, maka semakin rendah tingkat konversinya. Jika konversi ini dikaitkan sebagai Food Conversion Ratio  (FCR) yang dimana $W_{fish}$ sebagai total berat dari semua ikan yang dipanen.
 \begin{equation}
     \begin{split}
 		FCR
-		&= Wfeed \div Wfish
+		&= W_{feed } \div W_{fish}
     \end{split}
 \end{equation}
 
 Oleh karena itu, petani harus mencatat berapa banyak kilogram pakan yang diberikan sampai musim panen dari tiap kolam untuk menemukan nilai FCR-nya. Dalam masalah yang lebih kompleks, jika pakan memungkinkan datang dari berbagai sumber yang berhubungan dengan variasi asupan protein, FCR tidak dapat digunakan untuk menentukan hubungan antara jumlah pakan dan pertambahan berat.  Maka dari itu, sangat direkomendasikan untuk petani agar menggunakan satu sumber asupan protein tiap musim panen. Karena FCR sudah diketahui, selama musim panen berikutnya petani bisa memperkirakan berapa banyak pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan.
 \begin{equation}
     \begin{split}
-		Wfish
-		&= Wfeed \div FCR
+		W_{fish}
+		&= W_{feed} \div FCR
     \end{split}
 \end{equation}
 
 Dengan itu bisa digunakan dalam mencari total jumlah pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan. 
 \begin{equation}
     \begin{split}
-		Wfeed
-		&= Wfish \times FCR
+		W_{feed}
+		&= W_{fish} \times FCR
     \end{split}
 \end{equation}
 
-Jika persamaan 4 dikembangkan dengan memasukkan dua variabel yaitu Wi sebagai berat ikan dan n sebagai jumlah ikan, maka persamaan akan menjadi seperti berikut.
+Jika persamaan 4 dikembangkan dengan memasukkan dua variabel yaitu $W_i$ sebagai berat ikan dan n sebagai jumlah ikan, maka persamaan akan menjadi seperti berikut.
 \begin{equation}
     \begin{split}
-		Wfish
-		&= \sum_{i=1}^n \times Wi
+		W_{fish}
+		&= \sum_{i=1}^n \times W_i
     \end{split}
 \end{equation}
 
-Namun, menggunakan persamaan 5 akan mematikan tujuan dari persamaan 4, karena jika ingin menghitung pemakaian pakan diharuskan untuk menilai masing-masing ikan secara individu yang dimana itu tidak praktis. Jika menggunakan variabel Waf sebagai rata-rata dari berat ikan, maka persamaan akan menjadi sebagai berikut.
+Namun, menggunakan persamaan 5 akan mematikan tujuan dari persamaan 4, karena jika ingin menghitung pemakaian pakan diharuskan untuk menilai masing-masing ikan secara individu yang dimana itu tidak praktis. Jika menggunakan variabel $W_{af}$ sebagai rata-rata dari berat ikan, maka persamaan akan menjadi sebagai berikut.
 \begin{equation}
     \begin{split}
-		Waf
-		&= \frac{\sum_{i=1}^n \times Wi}{n}
+		W_{af}
+		&= \frac{\sum_{i=1}^n \times W_i}{n}
     \end{split}
 \end{equation}
 
 Sekarang dapat dengan mudah mencari perkiraan konsumsi pakan untuk musim panen berikutnya dengan persamaan,
 \begin{equation}
     \begin{split}
-		Wfeed
-		&= Waf \times n \times FCR
+		W_{feed}
+		&= W_{af} \times n \times FCR
     \end{split}
 \end{equation}
 
@@ -82,7 +82,7 @@ Sekarang dapat dengan mudah mencari perkiraan konsumsi pakan untuk musim panen b
 Jika persamaan 1 diupdate sehingga dapat ditemukan harga sesuai dengan persamaan,
 \begin{equation}
     \begin{split}
-		Tunit
+		T_{unit}
 		&= \frac{T}{n}
     \end{split}
 \end{equation}
@@ -91,41 +91,41 @@ Persamaan itu juga merujuk pada jumlah perdagangan dalam kilogram, oleh karena i
 \begin{equation}
     \begin{split}
 		k
-		&= \frac{1kg}{Waf}
+		&= \frac{1kg}{W_{af}}
     \end{split}
 \end{equation}
 
 \begin{equation}
     \begin{split}
-		Tk
-		&= Tunit \times k
+		T_k
+		&= T_{unit} \times k
     \end{split}
 \end{equation}
 
 Sebagai contoh, dimisalkan mata uang yang digunakan adalah koin lalu FCR bernilai 1.5, ukuran target panen adalah 4 ikan per kilogram, di kolam terdapat 1000 ikan, dan harga pakan mencapai 10 koin.
 
-Dari data tersebut, dapat diketahui Waf = 1/4 kg, n = 1000. Karena itu, Wfeed bernilai 375 kg yang harus dipersiapkan. Selanjutnya, petani tidak bisa menjual semua hasil panen ikan seharga dibawah T = 3750 koin atau dibawah 15 koin per kilogram.
+Dari data tersebut, dapat diketahui $W_{af}$ = 1/4 kg, n = 1000. Karena itu, $W_{feed}$ bernilai 375 kg yang harus dipersiapkan. Selanjutnya, petani tidak bisa menjual semua hasil panen ikan seharga dibawah T = 3750 koin atau dibawah 15 koin per kilogram.
 
-Persamaan 1 sampai 10 memungkinan jika FCR konstan dengan treatment yang sama dan asupan protein yang sama. Seperti yang sudah dilakukan diawal, petani harus mengandalkan satu sumber protein tetapi untuk mempertahankan hal ini sulit dilakukan. Karena itu, PER (Protein Efficiency Ratio) diketahui untuk menentukan rasio massa tubuh yang diperoleh dengan gram protein yang dikonsumsi. Disini variabel Pfeed mendefinisikan asupan gram protein.
+Persamaan 1 sampai 10 memungkinan jika FCR konstan dengan treatment yang sama dan asupan protein yang sama. Seperti yang sudah dilakukan diawal, petani harus mengandalkan satu sumber protein tetapi untuk mempertahankan hal ini sulit dilakukan. Karena itu, PER (Protein Efficiency Ratio) diketahui untuk menentukan rasio massa tubuh yang diperoleh dengan gram protein yang dikonsumsi. Disini variabel $P_{feed}$ mendefinisikan asupan gram protein.
 \begin{equation}
     \begin{split}
 		PER
-		&= \frac{Wfish}{Pfeed}
+		&= \frac{W_{fish}}{P_{feed}}
     \end{split}
 \end{equation}
 
-Pada formula tersebut, menggantikan Wfeed pada persamaan 2 dengan Pfeed akan memberikan bentuk variabel yang sama namun struktur variabel yang terbalik. Hal ini juga memberikan kemungkinan untuk mencampur beberapa sumber protein yang berbeda dengan formula berikut.
+Pada formula tersebut, menggantikan $W_{feed}$ pada persamaan 2 dengan $P_{feed}$ akan memberikan bentuk variabel yang sama namun struktur variabel yang terbalik. Hal ini juga memberikan kemungkinan untuk mencampur beberapa sumber protein yang berbeda dengan formula berikut.
 \begin{equation}
     \begin{split}
 		PER
-		&= \frac{Wfish}{P^1_{feed} + P^2_{feed} + \dots + P^k_{feed}}
+		&= \frac{W_{fish}}{P^1_{feed} + P^2_{feed} + \dots + P^k_{feed}}
     \end{split}
 \end{equation}
 
 \begin{equation}
     \begin{split}
 		PER
-		&= \frac{Wfish}{\sum_{i=1}^k \times P^i_{feed}}
+		&= \frac{W_{fish}}{\sum_{i=1}^k \times P^i_{feed}}
     \end{split}
 \end{equation}
 
@@ -133,7 +133,7 @@ Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dap
 \begin{equation}
     \begin{split}
 		FCR
-		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{Wfish}
+		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{W_{fish}}
     \end{split}
 \end{equation}
 
@@ -144,18 +144,18 @@ Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dap
     \end{split}
 \end{equation}
 
-Pada persamaan 15, hanya memodelkan harga jual minimum barang perikanan agar terhindar dari kerugian. Karena itu, untuk mendapatkan keuntungan diperlukan model yang baru. Disini variabel Tp melambangkan dagangan yang memberikan keuntungan dan Fg sebagai pendapatan petani.
+Pada persamaan 15, hanya memodelkan harga jual minimum barang perikanan agar terhindar dari kerugian. Karena itu, untuk mendapatkan keuntungan diperlukan model yang baru. Disini variabel $T_p$ melambangkan dagangan yang memberikan keuntungan dan $F_g$ sebagai pendapatan petani.
 \begin{equation}
     \begin{split}
-		Tp
-		&= T + Fg
+		T_p
+		&= T + F_g
     \end{split}
 \end{equation}
 
-Fg merepresentasikan berapa banyak jam kerja yang dilakukan petani untuk membudidayakan ikan. Hal ini dapat dijelaskan lebih rinci dalam
+$F_g$ merepresentasikan berapa banyak jam kerja yang dilakukan petani untuk membudidayakan ikan. Hal ini dapat dijelaskan lebih rinci dalam
 \begin{equation}
     \begin{split}
-		Fg
+		F_g
 		&= D \times S
     \end{split}
 \end{equation}
