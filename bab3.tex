@@ -136,7 +136,6 @@ Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dap
 		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{W_{fish}}
     \end{split}
 \end{equation}
-
 \begin{equation}
     \begin{split}
 		T
@@ -179,14 +178,15 @@ Variabel $C_i$ dapat dijabarkan sebagai berikut.
 	\item $C_4$ = Benih Ikan
 \end{itemize}
 
-Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Seiring dengan lamanya bahan baku tersebut disimpan, tentunya semakin lama bahan baku tersebut akan menurun kualitasnnya sampai masa kadaluarsa dari bahan baku tersebut tercapai. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Variabel $W_p$ mengartikan total bahan baku yang ada setelah depresiasai
+Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Seiring dengan lamanya bahan baku tersebut disimpan, tentunya semakin lama bahan baku tersebut akan menurun kualitasnnya sampai masa kadaluarsa dari bahan baku tersebut tercapai. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku tersebut. Formula depresiasi dijelaskan pada persamaan berikut.  
 
 \begin{equation}
     \begin{split}
 		W_p
-		&= W_q - \alpha \times W_q
+		&= W_p - \alpha \times W_p
     \end{split}
 \end{equation}
+
 
 
 \section{Analisa Arsitektur Fitur}
@@ -235,7 +235,7 @@ Untuk design database dari fitur pencatatan inventaris dapat dilihat pada Gambar
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.2\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.jpeg}
+	\includegraphics[width=1\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.jpeg}
 	\caption{Skema Database Fitur Inventaris}
 \end{figure}
 
