@@ -162,13 +162,32 @@ $F_g$ merepresentasikan berapa banyak jam kerja yang dilakukan petani untuk memb
 
 Dimana D mengartikan berapa banyak hari petani bekerja sampai musim panen dan S mengartikan upah yang mewakili pendapatan pekerjaan. Dalam berbudidaya, merupakan hal umum bagi petani ikan untuk menghabiskan waktu seharian penuh untuk mengembangkan dan memantau kolam, karena itu representasi hari lebih ideal. Sebab itu, petani yang lebih banyak menghabiskan waktunya sampai musim panen tiba harus mendapatkan pendapatan yang sesuai.
 
-Persamaan 15 berlaku jika budidaya ikan membudidayakan ikan tradisional secara tradisional. Dalam sistem intensif aquaculture khususnya BFT, dibutuhkan variabel yang mewakili biaya tambahan yang dikeluarkan untuk penggunaan teknologi. Variabel Ci merepresentasikan masing-masing biaya tambahan yang dikeluarkan dalam BFT untuk keseluruhan musim kawin.
+Persamaan 15 berlaku jika budidaya ikan membudidayakan ikan tradisional secara tradisional. Dalam sistem intensif aquaculture khususnya BFT, dibutuhkan variabel yang mewakili biaya tambahan yang dikeluarkan untuk penggunaan teknologi. Variabel ${C_i}$ merepresentasikan masing-masing biaya tambahan yang dikeluarkan dalam BFT untuk keseluruhan musim kawin.
 \begin{equation}
     \begin{split}
 		T
 		&= \sum_{i=1}^k \times W^k_{feed} \times P + \sum_{i=1}^l \times C_i
     \end{split}
 \end{equation}
+
+Variabel $C_i$ dapat dijabarkan sebagai berikut.
+
+\begin{itemize}
+	\item $C_1$ = Bahan Baku
+	\item $C_2$ = Listrik (dihitung dalam per Kolam)
+	\item $C_3$ = Tenaga Kerja (dihitung 3-5 jam / orang serta dibagi dengan jumlah kolam)
+	\item $C_4$ = Benih Ikan
+\end{itemize}
+
+Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Seiring dengan lamanya bahan baku tersebut disimpan, tentunya semakin lama bahan baku tersebut akan menurun kualitasnnya sampai masa kadaluarsa dari bahan baku tersebut tercapai. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Variabel $W_p$ mengartikan total bahan baku yang ada setelah depresiasai
+
+\begin{equation}
+    \begin{split}
+		W_p
+		&= W_q - \alpha \times W_q
+    \end{split}
+\end{equation}
+
 
 \section{Analisa Arsitektur Fitur}
 
@@ -216,7 +235,7 @@ Untuk design database dari fitur pencatatan inventaris dapat dilihat pada Gambar
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.2\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.png}
+	\includegraphics[width=1.2\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.jpeg}
 	\caption{Skema Database Fitur Inventaris}
 \end{figure}
 
