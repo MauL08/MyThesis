@@ -178,7 +178,7 @@ Variabel $C_i$ dapat dijabarkan sebagai berikut.
 	\item $C_4$ = Benih Ikan
 \end{itemize}
 
-Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Seiring dengan lamanya bahan baku tersebut disimpan, tentunya semakin lama bahan baku tersebut akan menurun kualitasnnya sampai masa kadaluarsa dari bahan baku tersebut tercapai. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku tersebut. Formula depresiasi dijelaskan pada persamaan berikut.  
+Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Seiring dengan lamanya bahan baku tersebut disimpan, tentunya semakin lama bahan baku tersebut akan menurun kualitasnnya sampai masa kadaluarsa dari bahan baku tersebut tercapai. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
 
 \begin{equation}
     \begin{split}
@@ -186,8 +186,6 @@ Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami p
 		&= W_p - \alpha \times W_p
     \end{split}
 \end{equation}
-
-
 
 \section{Analisa Arsitektur Fitur}
 
@@ -230,14 +228,6 @@ Fitur pencatatan inventaris merupakan fitur yang akan ada pada aplikasi yang ber
 	\item Benih Ikan
 	\item Peralatan
 \end{enumerate}
-
-Untuk design database dari fitur pencatatan inventaris dapat dilihat pada Gambar 3.4 berikut.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.jpeg}
-	\caption{Skema Database Fitur Inventaris}
-\end{figure}
 
 \section{Perancangan Sistem}
 
@@ -297,3 +287,27 @@ Daily Scrum merupakan kegiatan rutin tiap minggu yang dilaksanakan dengan Scrum 
 \subsection{Sprint Review dan Sprint Restropective}
 
 Sprint Review dan Sprint Restropective adalah kegiatan mengulas kembali tugas yang sudah dikerjakan pada saat durasi Sprint berlangsung. Kegiatan ini juga merupakan kegiatan menentukan tugas yang berhasil dan tidak berhasil selama Sprint berlangsung.
+
+\subsection{Sprint 1 Report}
+
+Tujuan dari Sprint 1 ini adalah membuat skema database dari inventarisasi serta membuat mockup design dari fitur inventaris yang akan diterapkan pada aplikasi.
+
+\begin{enumerate}
+	\item Membuat skema database inventaris
+	
+	Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada Gambar 3.4 berikut.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/akbar/sprint1/sprint1_inventaris_database.jpeg}
+		\caption{Skema Database Fitur Inventaris}
+	\end{figure}
+
+	Dari skema database tersebut, dapat  \dots
+
+	\item Membuat mockup design halaman inventaris
+	
+	Dalam membuat mockup design ini, 
+
+	Berikut merupakan mockup dari fitur inventaris berdasarkan skema database yang sudah dibuat sebelumnya.
+\end{enumerate}

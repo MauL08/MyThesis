@@ -858,6 +858,9 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3
 INPUT ./template-skripsi.aux
 INPUT template-skripsi.aux
 INPUT template-skripsi.aux
+INPUT ./halaman-persembahan.aux
+INPUT halaman-persembahan.aux
+INPUT halaman-persembahan.aux
 INPUT ./kata-pengantar.aux
 INPUT kata-pengantar.aux
 INPUT kata-pengantar.aux
@@ -936,14 +939,33 @@ INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
+OUTPUT halaman-persembahan.aux
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
 OUTPUT kata-pengantar.aux
 INPUT ./kata-pengantar.tex
 INPUT ./kata-pengantar.tex
@@ -951,14 +973,8 @@ INPUT ./kata-pengantar.tex
 INPUT kata-pengantar.tex
 INPUT ./kata-pengantar.tex
 INPUT kata-pengantar.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
@@ -986,9 +1002,6 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/ad
 INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
 INPUT template-skripsi.toc
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT template-skripsi.toc
 INPUT ./template-skripsi.lof
 INPUT template-skripsi.lof
@@ -1063,6 +1076,9 @@ INPUT template-skripsi.bbl
 INPUT ./template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT template-skripsi.aux
+INPUT ./halaman-persembahan.aux
+INPUT halaman-persembahan.aux
+INPUT halaman-persembahan.aux
 INPUT ./kata-pengantar.aux
 INPUT kata-pengantar.aux
 INPUT kata-pengantar.aux
