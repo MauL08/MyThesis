@@ -22,161 +22,161 @@ Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang 
 
 \section{Metode Penentuan Nilai Jual}
 
-Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada pembudidaya. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar pembudidaya tidak rugi, $W_{feed}$ sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
-\begin{equation}
-    \begin{split}
-		T
-		&= W_{feed} \times P
-    \end{split}
-\end{equation}
+% Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada pembudidaya. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar pembudidaya tidak rugi, $W_{feed}$ sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
+% \begin{equation}
+%     \begin{split}
+% 		T
+% 		&= W_{feed} \times P
+%     \end{split}
+% \end{equation}
 
-Rumus ini didasari oleh konversi antara kilogram pakan menjadi pertambahan berat sebagian besar bervariasi tergantung pada kasus tertentu. Terlepas dari itu ditentukan oleh semakin tinggi asupan protein, maka semakin rendah tingkat konversinya. Jika konversi ini dikaitkan sebagai Food Conversion Ratio  (FCR) yang dimana $W_{fish}$ sebagai total berat dari semua ikan yang dipanen.
-\begin{equation}
-    \begin{split}
-		FCR
-		&= W_{feed } \div W_{fish}
-    \end{split}
-\end{equation}
+% Rumus ini didasari oleh konversi antara kilogram pakan menjadi pertambahan berat sebagian besar bervariasi tergantung pada kasus tertentu. Terlepas dari itu ditentukan oleh semakin tinggi asupan protein, maka semakin rendah tingkat konversinya. Jika konversi ini dikaitkan sebagai Food Conversion Ratio  (FCR) yang dimana $W_{fish}$ sebagai total berat dari semua ikan yang dipanen.
+% \begin{equation}
+%     \begin{split}
+% 		FCR
+% 		&= W_{feed } \div W_{fish}
+%     \end{split}
+% \end{equation}
 
-Oleh karena itu, pembudidaya harus mencatat berapa banyak kilogram pakan yang diberikan sampai musim panen dari tiap kolam untuk menemukan nilai FCR-nya. Dalam masalah yang lebih kompleks, jika pakan memungkinkan datang dari berbagai sumber yang berhubungan dengan variasi asupan protein, FCR tidak dapat digunakan untuk menentukan hubungan antara jumlah pakan dan pertambahan berat.  Maka dari itu, sangat direkomendasikan untuk pembudidaya agar menggunakan satu sumber asupan protein tiap musim panen. Karena FCR sudah diketahui, selama musim panen berikutnya pembudidaya bisa memperkirakan berapa banyak pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan.
-\begin{equation}
-    \begin{split}
-		W_{fish}
-		&= W_{feed} \div FCR
-    \end{split}
-\end{equation}
+% Oleh karena itu, pembudidaya harus mencatat berapa banyak kilogram pakan yang diberikan sampai musim panen dari tiap kolam untuk menemukan nilai FCR-nya. Dalam masalah yang lebih kompleks, jika pakan memungkinkan datang dari berbagai sumber yang berhubungan dengan variasi asupan protein, FCR tidak dapat digunakan untuk menentukan hubungan antara jumlah pakan dan pertambahan berat.  Maka dari itu, sangat direkomendasikan untuk pembudidaya agar menggunakan satu sumber asupan protein tiap musim panen. Karena FCR sudah diketahui, selama musim panen berikutnya pembudidaya bisa memperkirakan berapa banyak pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan.
+% \begin{equation}
+%     \begin{split}
+% 		W_{fish}
+% 		&= W_{feed} \div FCR
+%     \end{split}
+% \end{equation}
 
-Dengan itu bisa digunakan dalam mencari total jumlah pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan. 
-\begin{equation}
-    \begin{split}
-		W_{feed}
-		&= W_{fish} \times FCR
-    \end{split}
-\end{equation}
+% Dengan itu bisa digunakan dalam mencari total jumlah pakan yang dibutuhkan untuk membuat ikan agar tumbuh sampai ukuran yang ditargetkan. 
+% \begin{equation}
+%     \begin{split}
+% 		W_{feed}
+% 		&= W_{fish} \times FCR
+%     \end{split}
+% \end{equation}
 
-Jika persamaan 4 dikembangkan dengan memasukkan dua variabel yaitu $W_i$ sebagai berat ikan dan n sebagai jumlah ikan, maka persamaan akan menjadi seperti berikut.
-\begin{equation}
-    \begin{split}
-		W_{fish}
-		&= \sum_{i=1}^n \times W_i
-    \end{split}
-\end{equation}
+% Jika persamaan 4 dikembangkan dengan memasukkan dua variabel yaitu $W_i$ sebagai berat ikan dan n sebagai jumlah ikan, maka persamaan akan menjadi seperti berikut.
+% \begin{equation}
+%     \begin{split}
+% 		W_{fish}
+% 		&= \sum_{i=1}^n \times W_i
+%     \end{split}
+% \end{equation}
 
-Namun, menggunakan persamaan 5 akan mematikan tujuan dari persamaan 4, karena jika ingin menghitung pemakaian pakan diharuskan untuk menilai masing-masing ikan secara individu yang dimana itu tidak praktis. Jika menggunakan variabel $W_{af}$ sebagai rata-rata dari berat ikan, maka persamaan akan menjadi sebagai berikut.
-\begin{equation}
-    \begin{split}
-		W_{af}
-		&= \frac{\sum_{i=1}^n \times W_i}{n}
-    \end{split}
-\end{equation}
+% Namun, menggunakan persamaan 5 akan mematikan tujuan dari persamaan 4, karena jika ingin menghitung pemakaian pakan diharuskan untuk menilai masing-masing ikan secara individu yang dimana itu tidak praktis. Jika menggunakan variabel $W_{af}$ sebagai rata-rata dari berat ikan, maka persamaan akan menjadi sebagai berikut.
+% \begin{equation}
+%     \begin{split}
+% 		W_{af}
+% 		&= \frac{\sum_{i=1}^n \times W_i}{n}
+%     \end{split}
+% \end{equation}
 
-Sekarang dapat dengan mudah mencari perkiraan konsumsi pakan untuk musim panen berikutnya dengan persamaan,
-\begin{equation}
-    \begin{split}
-		W_{feed}
-		&= W_{af} \times n \times FCR
-    \end{split}
-\end{equation}
+% Sekarang dapat dengan mudah mencari perkiraan konsumsi pakan untuk musim panen berikutnya dengan persamaan,
+% \begin{equation}
+%     \begin{split}
+% 		W_{feed}
+% 		&= W_{af} \times n \times FCR
+%     \end{split}
+% \end{equation}
 
 
-Jika persamaan 1 diupdate sehingga dapat ditemukan harga sesuai dengan persamaan,
-\begin{equation}
-    \begin{split}
-		T_{unit}
-		&= \frac{T}{n}
-    \end{split}
-\end{equation}
+% Jika persamaan 1 diupdate sehingga dapat ditemukan harga sesuai dengan persamaan,
+% \begin{equation}
+%     \begin{split}
+% 		T_{unit}
+% 		&= \frac{T}{n}
+%     \end{split}
+% \end{equation}
 
-Persamaan itu juga merujuk pada jumlah perdagangan dalam kilogram, oleh karena itu
-\begin{equation}
-    \begin{split}
-		k
-		&= \frac{1kg}{W_{af}}
-    \end{split}
-\end{equation}
+% Persamaan itu juga merujuk pada jumlah perdagangan dalam kilogram, oleh karena itu
+% \begin{equation}
+%     \begin{split}
+% 		k
+% 		&= \frac{1kg}{W_{af}}
+%     \end{split}
+% \end{equation}
 
-\begin{equation}
-    \begin{split}
-		T_k
-		&= T_{unit} \times k
-    \end{split}
-\end{equation}
+% \begin{equation}
+%     \begin{split}
+% 		T_k
+% 		&= T_{unit} \times k
+%     \end{split}
+% \end{equation}
 
-Sebagai contoh, dimisalkan mata uang yang digunakan adalah koin lalu FCR bernilai 1.5, ukuran target panen adalah 4 ikan per kilogram, di kolam terdapat 1000 ikan, dan harga pakan mencapai 10 koin.
+% Sebagai contoh, dimisalkan mata uang yang digunakan adalah koin lalu FCR bernilai 1.5, ukuran target panen adalah 4 ikan per kilogram, di kolam terdapat 1000 ikan, dan harga pakan mencapai 10 koin.
 
-Dari data tersebut, dapat diketahui $W_{af}$ = 1/4 kg, n = 1000. Karena itu, $W_{feed}$ bernilai 375 kg yang harus dipersiapkan. Selanjutnya, pembudidaya tidak bisa menjual semua hasil panen ikan seharga dibawah T = 3750 koin atau dibawah 15 koin per kilogram.
+% Dari data tersebut, dapat diketahui $W_{af}$ = 1/4 kg, n = 1000. Karena itu, $W_{feed}$ bernilai 375 kg yang harus dipersiapkan. Selanjutnya, pembudidaya tidak bisa menjual semua hasil panen ikan seharga dibawah T = 3750 koin atau dibawah 15 koin per kilogram.
 
-Persamaan 1 sampai 10 memungkinan jika FCR konstan dengan treatment yang sama dan asupan protein yang sama. Seperti yang sudah dilakukan diawal, pembudidaya harus mengandalkan satu sumber protein tetapi untuk mempertahankan hal ini sulit dilakukan. Karena itu, PER (Protein Efficiency Ratio) diketahui untuk menentukan rasio massa tubuh yang diperoleh dengan gram protein yang dikonsumsi. Disini variabel $P_{feed}$ mendefinisikan asupan gram protein.
-\begin{equation}
-    \begin{split}
-		PER
-		&= \frac{W_{fish}}{P_{feed}}
-    \end{split}
-\end{equation}
+% Persamaan 1 sampai 10 memungkinan jika FCR konstan dengan treatment yang sama dan asupan protein yang sama. Seperti yang sudah dilakukan diawal, pembudidaya harus mengandalkan satu sumber protein tetapi untuk mempertahankan hal ini sulit dilakukan. Karena itu, PER (Protein Efficiency Ratio) diketahui untuk menentukan rasio massa tubuh yang diperoleh dengan gram protein yang dikonsumsi. Disini variabel $P_{feed}$ mendefinisikan asupan gram protein.
+% \begin{equation}
+%     \begin{split}
+% 		PER
+% 		&= \frac{W_{fish}}{P_{feed}}
+%     \end{split}
+% \end{equation}
 
-Pada formula tersebut, menggantikan $W_{feed}$ pada persamaan 2 dengan $P_{feed}$ akan memberikan bentuk variabel yang sama namun struktur variabel yang terbalik. Hal ini juga memberikan kemungkinan untuk mencampur beberapa sumber protein yang berbeda dengan formula berikut.
-\begin{equation}
-    \begin{split}
-		PER
-		&= \frac{W_{fish}}{P^1_{feed} + P^2_{feed} + \dots + P^k_{feed}}
-    \end{split}
-\end{equation}
+% Pada formula tersebut, menggantikan $W_{feed}$ pada persamaan 2 dengan $P_{feed}$ akan memberikan bentuk variabel yang sama namun struktur variabel yang terbalik. Hal ini juga memberikan kemungkinan untuk mencampur beberapa sumber protein yang berbeda dengan formula berikut.
+% \begin{equation}
+%     \begin{split}
+% 		PER
+% 		&= \frac{W_{fish}}{P^1_{feed} + P^2_{feed} + \dots + P^k_{feed}}
+%     \end{split}
+% \end{equation}
 
-\begin{equation}
-    \begin{split}
-		PER
-		&= \frac{W_{fish}}{\sum_{i=1}^k \times P^i_{feed}}
-    \end{split}
-\end{equation}
+% \begin{equation}
+%     \begin{split}
+% 		PER
+% 		&= \frac{W_{fish}}{\sum_{i=1}^k \times P^i_{feed}}
+%     \end{split}
+% \end{equation}
 
-Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dapat dilakukan pada FCR dan T sebagai berikut.
-\begin{equation}
-    \begin{split}
-		FCR
-		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{W_{fish}}
-    \end{split}
-\end{equation}
-\begin{equation}
-    \begin{split}
-		T
-		&= \sum_{i=1}^k \times W^k_{feed} \times P
-    \end{split}
-\end{equation}
+% Variabel k mengartikan jumlah dari sumber protein yang berbeda. Hal ini juga dapat dilakukan pada FCR dan T sebagai berikut.
+% \begin{equation}
+%     \begin{split}
+% 		FCR
+% 		&= \frac{\sum_{i=1}^k \times W^k_{feed}}{W_{fish}}
+%     \end{split}
+% \end{equation}
+% \begin{equation}
+%     \begin{split}
+% 		T
+% 		&= \sum_{i=1}^k \times W^k_{feed} \times P
+%     \end{split}
+% \end{equation}
 
-Pada persamaan 15, hanya memodelkan harga jual minimum barang perikanan agar terhindar dari kerugian. Karena itu, untuk mendapatkan keuntungan diperlukan model yang baru. Disini variabel $T_p$ melambangkan dagangan yang memberikan keuntungan dan $F_g$ sebagai pendapatan pembudidaya.
-\begin{equation}
-    \begin{split}
-		T_p
-		&= T + F_g
-    \end{split}
-\end{equation}
+% Pada persamaan 15, hanya memodelkan harga jual minimum barang perikanan agar terhindar dari kerugian. Karena itu, untuk mendapatkan keuntungan diperlukan model yang baru. Disini variabel $T_p$ melambangkan dagangan yang memberikan keuntungan dan $F_g$ sebagai pendapatan pembudidaya.
+% \begin{equation}
+%     \begin{split}
+% 		T_p
+% 		&= T + F_g
+%     \end{split}
+% \end{equation}
 
-$F_g$ merepresentasikan berapa banyak jam kerja yang dilakukan pembudidaya untuk membudidayakan ikan. Hal ini dapat dijelaskan lebih rinci dalam
-\begin{equation}
-    \begin{split}
-		F_g
-		&= D \times S
-    \end{split}
-\end{equation}
+% $F_g$ merepresentasikan berapa banyak jam kerja yang dilakukan pembudidaya untuk membudidayakan ikan. Hal ini dapat dijelaskan lebih rinci dalam
+% \begin{equation}
+%     \begin{split}
+% 		F_g
+% 		&= D \times S
+%     \end{split}
+% \end{equation}
 
-Dimana D mengartikan berapa banyak hari pembudidaya bekerja sampai musim panen dan S mengartikan upah yang mewakili pendapatan pekerjaan. Dalam berbudidaya, merupakan hal umum bagi pembudidaya ikan untuk menghabiskan waktu seharian penuh untuk mengembangkan dan memantau kolam, karena itu representasi hari lebih ideal. Sebab itu, pembudidaya yang lebih banyak menghabiskan waktunya sampai musim panen tiba harus mendapatkan pendapatan yang sesuai.
+% Dimana D mengartikan berapa banyak hari pembudidaya bekerja sampai musim panen dan S mengartikan upah yang mewakili pendapatan pekerjaan. Dalam berbudidaya, merupakan hal umum bagi pembudidaya ikan untuk menghabiskan waktu seharian penuh untuk mengembangkan dan memantau kolam, karena itu representasi hari lebih ideal. Sebab itu, pembudidaya yang lebih banyak menghabiskan waktunya sampai musim panen tiba harus mendapatkan pendapatan yang sesuai.
 
-Persamaan 15 berlaku jika budidaya ikan membudidayakan ikan tradisional secara tradisional. Dalam sistem intensif aquaculture khususnya BFT, dibutuhkan variabel yang mewakili biaya tambahan yang dikeluarkan untuk penggunaan teknologi. Variabel ${C_i}$ merepresentasikan masing-masing biaya tambahan yang dikeluarkan dalam BFT untuk keseluruhan musim kawin.
-\begin{equation}
-    \begin{split}
-		T
-		&= \sum_{i=1}^k \times W^k_{feed} \times P + \sum_{i=1}^l \times C_i
-    \end{split}
-\end{equation}
+% Persamaan 15 berlaku jika budidaya ikan membudidayakan ikan tradisional secara tradisional. Dalam sistem intensif aquaculture khususnya BFT, dibutuhkan variabel yang mewakili biaya tambahan yang dikeluarkan untuk penggunaan teknologi. Variabel ${C_i}$ merepresentasikan masing-masing biaya tambahan yang dikeluarkan dalam BFT untuk keseluruhan musim kawin.
+% \begin{equation}
+%     \begin{split}
+% 		T
+% 		&= \sum_{i=1}^k \times W^k_{feed} \times P + \sum_{i=1}^l \times C_i
+%     \end{split}
+% \end{equation}
 
-Variabel $C_i$ dapat dijabarkan sebagai berikut.
+% Variabel $C_i$ dapat dijabarkan sebagai berikut.
 
-\begin{itemize}
-	\item $C_1$ = Bahan baku (termasuk pakan dan bahan budidaya)
-	\item $C_2$ = Listrik (dihitung dalam per kolam)
-	\item $C_3$ = Tenaga kerja (dihitung 3-5 jam / orang serta dibagi dengan jumlah kolam)
-	\item $C_4$ = Benih ikan
-\end{itemize}
+% \begin{itemize}
+% 	\item $C_1$ = Bahan baku (termasuk pakan dan bahan budidaya)
+% 	\item $C_2$ = Listrik (dihitung dalam per kolam)
+% 	\item $C_3$ = Tenaga kerja (dihitung 3-5 jam / orang serta dibagi dengan jumlah kolam)
+% 	\item $C_4$ = Benih ikan
+% \end{itemize}
 
 Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
 
@@ -186,6 +186,27 @@ Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami p
 		&= W_p - \alpha \times W_p
     \end{split}
 \end{equation}
+
+Ketika hasil ikan sudah bisa dipanen, maka harga ikan sementara yang bisa digunakan dapat dihitung dengan rumus berikut.
+
+\begin{equation}
+    \begin{split}
+		T
+		&= \frac{\sum_{i=1}^3 C_i + \frac{C_l}{n}}{N}
+    \end{split}
+\end{equation}
+
+\begin{itemize}
+	\item T = Harga jual ikan
+	\item $C_1$ = Harga total benih selama musim berjalan
+	\item $C_2$ = Harga total pakan selama musim berjalan
+	\item $C_3$ = Harga total bahan budidaya selama musim berjalan
+	\item $C_l$ = Harga tagihan listrik
+	\item n = Jumlah kolam
+	\item N = Jumlah ikan yang hidup
+\end{itemize}
+
+Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi harga dasar dalam penjualannya. Tentunya harga tersebut belum bisa menjadi acuan jual karena ada faktor eksternal yang menentukan harga jual ikan tergantung pada kondisi pasar.
 
 \section{Tahapan Penelitian}
 
@@ -289,6 +310,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
 			\hline
 			1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat skema database dari pencatatan inventaris & Complete \\
+			&  & - Membuat integrasi skema database dengan skema database sebelumnya & Complete \\
 			&  & - Membuat mockup dari fitur inventaris & Complete \\
 			\hline
 			\end{tabular}
@@ -304,7 +326,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
 			\hline
 			1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat alur UI/UX dari design aplikasi & Complete \\
-			&  & - Mengupdate skema database serta integrasinya pada inventaris & Complete \\ 
+			&  & - Mengupdate skema database pada inventaris & Complete \\ 
 			% &  & -  & Complete \\ 
 			\hline
 			\end{tabular}
@@ -318,9 +340,9 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	\begin{enumerate}
 		\item \textbf{Sprint 1}
 		
-		Sprint 1 dilaksanakan pada tanggal 15 Februari 2023 - XX Maret 2023. Pada sprint ini mengerjakan tugas yang ada pada Sprint 1 Backlog di Tabel 3.2.
+		Detail dari Sprint 1 ini adalah mengerjakan tugas yang ada pada Sprint 1 Backlog di \textbf{Tabel 3.2}.
 
-		Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada Gambar 3.4 berikut.
+		Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada \textbf{Gambar 3.5} berikut.
 		
 		\begin{figure}[H]
 			\centering
@@ -340,7 +362,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	
 		Dalam tabel database tersebut, pada kolom pertama terdapat jenis \textit{key} yang dijadikan patokan dalam tabel database tersebut. Kemudian kolom kedua dan ketiga merupakan hubungan antara nama data dan tipe data yang mewakili nama data tersebut.
 	
-		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada Gambar 3.5.
+		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada \textbf{Gambar 3.5}.
 	
 		\begin{figure}[H]
 			\centering
@@ -348,11 +370,130 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Integrasi Skema Database Inventaris dengan Skema Database Iterasi 1}
 		\end{figure}
 
+		Berikut merupakan mockup dari fitur inventaris yang mencakup skema database sebelumnya.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.32\textwidth]{gambar/sprint1/mockup_home.png}
+			\caption{Menu Inventaris pada Halaman Home}
+		\end{figure}
+
+		\begin{figure}[H]
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_feed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_feed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_feed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			\endminipage
+		\end{figure}
+
+		\begin{figure}[H]
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_materials.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_materials.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_materials.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			\endminipage
+		\end{figure}
+
+		\begin{figure}[H]
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_electric.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_electric.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_electric.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			\endminipage
+		\end{figure}
+
+		\begin{figure}[H]
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_seed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_seed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_seed.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			\endminipage
+		\end{figure}
+
+		\begin{figure}[H]
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_aset.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_aset.png}
+			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			\endminipage
+		\end{figure}
+
 		\item \textbf{Sprint 2}
 		
-		Dalam membuat mockup design ini, 
-		
-		Berikut merupakan mockup dari fitur inventaris berdasarkan skema database yang sudah dibuat sebelumnya.
+		Detail dari Sprint 2 ini adalah mengerjakan tugas yang ada pada Sprint 2 Backlog di \textbf{Tabel 3.3}.
+
+		Berikut merupakan alur user sebagai pengguna aplikasi berdasarkan mockup yang sudah dibuat pada Sprint 1.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_feed.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_materials.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_electric.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+
+		HEHEHEHHE
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_seed.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_asset.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+
+		Selama masa Sprint 2 berlangsung, tim bertemu dengan perwakilan dari Dinas Perikanan Bogor. Dari pertemuan itu, terdapat beberapa perubahan user requirement sehingga perlu merubah skema database yang sudah dibuat pada Sprint 1. Berikut merupakan perubahan yang diterapkan pada skema database inventaris.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{gambar/sprint2/inventory_schema.png}
+			\caption{Skema Database Fitur Inventaris}
+		\end{figure}
+
+		Berdasarkan skema database inventaris tersebut, jika dibandingkan dengan skema database inventaris sebelumnya pada \textbf{Gambar 3.5} terdapat pembaruan pada bagian inventaris pakan, bahan budidaya, benih, dan aset.
+
 	\end{enumerate}
 	
 	\item Sprint Review
@@ -367,7 +508,69 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 \section{Pengujian}
 
+Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jenis pengujian yaitu unit testing dan User Acceptance Test (UAT). Pengujian unit testing dilakukan oleh tim internal developer aplikasi untuk memastikan kepastian fungsi fitur dan cara kerja fitur agar aplikasi sesuai dengan kebutuhan. Sementara UAT dilakukan oleh user untuk mengetahui apakah aplikasi sudah memenuhi kebutuhan dan layak digunakan.
 
+\begin{enumerate}
+	\item Unit Testing
+	
+	Pengujian dengan unit testing ini dibuat berdasarkan product backlog yang ada pada \textbf{Tabel 3.1}. Untuk skenario pengujiannya dapat dilihat pada \textbf{Tabel 3.4} berikut.
+
+	\begin{table}[H]	
+		\begin{center}
+			\caption{Tabel Skenario Unit Testing}
+			\label{tab:table8}
+			\begin{tabular}{|m{13em}|m{17em}|}
+			\hline
+			\textbf{Jenis Fitur} & \textbf{Skenario Pengujian} \\
+			\hline
+			Pencatatan Inventaris & Saat aplikasi dibuka dan sudah terautentikasi, halaman dashboard akan tampil \\
+			\hline
+			 & Di halaman dashboard, terdapat tombol list yang ada pada pojok kiri atas aplikasi \\
+			\hline
+			 & Jika tombol list ditekan, maka akan tampil beberapa list menu inventaris \\
+			\hline
+			& Ketika salah satu tombol pada list inventaris ditekan, maka akan masuk ke halaman detail data inventaris dari menu yang dipilih \\
+			\hline
+			& Pada halaman detail data inventaris, ketika tombol riwayat di pojok kanan atas ditekan akan muncul rincian input pada sistem inventaris \\
+			\hline
+			& Pada halaman detail data inventaris, Ketika tombol (+) yang ada di pojok kanan bawah ditekan akan masuk ke halaman input data inventaris \\
+			\hline
+			Pencatatan Inventaris (Listrik dan Aset) & Khusus untuk inventaris listrik dan aset, dipojok kanan atas halaman detail data inventaris terdapat tombol filter yang jika ditekan akan memfilter data inventaris berdasarkan jenis filter yang dipilih  \\
+			\hline
+			\end{tabular}
+		\end{center}
+	\end{table}	
+
+	\item User Acceptance Test (UAT)
+	
+	Pengujian dengan User Acceptance Test dibuat berdasarkan fitur yang bisa diakses oleh user pada product backlog yang ada pada \textbf{Tabel 3.1}. Untuk skenario pengujiannya dapat dilihat pada \textbf{Tabel 3.5} berikut.
+
+	\begin{table}[H]	
+		\begin{center}
+			\caption{Tabel Skenario UAT}
+			\label{tab:table9}
+			\begin{tabular}{|m{10em}|m{14em}|m{5em}|}
+			\hline
+			\textbf{Jenis Fitur} & \textbf{Skenario Pengujian} & \textbf{Jenis Pengujian} \\
+			\hline
+			Pencatatan Inventaris & Menekan tombol list pada halaman dashboad dan memilih menu inventaris yang ada pada list, kemudian menekan tombol (+) untuk menambahkan data serta tombol riwayat untuk melihat rincian input inventaris & UAT \\
+			\hline
+			%  & Di halaman dashboard, terdapat tombol list yang ada pada pojok kiri atas aplikasi \\
+			% \hline
+			%  & Jika tombol list ditekan, maka akan tampil beberapa list menu inventaris \\
+			% \hline
+			% & Ketika salah satu tombol pada list inventaris ditekan, maka akan masuk ke halaman detail data inventaris dari menu yang dipilih \\
+			% \hline
+			% & Pada halaman detail data inventaris, ketika tombol riwayat di pojok kanan atas ditekan akan muncul rincian input pada sistem inventaris \\
+			% \hline
+			% & Pada halaman detail data inventaris, Ketika tombol (+) yang ada di pojok kanan bawah ditekan akan masuk ke halaman input data inventaris \\
+			% \hline
+			% Pencatatan Inventaris (Listrik dan Aset) & Khusus untuk inventaris listrik dan aset, dipojok kanan atas halaman detail data inventaris terdapat tombol filter yang jika ditekan akan memfilter data inventaris berdasarkan jenis filter yang dipilih  \\
+			% \hline
+			\end{tabular}
+		\end{center}
+	\end{table}	
+\end{enumerate}
 
 % \subsection*{Daily Scrum}
 
