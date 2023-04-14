@@ -442,7 +442,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		Jika pada halaman menu inventaris sebelumnya dipilih menu "Listrik", maka akan masuk ke halaman data inventaris tagihan listrik. Pada halaman ini terdapat list dari tagihan listrik perbulannya yang digunakan oleh pembudidaya, data yang ditampilkan berupa bulan, jumlah listrik, serta total biaya tagihan. Jika list bulan tersebut ditekan, maka akan pindah ke halaman detail dari tagihan listrik dibulan tersebut. 
 
-		Untuk tombol (+) yang ada dipojok kanan bawah, jika ditekan akan masuk ke halaman input tagihan. Form yang harus diisi hanya jumlah token listrik dan harga belinya.
+		Untuk tombol (+) yang ada di pojok kanan bawah, jika ditekan akan masuk ke halaman input tagihan. Form yang harus diisi hanya jumlah token listrik dan harga belinya. Sementara tombol filter yang ada di pojok kanan atas berfungsi untuk memfilter data sesuai keinginan user.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
@@ -459,63 +459,88 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\endminipage
 		\end{figure}
 
-		Jika pada halaman menu inventaris sebelumnya dipilih menu "Benih", maka akan masuk ke halaman data inventaris benih. Pada halaman ini 
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Benih", maka akan masuk ke halaman data inventaris benih. Pada halaman ini terdapat list dari benih yang sudah diinput pada sistem inventaris yang terbagi menjadi dua jenis yaitu benih jenis kelas benih (kecil) dan kelas pembesaran (besar). Masing-masing data memiliki detail seperti tahun benih di input, jenis benih, dan jumlah dari benih.
+
+		Untuk tombol (+) yang ada di pojok kanan bawah, jika ditekan akan dinavigasikan ke halaman input benih ikan. Halaman input ini memiliki form seperti pada \textbf{Gambar 3.19}. Terdapat dua jenis form yang berbeda berdasarkan ketegori yang dipilih, untuk kategori kelas benih pada bagian ukurannya menggunakan satuan sortir sementara untuk kategori kelas pembesaran menggunakan panjang dan lebar untuk ukurannya.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
-			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_aset.png}
-			  \caption{A really Awesome Image}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_aset.png}
+			  \caption{Halaman Data Inventaris Aset}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
-			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_aset.png}
-			  \caption{A really Awesome Image}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_aset.png}
+			  \caption{Halaman Input Inventaris Aset}
 			\endminipage
 		\end{figure}
 
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Aset", maka akan masuk ke halaman data inventaris aset. Pada halaman ini, ditampilkan jenis dari aset-aset yang digunakan selama masa budidaya.
+		
+		Aset dibagi menjadi empat jenis kategori yaitu aset tukang (aset yang diperlukan pembudidaya), aset budidaya (aset yang dibutuhkan selama budidaya berlangsung), aset kolam (aset yang digunakan dalam kolam budidaya), dan aset living (aset yang diperlukan selama berlangsungnya musim budidaya).
+
+		Tombol (+) pada pojok kanan bawah berfungsi untuk navigasi ke halaman input sementara tombol filter pada pojok kanan atas berfungsi untuk filter data.
+
 		\item \textbf{Sprint 2}
 		
-		Detail dari Sprint 2 ini adalah mengerjakan tugas yang ada pada Sprint 2 Backlog di \textbf{Tabel 3.3}.
-
-		Berikut merupakan alur user sebagai pengguna aplikasi berdasarkan mockup yang sudah dibuat pada Sprint 1.
+		Detail dari Sprint 2 ini adalah mengerjakan tugas yang ada pada Sprint 2 Backlog di \textbf{Tabel 3.3}. Berikut merupakan alur user sebagai pengguna aplikasi berdasarkan mockup yang sudah dibuat pada Sprint 1.
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_feed.png}
-			\caption{Skema Database Fitur Inventaris}
+			\includegraphics[width=0.9\textwidth]{gambar/sprint2/flow_feed.png}
+			\caption{Alur Inventaris Pakan}
 		\end{figure}
+
+		Pada \textbf{Gambar 3.23} merupakan alur dari inventaris pakan. Pengguna akan memilih menu "Pakan" dan masuk ke halaman data inventaris pakan, kemudian tombol (+) akan menavigasikan pengguna ke halaman input pakan dan tombol riwayat akan menavigasikan pengguna ke halaman detail input pakan.
+
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_materials.png}
-			\caption{Skema Database Fitur Inventaris}
-		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_electric.png}
-			\caption{Skema Database Fitur Inventaris}
+			\caption{Alur Inventaris Bahan Budidaya}
 		\end{figure}
 
-		HEHEHEHHE
+		Pada \textbf{Gambar 3.24} merupakan alur dari inventaris bahan budidaya. Pengguna akan memilih menu "Bahan Budidaya" dan masuk ke halaman data inventaris budidaya, kemudian tombol (+) akan menavigasikan pengguna ke halaman input bahan budidaya dan tombol riwayat akan menavigasikan pengguna ke halaman detail input bahan budidaya.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{gambar/sprint2/flow_electric.png}
+			\caption{Alur Inventaris Listrik}
+		\end{figure}
+
+		Pada \textbf{Gambar 3.25} merupakan alur dari inventaris listrik. Pengguna akan memilih menu "Listrik" dan masuk ke halaman data inventaris listrik, kemudian tombol (+) akan menavigasikan pengguna ke halaman input listrik serta jika pengguna menekan salah satu list bulan pada data listrik, maka akan masuk ke halaman detail input tagihan listrik.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_seed.png}
-			\caption{Skema Database Fitur Inventaris}
+			\caption{Alur Inventaris Benih}
 		\end{figure}
+
+		Pada \textbf{Gambar 3.26} merupakan alur dari inventaris benih. Pengguna akan memilih menu "Benih" dan masuk ke halaman data inventaris benih, kemudian tombol (+) akan menavigasikan pengguna ke halaman input benih dan tombol riwayat akan menavigasikan pengguna ke halaman detail input benih.
+
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=1\textwidth]{gambar/sprint2/flow_asset.png}
-			\caption{Skema Database Fitur Inventaris}
+			\caption{Alur Inventaris Aset}
 		\end{figure}
+
+		Pada \textbf{Gambar 3.27} merupakan alur dari inventaris aset. Pengguna akan memilih menu "Aset" dan masuk ke halaman data inventaris aset, kemudian tombol (+) akan menavigasikan pengguna ke halaman input aset.
 
 		Selama masa Sprint 2 berlangsung, tim bertemu dengan perwakilan dari Dinas Perikanan Bogor. Dari pertemuan itu, terdapat beberapa perubahan user requirement sehingga perlu merubah skema database yang sudah dibuat pada Sprint 1. Berikut merupakan perubahan yang diterapkan pada skema database inventaris.
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1\textwidth]{gambar/sprint2/inventory_schema.png}
-			\caption{Skema Database Fitur Inventaris}
+			\includegraphics[width=1.15\textwidth]{gambar/sprint2/inventory_schema.png}
+			\caption{Update Skema Database Inventaris}
 		\end{figure}
 
 		Berdasarkan skema database inventaris tersebut, jika dibandingkan dengan skema database inventaris sebelumnya pada \textbf{Gambar 3.5} terdapat pembaruan pada bagian inventaris pakan, bahan budidaya, benih, dan aset.
+
+		Pada skema database di inventaris pakan (fish\_feed), ditambahkan \textit{key} \textbf{feed\_category\_id} karena pada inventaris pakan diharuskan memilih kategori pakan yang akan dimasukkan. Untuk itu feed\_category\_id berperan untuk menampung jenis kategori pakan yang akan diinput. Sebelumnya jenis inventaris pakan tidak memiliki kategori, sehingga perlu ditambahkan \textit{key} baru untuk jenis data kategori tersebut.
+
+		Kemudian, di skema database inventaris bahan budidaya (material\_parts) ditambahkan \textit{key} \textbf{function\_id} karena bahan budidaya dibagi menjadi dua fungsi yaitu perawatan air dan obat-obatan. Sebelumnya inventaris bahan budidaya tidak memiliki kategori, sehingga harus ditambahkan \textit{key} baru pada database untuk menampung jenis data tersebut.
+
+		Lalu pada skema database inventaris benih ditambahkan \textit{key} \textbf{fish\_seed\_category\_id}, \textbf{sorting\_size}, \textbf{length}, serta \textbf{width}. \textit{key} tersebut ditambahkan karena pada benih dibagi menjadi dua jenis yaitu kelas benih dan kelas pembesaran. Masing-masing kategori memiliki jenis data pengukuran yang berbeda, pada kelas benih digunakan pengukuran satuan sortir dengan \textit{key} sorting\_size sementara kelas pembesaran digunakan pengukuran panjang dan lebar dengan \textit{key} \textit{length} dan \textit{width}. Sebelumnya untuk benih tidak terdapat kategori dan jenis ukuran benih sehingga \textit{key} baru diperlukan untuk menampung data tersebut.
+
+		Terakhir terdapat perubahan pada skema database inventaris aset yaitu ditambahkan \textit{key} \textbf{asset\_category\_id} dan \textbf{amount}. Sebelumnya inventaris aset hanya menampung segala jenis aset yang digunakan pada musim budidaya tanpa adanya jenis kategori dan jumlah yang spesifik, namun di skema database sekarang dapat ditentukan jenis kategori pada aset dan berapa jumlah aset yang digunakan sehingga pemantauan aset yang digunakan menjadi lebih detail.
 
 	\end{enumerate}
 	
