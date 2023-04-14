@@ -206,7 +206,7 @@ Ketika hasil ikan sudah bisa dipanen, maka harga ikan sementara yang bisa diguna
 	\item N = Jumlah ikan yang hidup
 \end{itemize}
 
-Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi harga dasar dalam penjualannya. Tentunya harga tersebut belum bisa menjadi acuan jual karena ada faktor eksternal yang menentukan harga jual ikan tergantung pada kondisi pasar.
+Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi harga dasar dalam penjualannya. Tentunya harga tersebut hanya merupakan harga panen dan pembudidaya tidak wajib menggunakan harga tersebut dalam transaksi.
 
 \section{Tahapan Penelitian}
 
@@ -216,7 +216,7 @@ Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi h
 	\caption{Alur Tahapan Penelitian}
 \end{figure}
 
-Desain penelitian adalah alur yang dijalankan selama masa pengembangan aplikasi. Pada Gambar 3.2, terdapat desain penelitian yang digunakan dalam pembuatan aplikasi ini dengan metode Scrum.
+Desain penelitian adalah alur yang dijalankan selama masa pengembangan aplikasi. Pada \textbf{Gambar 3.2}, terdapat desain penelitian yang digunakan dalam pembuatan aplikasi ini dengan metode Scrum.
 
 % \section{Analisa Arsitektur Fitur}
 
@@ -373,79 +373,102 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 		Berikut merupakan mockup dari fitur inventaris yang mencakup skema database sebelumnya.
 
 		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.32\textwidth]{gambar/sprint1/mockup_home.png}
-			\caption{Menu Inventaris pada Halaman Home}
+			\minipage{0.32\textwidth}
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_dashboard.png}
+			  \caption{Halaman Dashboard}
+			\endminipage\hfill
+			\minipage{0.32\textwidth}%
+			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_home.png}
+			  \caption{Halaman Menu Inventaris}
+			\endminipage
 		\end{figure}
+
+		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.8}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi-fungsi yang sesuai dengan skema inventaris.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_feed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			  \caption{Halaman Data Inventaris Pakan}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_feed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			  \caption{Halaman Input Inventaris Pakan}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_feed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			  \caption{Halaman Detail Inventaris Pakan}
 			\endminipage
 		\end{figure}
+
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Pakan", maka akan masuk ke halaman data inventaris pakan. Pada halaman ini terdapat 3 jenis pakan yaitu pakan industri (pelet), alami (tumbuh-tumbuhan), serta campuran (tepung, terigu, dll). Masing-masing jenis pakan memiliki detail data yaitu nama atau merek pakan, total jumlah pakan yang tersedia, serta tanggal kadaluarsa dari pakan tersebut.
+
+		Tombol (+) yang ada di pojok kanan bawah akan mengarahkan ke halaman input dari inventaris pakan. Disini diberikan form input yang beragam seperti yang ada pada \textbf{Gambar 3.10}.
+
+		Sementara tombol riwayat yang ada di pojok kanan atas akan mengarahkan ke halaman detail dari inventaris pakan. Di halaman ini ditampilkan detail pemasukkan pakan ke sistem inventaris.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_materials.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			  \caption{Halaman Data Inventaris Bahan Budidaya}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_materials.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			  \caption{Halaman Input Inventaris Bahan Budidaya}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_materials.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			  \caption{Halaman Detail Inventaris Bahan Budidaya}
 			\endminipage
 		\end{figure}
+
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Bahan Budidaya", maka akan masuk ke halaman data inventaris bahan budidaya. Pada halaman ini terdapat 2 jenis bahan budidaya yang dibagi berdasarkan fungsi yaitu perawatan air dan obat-obatan (Methylene Blue, dll). Sama seperti pada inventaris pakan, masing-masing jenis bahan budidaya memiliki detail data yaitu nama atau merek, total jumlah yang tersedia, serta tanggal kadaluarsa.
+
+		Sama seperti halaman inventaris pakan, tombol (+) mengarahkan ke halaman input seperti \textbf{Gambar 3.13} dan tombol riwayat akan mengarahkan ke halaman detail inventaris seperti pada \textbf{Gambar 3.14}.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_electric.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			  \caption{Halaman Data Inventaris Tagihan Listrik}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_electric.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			  \caption{Halaman Input Inventaris Tagihan Listrik}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_electric.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			  \caption{Halaman Detail Inventaris Tagihan Listrik}
 			\endminipage
 		\end{figure}
+
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Listrik", maka akan masuk ke halaman data inventaris tagihan listrik. Pada halaman ini terdapat list dari tagihan listrik perbulannya yang digunakan oleh pembudidaya, data yang ditampilkan berupa bulan, jumlah listrik, serta total biaya tagihan. Jika list bulan tersebut ditekan, maka akan pindah ke halaman detail dari tagihan listrik dibulan tersebut. 
+
+		Untuk tombol (+) yang ada dipojok kanan bawah, jika ditekan akan masuk ke halaman input tagihan. Form yang harus diisi hanya jumlah token listrik dan harga belinya.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_detail_seed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image1}
+			  \caption{Halaman Data Inventaris Benih}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_seed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			  \caption{Halaman Input Inventaris Benih}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_seed.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			  \caption{Halaman Detail Inventaris Benih}
 			\endminipage
 		\end{figure}
+
+		Jika pada halaman menu inventaris sebelumnya dipilih menu "Benih", maka akan masuk ke halaman data inventaris benih. Pada halaman ini 
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_aset.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image2}
+			  \caption{A really Awesome Image}
 			\endminipage\hfill
 			\minipage{0.32\textwidth}%
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_aset.png}
-			  \caption{A really Awesome Image}\label{fig:awesome_image3}
+			  \caption{A really Awesome Image}
 			\endminipage
 		\end{figure}
 
