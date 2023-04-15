@@ -839,6 +839,7 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/li
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/multirow/multirow.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1ptm.fd
@@ -957,9 +958,79 @@ INPUT ./pengesahan.tex
 INPUT pengesahan.tex
 INPUT ./pengesahan.tex
 INPUT pengesahan.tex
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT assets/lembar_pengesahan_sps.pdf
+INPUT ./assets/lembar_pengesahan_sps.pdf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+OUTPUT halaman-persembahan.aux
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+OUTPUT kata-pengantar.aux
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
@@ -979,38 +1050,6 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ba
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy8.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-OUTPUT halaman-persembahan.aux
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT halaman-persembahan.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-OUTPUT kata-pengantar.aux
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
@@ -1044,12 +1083,6 @@ INPUT ./bab2.tex
 INPUT bab2.tex
 INPUT ./bab2.tex
 INPUT bab2.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/restapi.png
 INPUT ./gambar/restapi.png
 INPUT gambar/restapi.png
@@ -1074,6 +1107,11 @@ INPUT ./gambar/research_tree.png
 INPUT ./gambar/research_tree.png
 INPUT ./gambar/research_tree.png
 INPUT ./gambar/research_tree.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT gambar/tahapan_penelitian.png
@@ -1081,6 +1119,7 @@ INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT gambar/usecase_iterasi_2.png
