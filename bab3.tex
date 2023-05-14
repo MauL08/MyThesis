@@ -273,7 +273,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 	\begin{table}[H]	
 		\begin{center}
-			\caption{Tabel Product Backlog}
+			\caption{Product Backlog}
 			\label{tab:table5}
 			\begin{tabular}{|c|m{17em}|c|c|}
 			\hline
@@ -299,39 +299,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 	\item Sprint Backlog
 	
-	Sprint Backlog adalah daftar tugas yang \textbf{harus} dijalankan selama masa Sprint berlangsung. Tugas yang ada pada Sprint Backlog bersifat fleksibel seiring dengan berjalannya Sprint. Berikut merupakan tabel dari Sprint Backlog yang sudah berjalan.
-
-	\begin{table}[H]	
-		\begin{center}
-			\caption{Tabel Sprint 1 Backlog}
-			\label{tab:table6}
-			\begin{tabular}{|c|c|m{13em}|c|}
-			\hline
-			\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
-			\hline
-			1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat skema database dari pencatatan inventaris & Complete \\
-			&  & - Membuat integrasi skema database dengan skema database sebelumnya & Complete \\
-			&  & - Membuat mockup dari fitur inventaris & Complete \\
-			\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
-
-	\begin{table}[H]	
-		\begin{center}
-			\caption{Tabel Sprint 2 Backlog}
-			\label{tab:table7}
-			\begin{tabular}{|c|c|m{13em}|c|}
-			\hline
-			\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
-			\hline
-			1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat alur UI/UX dari design aplikasi & Complete \\
-			&  & - Mengupdate skema database pada inventaris & Complete \\ 
-			% &  & -  & Complete \\ 
-			\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
+	Sprint Backlog adalah daftar tugas yang \textbf{harus} dijalankan selama masa Sprint berlangsung. Tugas yang ada pada Sprint Backlog bersifat fleksibel seiring dengan berjalannya Sprint.
 
 	\item Sprint
 	
@@ -340,13 +308,29 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	\begin{enumerate}
 		\item \textbf{Sprint 1}
 		
-		Detail dari Sprint 1 ini adalah mengerjakan tugas yang ada pada Sprint 1 Backlog di \textbf{Tabel 3.2}.
+		Detail dari Sprint 1 ini adalah mengerjakan tugas yang ada pada Sprint 1 Backlog di tabel berikut.
+
+		\begin{table}[H]	
+			\begin{center}
+				\caption{Sprint 1 Backlog}
+				\label{tab:table6}
+				\begin{tabular}{|c|c|m{13em}|c|}
+				\hline
+				\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
+				\hline
+				1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat skema database dari pencatatan inventaris & Complete \\
+				&  & - Membuat integrasi skema database dengan skema database sebelumnya & Complete \\
+				&  & - Membuat mockup dari fitur inventaris & Complete \\
+				\hline
+				\end{tabular}
+			\end{center}
+		\end{table}
 
 		Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada \textbf{Gambar 3.5} berikut.
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1\textwidth]{gambar/sprint1/sprint1_inventaris_database.jpeg}
+			\includegraphics[width=0.75\textwidth]{gambar/sprint1/sprint1_inventaris_database.jpeg}
 			\caption{Skema Database Fitur Inventaris}
 		\end{figure}
 	
@@ -369,6 +353,8 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\includegraphics[width=1\textwidth]{gambar/sprint1/sprint1_skema_database.png}
 			\caption{Integrasi Skema Database Inventaris dengan Skema Database Iterasi 1}
 		\end{figure}
+
+		Dari integrasi diatas, tabel fish\_feed diintegrasikan dengan tabel feed\_type yang digunakan untuk input pakan dan tabel material\_organic diintegrasikan dengan tabel pond\_treatment karena dalam fitur treatment kolam diperlukan data dari tabel material organik tersebut. Lalu tabel fish\_seed diintegrasikan dengan tabel pond\_activation dan fish\_log untuk aktivasi kolam dan perhitungan jumlah ikan. Sementara itu, tabel electric\_bill dan asset\_tools merupakan individu yang tidak terintegrasi dengan tabel yang lain. Hal ini dikarenakan tabel tersebut hanya untuk menyimpan datanya saja dan tidak digunakan di dalam fitur.
 
 		Berikut merupakan mockup dari fitur inventaris yang mencakup skema database sebelumnya.
 
@@ -482,7 +468,27 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		\item \textbf{Sprint 2}
 		
-		Detail dari Sprint 2 ini adalah mengerjakan tugas yang ada pada Sprint 2 Backlog di \textbf{Tabel 3.3}. Berikut merupakan alur user sebagai pengguna aplikasi berdasarkan mockup yang sudah dibuat pada Sprint 1.
+		Detail dari Sprint 2 ini adalah mengerjakan tugas yang ada pada Sprint 2 Backlog di tabel berikut.
+		
+		\begin{table}[H]	
+			\begin{center}
+				\caption{Sprint 2 Backlog}
+				\label{tab:table7}
+				\begin{tabular}{|c|c|m{13em}|c|}
+				\hline
+				\textbf{No} & \textbf{Stories} & \textbf{Task} & \textbf{Status} \\
+				\hline
+				1 & \multirow{2}{10em}{Fitur pencatatan inventaris} & - Membuat alur UI/UX dari design aplikasi & Complete \\
+				&  & - Mengupdate skema database pada inventaris & Complete \\ 
+				% &  & -  & Complete \\ 
+				\hline
+				\end{tabular}
+			\end{center}
+		\end{table}
+
+		Selama masa Sprint 2 berlangsung, tim bertemu dengan perwakilan dari Dinas Perikanan Bogor. Dari pertemuan itu, salah satunya terdapat beberapa perubahan user requirement sehingga perlu merubah skema database yang sudah dibuat pada Sprint 1. Lalu, terdapat juga pertimbangan perubahan penentuan harga jual ikan dengan ditambahkannya perhitungan aset namun hal ini belum ditentukan akan masuk perhitungan atau tidak. 
+
+		Berikut merupakan alur user sebagai pengguna aplikasi berdasarkan mockup yang sudah dibuat pada Sprint 1.
 
 		\begin{figure}[H]
 			\centering
@@ -524,11 +530,11 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		Pada \textbf{Gambar 3.27} merupakan alur dari inventaris aset. Pengguna akan memilih menu "Aset" dan masuk ke halaman data inventaris aset, kemudian tombol (+) akan menavigasikan pengguna ke halaman input aset.
 
-		Selama masa Sprint 2 berlangsung, tim bertemu dengan perwakilan dari Dinas Perikanan Bogor. Dari pertemuan itu, terdapat beberapa perubahan user requirement sehingga perlu merubah skema database yang sudah dibuat pada Sprint 1. Berikut merupakan perubahan yang diterapkan pada skema database inventaris.
+		Seteleh semua alur telah selesai dibuat, selanjutnya merupakan perubahan skema database inventaris yang dapat dilihat pada \textbf{Gambar 3.28} berikut.
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1.15\textwidth]{gambar/sprint2/inventory_schema.png}
+			\includegraphics[width=1\textwidth]{gambar/sprint2/inventory_schema.jpeg}
 			\caption{Update Skema Database Inventaris}
 		\end{figure}
 
@@ -550,7 +556,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	
 	\item Deploy Sistem
 	
-	Ketika semua task sprint yang ada di sprint backlog selesai, maka aplikasi akan di deploy untuk dijalankan pengujian pada aplikasi. Pengujian aplikasi ini dilakukan dengan menggunakan Unit Testing dan User Acceptance Test (UAT).
+	Ketika semua task sprint yang ada di sprint backlog selesai, maka aplikasi akan di deploy untuk dijalankan pengujian pada aplikasi. Pengujian aplikasi ini dilakukan dengan menggunakan Unit Testing dan User Analytics.
 	
 \end{enumerate}
 
@@ -561,11 +567,11 @@ Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jen
 \begin{enumerate}
 	\item Unit Testing
 	
-	Pengujian dengan unit testing ini dibuat berdasarkan product backlog yang ada pada \textbf{Tabel 3.1}. Untuk skenario pengujiannya dapat dilihat pada \textbf{Tabel 3.4} berikut.
+	Pengujian dengan unit testing ini dibuat berdasarkan product backlog dan daftar sprint-sprint backlog yang sudah selesai. Pengujian internal ini mengubah status Complete pada task di Sprint Backlog menjadi Tested. Berikut skenario pengujian yang akan dilakukan dapat dilihat pada \textbf{Tabel 3.4} berikut.
 
 	\begin{table}[H]	
 		\begin{center}
-			\caption{Tabel Skenario Unit Testing}
+			\caption{Skenario Unit Testing}
 			\label{tab:table8}
 			\begin{tabular}{|m{13em}|m{17em}|}
 			\hline
@@ -587,37 +593,55 @@ Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jen
 			\hline
 			\end{tabular}
 		\end{center}
-	\end{table}	
+	\end{table}
 
-	\item User Acceptance Test (UAT)
+	\item User Analytics
 	
-	Pengujian dengan User Acceptance Test dibuat berdasarkan fitur yang bisa diakses oleh user pada product backlog yang ada pada \textbf{Tabel 3.1}. Untuk skenario pengujiannya dapat dilihat pada \textbf{Tabel 3.5} berikut.
+	Pengujian ini dilakukan kepada pembudidaya ikan dengan 3 tahap yaitu tutorial, logging / survei penggunaan aplikasi, dan interview. Tahapan tersebut dilakukan secara bertahap dan masing-masing tahap dijelaskan seperti berikut.
 
-	\begin{table}[H]	
-		\begin{center}
-			\caption{Tabel Skenario UAT}
-			\label{tab:table9}
-			\begin{tabular}{|m{10em}|m{14em}|m{5em}|}
-			\hline
-			\textbf{Jenis Fitur} & \textbf{Skenario Pengujian} & \textbf{Jenis Pengujian} \\
-			\hline
-			Pencatatan Inventaris & Menekan tombol list pada halaman dashboad dan memilih menu inventaris yang ada pada list, kemudian menekan tombol (+) untuk menambahkan data serta tombol riwayat untuk melihat rincian input inventaris & UAT \\
-			\hline
-			%  & Di halaman dashboard, terdapat tombol list yang ada pada pojok kiri atas aplikasi \\
-			% \hline
-			%  & Jika tombol list ditekan, maka akan tampil beberapa list menu inventaris \\
-			% \hline
-			% & Ketika salah satu tombol pada list inventaris ditekan, maka akan masuk ke halaman detail data inventaris dari menu yang dipilih \\
-			% \hline
-			% & Pada halaman detail data inventaris, ketika tombol riwayat di pojok kanan atas ditekan akan muncul rincian input pada sistem inventaris \\
-			% \hline
-			% & Pada halaman detail data inventaris, Ketika tombol (+) yang ada di pojok kanan bawah ditekan akan masuk ke halaman input data inventaris \\
-			% \hline
-			% Pencatatan Inventaris (Listrik dan Aset) & Khusus untuk inventaris listrik dan aset, dipojok kanan atas halaman detail data inventaris terdapat tombol filter yang jika ditekan akan memfilter data inventaris berdasarkan jenis filter yang dipilih  \\
-			% \hline
-			\end{tabular}
-		\end{center}
-	\end{table}	
+	\begin{enumerate}
+		\item Tahap Tutorial
+		
+		Pada tahap ini, dilakukan sesi pertemuan dengan para pembudidaya untuk menjelaskan fitur-fitur yang ada pada aplikasi secara keseluruhan.
+
+		\item Tahap Logging
+		
+		Pada tahap ini, setiap aktivitas aplikasi yang dilakukan oleh pembudidaya akan dicatat oleh sistem. Hal ini mencakup seperti detail halaman yang diakses dan detail penggunaan fitur yang ada.
+	
+		\item Tahap Interview
+		
+		Pada tahap ini, terdapat sesi interview dengan pembudidaya mengenai penggunaan aplikasi. Dapat ditanyakan detail dari penggunaan aplikasi berdasarkan data logging yang sudah dikumpulkan sebelumnya.
+	\end{enumerate}
+
+	% \item User Acceptance Test (UAT)
+	
+	% Pengujian dengan User Acceptance Test dibuat berdasarkan fitur yang bisa diakses oleh user pada product backlog yang ada pada \textbf{Tabel 3.1}. Untuk skenario pengujiannya dapat dilihat pada \textbf{Tabel 3.5} berikut.
+
+	% \begin{table}[H]	
+	% 	\begin{center}
+	% 		\caption{Tabel Skenario UAT}
+	% 		\label{tab:table9}
+	% 		\begin{tabular}{|m{10em}|m{14em}|m{5em}|}
+	% 		\hline
+	% 		\textbf{Jenis Fitur} & \textbf{Skenario Pengujian} & \textbf{Jenis Pengujian} \\
+	% 		\hline
+	% 		Pencatatan Inventaris & Menekan tombol list pada halaman dashboad dan memilih menu inventaris yang ada pada list, kemudian menekan tombol (+) untuk menambahkan data serta tombol riwayat untuk melihat rincian input inventaris & UAT \\
+	% 		\hline
+	% 		%  & Di halaman dashboard, terdapat tombol list yang ada pada pojok kiri atas aplikasi \\
+	% 		% \hline
+	% 		%  & Jika tombol list ditekan, maka akan tampil beberapa list menu inventaris \\
+	% 		% \hline
+	% 		% & Ketika salah satu tombol pada list inventaris ditekan, maka akan masuk ke halaman detail data inventaris dari menu yang dipilih \\
+	% 		% \hline
+	% 		% & Pada halaman detail data inventaris, ketika tombol riwayat di pojok kanan atas ditekan akan muncul rincian input pada sistem inventaris \\
+	% 		% \hline
+	% 		% & Pada halaman detail data inventaris, Ketika tombol (+) yang ada di pojok kanan bawah ditekan akan masuk ke halaman input data inventaris \\
+	% 		% \hline
+	% 		% Pencatatan Inventaris (Listrik dan Aset) & Khusus untuk inventaris listrik dan aset, dipojok kanan atas halaman detail data inventaris terdapat tombol filter yang jika ditekan akan memfilter data inventaris berdasarkan jenis filter yang dipilih  \\
+	% 		% \hline
+	% 		\end{tabular}
+	% 	\end{center}
+	% \end{table}	
 \end{enumerate}
 
 % \subsection*{Daily Scrum}
