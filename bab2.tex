@@ -1101,7 +1101,6 @@ Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widge
 	Scaffold merupakan bagian utama dari sebuah halaman pada Flutter. Bisa dibilang Scaffold ini adalah \textit{parent} dari semua widget. Berikut contoh penerapan Scaffold pada Flutter.
 
 	\begin{lstlisting}
-
 		import 'package:flutter/material.dart';
 
 		/// Flutter code sample for [Scaffold].
@@ -1147,16 +1146,16 @@ Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widge
 
 	\end{lstlisting}
 
-	Berikut merupakan hasil dari code diatas.
+	Berikut merupakan hasil layout dari code sebelumnya.
 
 	\begin{figure}[H]
 		\centering
 		\hspace{.15\linewidth}
-		\minipage{0.25\textwidth}
+		\minipage{0.23\textwidth}
 		  \includegraphics[width=\linewidth]{gambar/scaffold.png}
 		  \caption{Halaman dengan Scaffold}
 		\endminipage\hfill
-		\minipage{0.25\textwidth}
+		\minipage{0.23\textwidth}
 		  \includegraphics[width=\linewidth]{gambar/no_scaffold.png}
 		  \caption{Halaman tanpa Scaffold}
 		\endminipage
@@ -1192,7 +1191,7 @@ Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widge
 		)
 	\end{lstlisting}
 
-	Berikut merupakan hasil dari code diatas.
+	Berikut merupakan hasil layout dari code sebelumnya.
 
 	\begin{figure}[H]
 		\centering
@@ -1235,8 +1234,12 @@ Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widge
 		class _ElevatedButtonExampleState extends State<ElevatedButtonExample> {
 		@override
 		Widget build(BuildContext context) {
+			/// Set up ElevatedButton Style
+
 			final ButtonStyle style =
 				ElevatedButton.styleFrom(textStyle: const TextStyle(fontSize: 20));
+
+			/// Render ElevatedButton
 
 			return Center(
 			child: Column(
@@ -1260,7 +1263,7 @@ Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widge
 		}
 	\end{lstlisting}
 
-	Berikut merupakan hasil dari code diatas.
+	Berikut merupakan hasil layout dari code sebelumnya.
 
 	\begin{figure}[H]
 		\centering
