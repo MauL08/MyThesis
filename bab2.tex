@@ -636,7 +636,7 @@ Dalam menentukan harga transfer, prinsip dasarnya adalah bahwa harga transfer se
 % \end{enumerate}
 \subsection{Syarat Terpenuhinya Harga Transfer}
 
-Menurut (Silalahi et al., 2019), syarat-syarat yang harus dipenuhi agar twe harga transfer adalah:
+Menurut (Silalahi et al., 2019), syarat-syarat yang harus dijalankan agar terpenuhinya harga transfer adalah:
 
 \begin{enumerate}
 	\item Sistem harus dapat memberikan informasi yang relevan yang dibutuhkan oleh suatu pusat laba untuk dapat menemukan trade-off yang optimum antara biaya dan pendapatan perusahaan.
@@ -1057,6 +1057,16 @@ Sistem harga transfer dapat bervariasi dari yang paling sederhana sampai yang pa
 % 	\end{enumerate}
 % \end{enumerate}
 
+\section{Aqua Breeding}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{gambar/logo_aquabreeding.jpeg}
+	\caption{Logo Aqua Breeding}
+\end{figure}
+
+Aqua Breeding merupakan aplikasi yang digunakan pembudidaya ikan untuk mengontrol budidaya ikan mereka. Aplikasi ini memiliki fitur seperti mencatat pemberian pakan, perhitungan kualitas air, mencatat total panen, serta aktivitas budidaya ikan lainnya. Dari logo pada \textbf{Gambar 2.1}, dapat diartikan aplikasi Aqua Breeding memiliki arti menyatukan para pembudidaya ikan menjadi satu kesatuan dalam aplikasi ini.
+
 \section{Frontend dan Backend}
 
 Dalam pengembangan aplikasi, terdapat 2 sisi pengembangan yaitu Frontend dan Backend. Frontend merupakan bagian yang ditampilkan kepada user seperti contoh halaman dashboard, menu aplikasi, dan sebagainya. Oleh sebab itu, sisi frontend ini juga bisa dibilang sebagai user-side atau client-side.
@@ -1081,6 +1091,183 @@ Beberapa keunggulan penggunaan Flutter sebagai framework pengembangan aplikasi m
 	\item Dokumentasi lengkap
 	
 	Dokumentasi lengkap framework Flutter dapat diakses pada situs resmi Flutter di https://flutter.dev/.
+\end{enumerate}
+
+Dalam Flutter, bagian-bagian yang membentuk sebuah halaman disebut sebagai widget. Beberapa widget Flutter yang umum digunakan dalam pembuatan aplikasi adalah sebagai berikut.
+
+\begin{enumerate}
+	\item Scaffold
+	
+	Scaffold merupakan bagian utama dari sebuah halaman pada Flutter. Bisa dibilang Scaffold ini adalah \textit{parent} dari semua widget. Berikut contoh penerapan Scaffold pada Flutter.
+
+	\begin{lstlisting}
+
+		import 'package:flutter/material.dart';
+
+		/// Flutter code sample for [Scaffold].
+
+		void main() => runApp(const ScaffoldExampleApp());
+
+		class ScaffoldExampleApp extends StatelessWidget {
+		const ScaffoldExampleApp({super.key});
+
+		@override
+		Widget build(BuildContext context) {
+			return const MaterialApp(
+			home: ScaffoldExample(),
+			);
+		}
+		}
+
+		class ScaffoldExample extends StatefulWidget {
+		const ScaffoldExample({super.key});
+
+		@override
+		State<ScaffoldExample> createState() => _ScaffoldExampleState();
+		}
+
+		class _ScaffoldExampleState extends State<ScaffoldExample> {
+		int _count = 0;
+
+		@override
+		Widget build(BuildContext context) {
+			return Scaffold(
+			appBar: AppBar(
+				title: const Text('Sample Code'),
+			),
+			body: Center(child: Text('You have pressed the button $_count times.')),
+			floatingActionButton: FloatingActionButton(
+				onPressed: () => setState(() => _count++),
+				tooltip: 'Increment Counter',
+				child: const Icon(Icons.add),
+			),
+			);
+		}
+		}
+
+	\end{lstlisting}
+
+	Berikut merupakan hasil dari code diatas.
+
+	\begin{figure}[H]
+		\centering
+		\hspace{.15\linewidth}
+		\minipage{0.25\textwidth}
+		  \includegraphics[width=\linewidth]{gambar/scaffold.png}
+		  \caption{Halaman dengan Scaffold}
+		\endminipage\hfill
+		\minipage{0.25\textwidth}
+		  \includegraphics[width=\linewidth]{gambar/no_scaffold.png}
+		  \caption{Halaman tanpa Scaffold}
+		\endminipage
+		\hspace{.15\linewidth}
+	\end{figure}
+
+	Dapat dilihat pada perbandingan \textbf{Gambar 2.2} dan \textbf{Gambar 2.3}, tanpa menggunakan Scaffold maka halaman tidak akan terproses dengan baik.
+
+	\item List View
+	
+	List View merupakan salah satu widget yang digunakan untuk menampilkan list dari data. Berikut contoh penggunaan List View.
+
+	\begin{lstlisting}
+		ListView(
+		padding: const EdgeInsets.all(8),
+		children: <Widget>[
+			Container(
+			height: 50,
+			color: Colors.amber[600],
+			child: const Center(child: Text('Entry A')),
+			),
+			Container(
+			height: 50,
+			color: Colors.amber[500],
+			child: const Center(child: Text('Entry B')),
+			),
+			Container(
+			height: 50,
+			color: Colors.amber[100],
+			child: const Center(child: Text('Entry C')),
+			),
+		],
+		)
+	\end{lstlisting}
+
+	Berikut merupakan hasil dari code diatas.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/list_view.jpeg}
+		\caption{List View}
+	\end{figure}
+
+	\item Elevated Button
+	
+	Elevated Button merupakan salah satu widget button yang digunakan pada Flutter. Berikut contoh penggunaan Elevated Button.
+
+	\begin{lstlisting}
+		import 'package:flutter/material.dart';
+
+		/// Flutter code sample for [ElevatedButton].
+
+		void main() => runApp(const ElevatedButtonExampleApp());
+
+		class ElevatedButtonExampleApp extends StatelessWidget {
+		const ElevatedButtonExampleApp({super.key});
+
+		@override
+		Widget build(BuildContext context) {
+			return MaterialApp(
+			home: Scaffold(
+				appBar: AppBar(title: const Text('ElevatedButton Sample')),
+				body: const ElevatedButtonExample(),
+			),
+			);
+		}
+		}
+
+		class ElevatedButtonExample extends StatefulWidget {
+		const ElevatedButtonExample({super.key});
+
+		@override
+		State<ElevatedButtonExample> createState() => _ElevatedButtonExampleState();
+		}
+
+		class _ElevatedButtonExampleState extends State<ElevatedButtonExample> {
+		@override
+		Widget build(BuildContext context) {
+			final ButtonStyle style =
+				ElevatedButton.styleFrom(textStyle: const TextStyle(fontSize: 20));
+
+			return Center(
+			child: Column(
+				mainAxisSize: MainAxisSize.min,
+				children: <Widget>[
+				ElevatedButton(
+					style: style,
+					onPressed: null,
+					child: const Text('Disabled'),
+				),
+				const SizedBox(height: 30),
+				ElevatedButton(
+					style: style,
+					onPressed: () {},
+					child: const Text('Enabled'),
+				),
+				],
+			),
+			);
+		}
+		}
+	\end{lstlisting}
+
+	Berikut merupakan hasil dari code diatas.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{gambar/elevated_button.png}
+		\caption{Elevated Button}
+	\end{figure}
+
 \end{enumerate}
 
 \section{Flask}
