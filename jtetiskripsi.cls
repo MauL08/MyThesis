@@ -393,6 +393,7 @@
 % \fi%
 % \fi
 % }
+\onehalfspacing
 
 \AtBeginDocument{%
 \if@langindo%
