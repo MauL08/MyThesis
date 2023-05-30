@@ -14,11 +14,11 @@
 	\caption{Diagram Alur Penelitian \textit{Aquaculture}}
 \end{figure}
 
-Pada diagram diatas, dapat dilihat urutan arah dari topik penelitian Aquaculture. Penelitian pertama kali dimulai oleh \citep{fadhil2021} dengan mengembangkan sebuah web service serta website yang berfungsi sebagai Storage Engine dan Monitoring Data Sensing untuk digunakan pada Budidaya Perikanan Air Tawar sebagai media penyimpanan data-data sensing dari sensor yang dikirimkan ke sistem serta memonitoringnya dalam bentuk table dan grafik real-time serta penelitian yang dilakukan oleh \citep{bagus2022} dengan tujuan untuk membangun sistem deteksi objek pada citra ikan dengan metode GrabCut yang telah diautomasi menggunakan \textit{saliency map}. 
+Pada diagram diatas, dapat dilihat urutan arah dari topik penelitian Aquaculture. Penelitian pertama kali dimulai oleh \citep{fadhil2021} dengan mengembangkan sebuah \textit{web service} serta \textit{website} yang berfungsi sebagai \textit{storage engine} dan \textit{monitoring data sensing} untuk digunakan pada budidaya perikanan air tawar sebagai media penyimpanan data-data sensing dari sensor yang dikirimkan ke sistem serta memonitoringnya dalam bentuk table dan grafik \textit{real-time} serta penelitian yang dilakukan oleh \citep{bagus2022} dengan tujuan untuk membangun sistem deteksi objek pada citra ikan dengan metode GrabCut yang telah diautomasi menggunakan \textit{saliency map}.
 
-Penelitian \citep{bagus2022} kemudian dilanjutkan oleh \citep{hafiz2021} yaitu merancang dan membangun sebuah sistem yang dapat melakukan pelacakan pergerakan ikan dengan menggunakan metode GMM dan Kalman Filter. Sementara penelitian \citep{fadhil2021} belum diterapkan pada aplikasi riset Aquaculture dalam waktu dekat sehingga penelitian yang dibuat oleh \citep{andri2022} dilakukan dengan membuat web service juga yang bertujuan untuk melayani transaksi query berupa monitoring budidaya perikanan yang dibarengi dengan penelitian \citep{gian2022} pada bagian perancangan \textit{frontend} sebagai pendukung pada aplikasi yang dikembangkan.
+Penelitian \citep{bagus2022} kemudian dilanjutkan oleh \citep{hafiz2021} yaitu merancang dan membangun sebuah sistem yang dapat melakukan pelacakan pergerakan ikan dengan menggunakan metode GMM dan Kalman Filter. Sementara penelitian \citep{fadhil2021} belum diterapkan pada aplikasi riset \textit{Aquaculture} dalam waktu dekat sehingga penelitian yang dibuat oleh \citep{andri2022} dilakukan dengan membuat \textit{web service} juga yang bertujuan untuk melayani transaksi \textit{query} berupa monitoring budidaya perikanan yang dibarengi dengan penelitian \citep{gian2022} pada bagian perancangan \textit{frontend} sebagai pendukung pada aplikasi yang dikembangkan.
 
-Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang dilakukan oleh \citep{andri2022} dan \citep{gian2022} dengan membuat fitur baru yaitu manajemen inventaris serta penentuan harga jual ikan dan penentuan upah pembudidaya ikan.
+Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang dilakukan oleh \citep{andri2022} dan \citep{gian2022} dengan membuat fitur baru yaitu manajemen inventaris yang dapat menentukan harga dasar dari produk hasil perikanan.
 
 \section{Depresiasi Aset Bahan Organik}
 
@@ -269,7 +269,6 @@ Desain penelitian adalah alur yang dijalankan selama masa pengembangan aplikasi.
 % 	\item \textbf{Pencatatan Data Kematian Ikan} = Fitur ini digunakan untuk mencatat angka kematian ikan jika terdapat ikan yang mati ketika budidaya sedang berjalan.
 % 	\item \textbf{Treatment Kolam} = Fitur ini digunakan untuk melakukan pengaturan terhadap kolam ikan pada budidaya yang sedang berjalan.
 % \end{enumerate}
-
 \section{Analisa Kebutuhan}
 
 Pada pengembangan aplikasi lanjutan ini, fitur yang ditambahkan adalah fitur manajemen inventaris serta fitur pembukuan. Fitur pencatatan inventaris merupakan fitur yang akan ada pada aplikasi yang berguna untuk para pembudidaya ikan mencatat semua hal yang berhubungan dengan budidaya perikanannya. Hal-hal yang dapat dicatat oleh pembudidaya pada fitur ini seperti bahan baku (termasuk pakan dan bahan budidaya), penggunaan listrik, benih, serta aset yang digunakan selama masa budidaya dilakukan.
@@ -278,12 +277,12 @@ Selain mencatat inventaris pada musim budidaya, fitur pencatatan inventaris ini 
 
 Kemudian untuk fitur pembukuan berguna untuk pembudidaya ikan melihat riwayat musim budidaya yang sudah mereka jalankan. Terdapat beberapa rincian yang ditampilkan seperti biaya pengeluaran sampai berapa total ikan yang terpanen pada musim budidaya tersebut.
 
-Fitur-fitur tersebut dapat dibuat menjadi use case pada \textbf{Gambar 3.3}. Pada use case tersebut, font warna hitam merupakan fitur yang sudah ada pada penelitian sebelumnya yang tidak berubah dan font warna cokelat merupakan fitur sebelumnya yang akan diperbarui pada penelitian ini. Sementara itu, untuk font warna hijau merupakan fitur baru yang akan tersedia pada aplikasi dan dikembangkan pada penelitian ini.
+Fitur-fitur tersebut dapat dibuat menjadi \textit{use case} pada \textbf{Gambar 3.3}. Pada \textit{use case} tersebut, font warna hitam merupakan fitur yang sudah ada pada penelitian sebelumnya yang tidak berubah dan font warna cokelat merupakan fitur sebelumnya yang akan diperbarui pada penelitian ini. Sementara itu, untuk font warna hijau merupakan fitur baru yang akan tersedia pada aplikasi dan dikembangkan pada penelitian ini.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{gambar/usecase_iterasi_2.png}
-	\caption{Use Case Aplikasi}
+	\caption{\textit{Use Case} Aplikasi}
 \end{figure}
 
 \section{Perancangan Sistem}
@@ -387,7 +386,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 		\end{figure}
 
 		Dari integrasi diatas, tabel fish\_feed diintegrasikan dengan tabel feed\_type yang digunakan untuk input pakan dan tabel material\_organic diintegrasikan dengan tabel pond\_treatment karena dalam fitur treatment kolam diperlukan data dari tabel material organik tersebut. Lalu tabel fish\_seed diintegrasikan dengan tabel pond\_activation dan fish\_log untuk aktivasi kolam dan perhitungan jumlah ikan. Sementara itu, tabel electric\_bill dan asset\_tools merupakan individu yang tidak terintegrasi dengan tabel yang lain. Hal ini dikarenakan tabel tersebut hanya untuk menyimpan datanya saja dan tidak digunakan di dalam fitur.
-
+		
 		Berikut merupakan mockup dari fitur inventaris yang mencakup skema database sebelumnya.
 
 		\begin{figure}[H]
@@ -403,7 +402,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\hspace{.05\linewidth}
 		\end{figure}
 
-		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.8}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi-fungsi yang sesuai dengan skema inventaris.
+		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.8}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi yang sesuai dengan skema inventaris.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
@@ -600,6 +599,8 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jenis pengujian yaitu unit testing dan User Acceptance Test (UAT). Pengujian unit testing dilakukan oleh tim internal developer aplikasi untuk memastikan kepastian fungsi fitur dan cara kerja fitur agar aplikasi sesuai dengan kebutuhan. Sementara UAT dilakukan oleh user untuk mengetahui apakah aplikasi sudah memenuhi kebutuhan dan layak digunakan.
 
+\hfill \break
+
 \begin{enumerate}
 	\item Unit Testing
 	
@@ -630,6 +631,8 @@ Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jen
 			\end{tabular}
 		\end{center}
 	\end{table}
+
+	\hfill \break
 
 	\item User Analytics
 	
