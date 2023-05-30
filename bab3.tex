@@ -20,7 +20,27 @@ Penelitian \citep{bagus2022} kemudian dilanjutkan oleh \citep{hafiz2021} yaitu m
 
 Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang dilakukan oleh \citep{andri2022} dan \citep{gian2022} dengan membuat fitur baru yaitu manajemen inventaris serta penentuan harga jual ikan dan penentuan upah pembudidaya ikan.
 
-\section{Metode Penentuan Nilai Jual}
+\section{Depresiasi Aset Bahan Organik}
+
+Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
+
+\begin{equation}
+    \begin{split}
+		W_psesudah
+		&= W_psebelum\times(1 - \alpha)
+    \end{split}
+\end{equation}
+
+\begin{itemize}
+	\item $W_p$ = Harga dari bahan baku yang digunakan
+	\item $\alpha$ = skala depresiasi per bulan dari bahan baku yang digunakan
+\end{itemize}
+
+Ukuran skala depresiasi dari masing-masing bahan organik berbeda-beda, untuk itu diperlukan data lebih lanjut mengenai skala depresiasi dari pakar bahan organik.
+
+\section{Metode Penentuan Harga Dasar}
+
+Ketika musim budidaya sudah selesai dan kolam sudah bisa untuk dipanen, maka harga ikan sementara yang bisa digunakan dapat dihitung dengan rumus-rumus berikut.
 
 % Dalam beberapa skenario, harga jual ditentukan oleh pedagang kepada pembudidaya. Harga ini dijamin lebih kecil dibanding harga retail, karena pedagang akan mengambil keuntungan dari itu. Jika dimisalkan T adalah harga jual minimum agar pembudidaya tidak rugi, $W_{feed}$ sebagai total pakan yang diberikan dan P adalah harga satuan pakan. Maka hubungan dari variabel-variabel tersebut adalah sebagai berikut.
 % \begin{equation}
@@ -178,30 +198,32 @@ Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang 
 % 	\item $C_4$ = Benih ikan
 % \end{itemize}
 
-Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
+\begin{enumerate}
+	\item Harga Dasar Produk
+	
+	\begin{equation}
+		\begin{split}
+			T
+			&= \frac{\sum_{i=1}^3 C_i + \frac{C_l}{n}}{N}
+		\end{split}
+	\end{equation}
 
-\begin{equation}
-    \begin{split}
-		W_p
-		&= W_p - \alpha \times W_p
-    \end{split}
-\end{equation}
+	Dari formula ini, dapat dihasilkan harga dasar produk perikanan per ekornya. Ini dihitung berdasarkan detail pemakaian saat budidaya berlangsung seperti pakan, benih, obat-obatan dan perawatan air, serta pemakaian listrik per kolam.
 
-Ketika hasil ikan sudah bisa dipanen, maka harga ikan sementara yang bisa digunakan dapat dihitung dengan rumus berikut.
+	\item Harga Jual Minimum Produk
+	
+	\begin{equation}
+		\begin{split}
+			T
+			&= \frac{\sum_{i=1}^3 C_i \frac{C_l}{n} + \frac{C_a}{60}}{N}
+		\end{split}
+	\end{equation}
 
-\begin{equation}
-    \begin{split}
-		T
-		&= \frac{\sum_{i=1}^3 C_i + \frac{C_l}{n}}{N}
-    \end{split}
-\end{equation}
+	Dari formula ini, dapat dihasilkan harga jual minimum produk perikanan per ekornya. Perhitungan ini sama seperti formula penentuan harga dasar, namun ditambah dengan harga pengeluaran aset yang dibagi dengan rentang waktu penggunaannya (5 tahun = 60 bulan).
 
-\begin{equation}
-    \begin{split}
-		T
-		&= \frac{\sum_{i=1}^3 C_i \frac{C_l}{n} + \frac{C_a}{60}}{N}
-    \end{split}
-\end{equation}
+	Detail atribut dari dua rumus diatas dapat dilihat sebagai berikut.
+
+\end{enumerate}
 
 \begin{itemize}
 	\item T = Harga jual ikan
@@ -209,9 +231,10 @@ Ketika hasil ikan sudah bisa dipanen, maka harga ikan sementara yang bisa diguna
 	\item $C_2$ = Harga total pakan selama musim berjalan
 	\item $C_3$ = Harga total bahan budidaya selama musim berjalan
 	\item $C_l$ = Harga tagihan listrik
+	\item $C_a$ = Harga total penggunaan aset
 	\item n = Jumlah kolam
 	\item N = Jumlah ikan yang hidup
-\end{itemize}
+\end{itemize}	
 
 Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi harga dasar dalam penjualannya. Tentunya harga tersebut hanya merupakan harga panen dan pembudidaya tidak wajib menggunakan harga tersebut dalam transaksi.
 
@@ -355,7 +378,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	
 		Dalam tabel database tersebut, pada kolom pertama terdapat jenis \textit{key} yang dijadikan patokan dalam tabel database tersebut. Kemudian kolom kedua dan ketiga merupakan hubungan antara nama data dan tipe data yang mewakili nama data tersebut.
 	
-		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada \textbf{Gambar 3.5}.
+		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada \textbf{Gambar 3.6}.
 	
 		\begin{figure}[H]
 			\centering
@@ -368,14 +391,16 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 		Berikut merupakan mockup dari fitur inventaris yang mencakup skema database sebelumnya.
 
 		\begin{figure}[H]
+			\hspace{.15\linewidth}
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_dashboard.png}
 			  \caption{Halaman Dashboard}
 			\endminipage\hfill
-			\minipage{0.32\textwidth}%
+			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_home.png}
 			  \caption{Halaman Menu Inventaris}
 			\endminipage
+			\hspace{.05\linewidth}
 		\end{figure}
 
 		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.8}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi-fungsi yang sesuai dengan skema inventaris.
@@ -459,6 +484,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 		Untuk tombol (+) yang ada di pojok kanan bawah, jika ditekan akan dinavigasikan ke halaman input benih ikan. Halaman input ini memiliki form seperti pada \textbf{Gambar 3.19}. Terdapat dua jenis form yang berbeda berdasarkan ketegori yang dipilih, untuk kategori kelas benih pada bagian ukurannya menggunakan satuan sortir sementara untuk kategori kelas pembesaran menggunakan panjang dan lebar untuk ukurannya.
 
 		\begin{figure}[H]
+			\hspace{.15\linewidth}
 			\minipage{0.32\textwidth}
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_list_aset.png}
 			  \caption{Halaman Data Inventaris Aset}
@@ -467,6 +493,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			  \includegraphics[width=\linewidth]{gambar/sprint1/mockup_input_aset.png}
 			  \caption{Halaman Input Inventaris Aset}
 			\endminipage
+			\hspace{.05\linewidth}
 		\end{figure}
 
 		Jika pada halaman menu inventaris sebelumnya dipilih menu "Aset", maka akan masuk ke halaman data inventaris aset. Pada halaman ini, ditampilkan jenis dari aset-aset yang digunakan selama masa budidaya.

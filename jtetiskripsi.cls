@@ -383,16 +383,16 @@
 \newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
 
 
-\AtBeginDocument{%
-\if@doublesp%
-\doublespacing%
-\else\if@singlesp%
-\singlespacing%
-\else
-\onehalfspacing%
-\fi%
-\fi
-}
+% \AtBeginDocument{%
+% \if@doublesp%
+% \doublespacing%
+% \else\if@singlesp%
+% \singlespacing%
+% \else
+% \onehalfspacing%
+% \fi%
+% \fi
+% }
 
 \AtBeginDocument{%
 \if@langindo%
