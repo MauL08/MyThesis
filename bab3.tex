@@ -20,6 +20,55 @@ Penelitian \citep{bagus2022} kemudian dilanjutkan oleh \citep{hafiz2021} yaitu m
 
 Dalam penelitian yang sudah berjalan ini, penulis mengembangkan penelitian yang dilakukan oleh \citep{andri2022} dan \citep{gian2022} dengan membuat fitur baru yaitu manajemen inventaris yang dapat menentukan harga dasar dari produk hasil perikanan.
 
+\section{Inventaris Budidaya Perikanan}
+
+Inventaris pada budidaya perikanan mencakup keperluan yang digunakan selama menjalankan masa budidaya, inventaris tersebut dapat dikategorikan menjadi inventaris pakan, inventaris bahan organik, inventaris listrik, inventaris benih, dan inventaris aset.
+
+Masing-masing inventaris memiliki detail tersendiri, detail tersebut dapat dilihat dari contoh tabel inventaris berikut.
+
+\begin{enumerate}
+	\item Inventaris Pakan
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_pakan.png}
+		\caption{Tabel Data Inventaris Pakan}
+	\end{figure}	
+
+	\item Inventaris Bahan Organik
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_bahanorganik.png}
+		\caption{Tabel Data Inventaris Bahan Organik}
+	\end{figure}	
+
+	\item Inventaris Listrik
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_listrik.png}
+		\caption{Tabel Data Inventaris Listrik}
+	\end{figure}	
+
+	\item Inventaris Benih
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_benih.png}
+		\caption{Tabel Data Inventaris Benih}
+	\end{figure}	
+
+	\item Inventaris Aset
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_aset.png}
+		\caption{Tabel Data Inventaris Aset}
+	\end{figure}	
+
+\end{enumerate}
+
 \section{Depresiasi Aset Bahan Organik}
 
 Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
@@ -246,7 +295,7 @@ Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi h
 	\caption{Alur Tahapan Penelitian}
 \end{figure}
 
-Desain penelitian adalah alur yang dijalankan selama masa pengembangan aplikasi. Pada \textbf{Gambar 3.2}, terdapat desain penelitian yang digunakan dalam pembuatan aplikasi ini dengan metode Scrum.
+Desain penelitian adalah alur yang dijalankan selama masa pengembangan aplikasi. Pada \textbf{Gambar 3.7}, terdapat desain penelitian yang digunakan dalam pembuatan aplikasi ini dengan metode Scrum.
 
 % \section{Analisa Arsitektur Fitur}
 
@@ -277,7 +326,7 @@ Selain mencatat inventaris pada musim budidaya, fitur pencatatan inventaris ini 
 
 Kemudian untuk fitur pembukuan berguna untuk pembudidaya ikan melihat riwayat musim budidaya yang sudah mereka jalankan. Terdapat beberapa rincian yang ditampilkan seperti biaya pengeluaran sampai berapa total ikan yang terpanen pada musim budidaya tersebut.
 
-Fitur-fitur tersebut dapat dibuat menjadi \textit{use case} pada \textbf{Gambar 3.3}. Pada \textit{use case} tersebut, font warna hitam merupakan fitur yang sudah ada pada penelitian sebelumnya yang tidak berubah dan font warna cokelat merupakan fitur sebelumnya yang akan diperbarui pada penelitian ini. Sementara itu, untuk font warna hijau merupakan fitur baru yang akan tersedia pada aplikasi dan dikembangkan pada penelitian ini.
+Fitur-fitur tersebut dapat dibuat menjadi \textit{use case} pada \textbf{Gambar 3.8}. Pada \textit{use case} tersebut, font warna hitam merupakan fitur yang sudah ada pada penelitian sebelumnya yang tidak berubah dan font warna cokelat merupakan fitur sebelumnya yang akan diperbarui pada penelitian ini. Sementara itu, untuk font warna hijau merupakan fitur baru yang akan tersedia pada aplikasi dan dikembangkan pada penelitian ini.
 
 \begin{figure}[H]
 	\centering
@@ -357,7 +406,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\end{center}
 		\end{table}
 
-		Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada \textbf{Gambar 3.5} berikut.
+		Berikut merupakan skema database yang mewakili fitur inventaris dapat dilihat pada \textbf{Gambar 3.10} berikut.
 		
 		\begin{figure}[H]
 			\centering
@@ -377,12 +426,12 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 	
 		Dalam tabel database tersebut, pada kolom pertama terdapat jenis \textit{key} yang dijadikan patokan dalam tabel database tersebut. Kemudian kolom kedua dan ketiga merupakan hubungan antara nama data dan tipe data yang mewakili nama data tersebut.
 	
-		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada \textbf{Gambar 3.6}.
+		Setelah skema database dari inventaris telah dibuat, tabel-tabel database tersebut harus diintegrasikan dengan skema database sebelumnya untuk menyesuaikan kebutuhan fitur yang akan dibuat nantinya. Berikut merupakan skema database yang telah diintegrasikan dengan skema database dari inventaris dapat dilihat pada \textbf{Gambar 3.11}.
 	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=1.5\linewidth,height=1.00\linewidth, angle=270]{gambar/sprint1/sprint1_skema_database.png}
-			\caption{Integrasi Skema Database Inventaris dengan Skema Database Iterasi 1}
+			\caption{Integrasi Database Inventaris dengan Skema Database Iterasi 1}
 		\end{figure}
 
 		Dari integrasi diatas, tabel fish\_feed diintegrasikan dengan tabel feed\_type yang digunakan untuk input pakan dan tabel material\_organic diintegrasikan dengan tabel pond\_treatment karena dalam fitur treatment kolam diperlukan data dari tabel material organik tersebut. Lalu tabel fish\_seed diintegrasikan dengan tabel pond\_activation dan fish\_log untuk aktivasi kolam dan perhitungan jumlah ikan. Sementara itu, tabel electric\_bill dan asset\_tools merupakan individu yang tidak terintegrasi dengan tabel yang lain. Hal ini dikarenakan tabel tersebut hanya untuk menyimpan datanya saja dan tidak digunakan di dalam fitur.
@@ -402,7 +451,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\hspace{.05\linewidth}
 		\end{figure}
 
-		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.8}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi yang sesuai dengan skema inventaris.
+		Pada halaman dashboard, dipojok kiri atas terdapat ikon \textit{hamburger} atau list yang ketika ditekan akan menampilkan halaman menu inventaris seperti \textbf{Gambar 3.12}. Masing-masing list menu yang ada pada halaman menu inventaris memiliki fungsi yang sesuai dengan skema inventaris.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
@@ -421,7 +470,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		Jika pada halaman menu inventaris sebelumnya dipilih menu "Pakan", maka akan masuk ke halaman data inventaris pakan. Pada halaman ini terdapat 3 jenis pakan yaitu pakan industri (pelet), alami (tumbuh-tumbuhan), serta campuran (tepung, terigu, dll). Masing-masing jenis pakan memiliki detail data yaitu nama atau merek pakan, total jumlah pakan yang tersedia, serta tanggal kadaluarsa dari pakan tersebut.
 
-		Tombol (+) yang ada di pojok kanan bawah akan mengarahkan ke halaman input dari inventaris pakan. Disini diberikan form input yang beragam seperti yang ada pada \textbf{Gambar 3.10}.
+		Tombol (+) yang ada di pojok kanan bawah akan mengarahkan ke halaman input dari inventaris pakan. Disini diberikan form input yang beragam seperti yang ada pada \textbf{Gambar 3.15}.
 
 		Sementara tombol riwayat yang ada di pojok kanan atas akan mengarahkan ke halaman detail dari inventaris pakan. Di halaman ini ditampilkan detail pemasukkan pakan ke sistem inventaris.
 
@@ -442,7 +491,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		Jika pada halaman menu inventaris sebelumnya dipilih menu "Bahan Budidaya", maka akan masuk ke halaman data inventaris bahan budidaya. Pada halaman ini terdapat 2 jenis bahan budidaya yang dibagi berdasarkan fungsi yaitu perawatan air dan obat-obatan (Methylene Blue, dll). Sama seperti pada inventaris pakan, masing-masing jenis bahan budidaya memiliki detail data yaitu nama atau merek, total jumlah yang tersedia, serta tanggal kadaluarsa.
 
-		Sama seperti halaman inventaris pakan, tombol (+) mengarahkan ke halaman input seperti \textbf{Gambar 3.13} dan tombol riwayat akan mengarahkan ke halaman detail inventaris seperti pada \textbf{Gambar 3.14}.
+		Sama seperti halaman inventaris pakan, tombol (+) mengarahkan ke halaman input seperti \textbf{Gambar 3.18} dan tombol riwayat akan mengarahkan ke halaman detail inventaris seperti pada \textbf{Gambar 3.19}.
 
 		\begin{figure}[H]
 			\minipage{0.32\textwidth}
@@ -480,7 +529,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 
 		Jika pada halaman menu inventaris sebelumnya dipilih menu "Benih", maka akan masuk ke halaman data inventaris benih. Pada halaman ini terdapat list dari benih yang sudah diinput pada sistem inventaris yang terbagi menjadi dua jenis yaitu benih jenis kelas benih (kecil) dan kelas pembesaran (besar). Masing-masing data memiliki detail seperti tahun benih di input, jenis benih, dan jumlah dari benih.
 
-		Untuk tombol (+) yang ada di pojok kanan bawah, jika ditekan akan dinavigasikan ke halaman input benih ikan. Halaman input ini memiliki form seperti pada \textbf{Gambar 3.19}. Terdapat dua jenis form yang berbeda berdasarkan ketegori yang dipilih, untuk kategori kelas benih pada bagian ukurannya menggunakan satuan sortir sementara untuk kategori kelas pembesaran menggunakan panjang dan lebar untuk ukurannya.
+		Untuk tombol (+) yang ada di pojok kanan bawah, jika ditekan akan dinavigasikan ke halaman input benih ikan. Halaman input ini memiliki form seperti pada \textbf{Gambar 3.24}. Terdapat dua jenis form yang berbeda berdasarkan ketegori yang dipilih, untuk kategori kelas benih pada bagian ukurannya menggunakan satuan sortir sementara untuk kategori kelas pembesaran menggunakan panjang dan lebar untuk ukurannya.
 
 		\begin{figure}[H]
 			\hspace{.15\linewidth}
@@ -531,7 +580,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Alur Inventaris Pakan}
 		\end{figure}
 
-		Pada \textbf{Gambar 3.23} merupakan alur dari inventaris pakan. Pengguna akan memilih menu "Pakan" dan masuk ke halaman data inventaris pakan, kemudian tombol (+) akan menavigasikan pengguna ke halaman input pakan dan tombol riwayat akan menavigasikan pengguna ke halaman detail input pakan.
+		Pada \textbf{Gambar 3.28} merupakan alur dari inventaris pakan. Pengguna akan memilih menu "Pakan" dan masuk ke halaman data inventaris pakan, kemudian tombol (+) akan menavigasikan pengguna ke halaman input pakan dan tombol riwayat akan menavigasikan pengguna ke halaman detail input pakan.
 
 		\begin{figure}[H]
 			\centering
@@ -539,7 +588,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Alur Inventaris Bahan Budidaya}
 		\end{figure}
 
-		Pada \textbf{Gambar 3.24} merupakan alur dari inventaris bahan budidaya. Pengguna akan memilih menu "Bahan Budidaya" dan masuk ke halaman data inventaris budidaya, kemudian tombol (+) akan menavigasikan pengguna ke halaman input bahan budidaya dan tombol riwayat akan menavigasikan pengguna ke halaman detail input bahan budidaya.
+		Pada \textbf{Gambar 3.29} merupakan alur dari inventaris bahan budidaya. Pengguna akan memilih menu "Bahan Budidaya" dan masuk ke halaman data inventaris budidaya, kemudian tombol (+) akan menavigasikan pengguna ke halaman input bahan budidaya dan tombol riwayat akan menavigasikan pengguna ke halaman detail input bahan budidaya.
 
 		\begin{figure}[H]
 			\centering
@@ -547,7 +596,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Alur Inventaris Listrik}
 		\end{figure}
 
-		Pada \textbf{Gambar 3.25} merupakan alur dari inventaris listrik. Pengguna akan memilih menu "Listrik" dan masuk ke halaman data inventaris listrik, kemudian tombol (+) akan menavigasikan pengguna ke halaman input listrik serta jika pengguna menekan salah satu list bulan pada data listrik, maka akan masuk ke halaman detail input tagihan listrik.
+		Pada \textbf{Gambar 3.30} merupakan alur dari inventaris listrik. Pengguna akan memilih menu "Listrik" dan masuk ke halaman data inventaris listrik, kemudian tombol (+) akan menavigasikan pengguna ke halaman input listrik serta jika pengguna menekan salah satu list bulan pada data listrik, maka akan masuk ke halaman detail input tagihan listrik.
 
 		\begin{figure}[H]
 			\centering
@@ -555,7 +604,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Alur Inventaris Benih}
 		\end{figure}
 
-		Pada \textbf{Gambar 3.26} merupakan alur dari inventaris benih. Pengguna akan memilih menu "Benih" dan masuk ke halaman data inventaris benih, kemudian tombol (+) akan menavigasikan pengguna ke halaman input benih dan tombol riwayat akan menavigasikan pengguna ke halaman detail input benih.
+		Pada \textbf{Gambar 3.31} merupakan alur dari inventaris benih. Pengguna akan memilih menu "Benih" dan masuk ke halaman data inventaris benih, kemudian tombol (+) akan menavigasikan pengguna ke halaman input benih dan tombol riwayat akan menavigasikan pengguna ke halaman detail input benih.
 
 		\begin{figure}[H]
 			\centering
@@ -563,7 +612,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Alur Inventaris Aset}
 		\end{figure}
 
-		Pada \textbf{Gambar 3.27} merupakan alur dari inventaris aset. Pengguna akan memilih menu "Aset" dan masuk ke halaman data inventaris aset, kemudian tombol (+) akan menavigasikan pengguna ke halaman input aset.
+		Pada \textbf{Gambar 3.32} merupakan alur dari inventaris aset. Pengguna akan memilih menu "Aset" dan masuk ke halaman data inventaris aset, kemudian tombol (+) akan menavigasikan pengguna ke halaman input aset.
 
 		Seteleh semua alur telah selesai dibuat, selanjutnya merupakan perubahan skema database inventaris yang dapat dilihat pada \textbf{Gambar 3.28} berikut.
 
@@ -573,7 +622,7 @@ Pada aplikasi yang akan dibuat pada penelitian ini dikembangkan dengan metode Sc
 			\caption{Update Skema Database Inventaris}
 		\end{figure}
 
-		Berdasarkan skema database inventaris tersebut, jika dibandingkan dengan skema database inventaris sebelumnya pada \textbf{Gambar 3.5} terdapat pembaruan pada bagian inventaris pakan, bahan budidaya, benih, dan aset.
+		Berdasarkan skema database inventaris tersebut, jika dibandingkan dengan skema database inventaris sebelumnya pada \textbf{Gambar 3.33} terdapat pembaruan pada bagian inventaris pakan, bahan budidaya, benih, dan aset.
 
 		Pada skema database di inventaris pakan (fish\_feed), ditambahkan \textit{key} \textbf{feed\_category\_id} karena pada inventaris pakan diharuskan memilih kategori pakan yang akan dimasukkan. Untuk itu feed\_category\_id berperan untuk menampung jenis kategori pakan yang akan diinput. Sebelumnya jenis inventaris pakan tidak memiliki kategori, sehingga perlu ditambahkan \textit{key} baru untuk jenis data kategori tersebut.
 
@@ -631,9 +680,7 @@ Di tahap pengujian ini, peneliti akan melakukan uji aplikasi menggunakan dua jen
 			\end{tabular}
 		\end{center}
 	\end{table}
-
-	\hfill \break
-
+	
 	\item User Analytics
 	
 	Pengujian ini dilakukan kepada pembudidaya ikan dengan 3 tahap yaitu tutorial, logging / survei penggunaan aplikasi, dan interview. Tahapan tersebut dilakukan secara bertahap dan masing-masing tahap dijelaskan seperti berikut.
