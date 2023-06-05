@@ -41,7 +41,9 @@ Masing-masing inventaris memiliki detail tersendiri, detail tersebut dapat dilih
 		\centering
 		\includegraphics[width=1\textwidth]{gambar/tabel_inventaris_bahanorganik.png}
 		\caption{Tabel Data Inventaris Bahan Organik}
-	\end{figure}	
+	\end{figure}
+	
+	\hfill \break
 
 	\item Inventaris Listrik
 	
@@ -68,24 +70,6 @@ Masing-masing inventaris memiliki detail tersendiri, detail tersebut dapat dilih
 	\end{figure}	
 
 \end{enumerate}
-
-\section{Depresiasi Aset Bahan Organik}
-
-Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
-
-\begin{equation}
-    \begin{split}
-		W_psesudah
-		&= W_psebelum\times(1 - \alpha)
-    \end{split}
-\end{equation}
-
-\begin{itemize}
-	\item $W_p$ = Harga dari bahan baku yang digunakan
-	\item $\alpha$ = skala depresiasi per bulan dari bahan baku yang digunakan
-\end{itemize}
-
-Ukuran skala depresiasi dari masing-masing bahan organik berbeda-beda, untuk itu diperlukan data lebih lanjut mengenai skala depresiasi dari pakar bahan organik.
 
 \section{Metode Penentuan Harga Dasar}
 
@@ -264,7 +248,7 @@ Ketika musim budidaya sudah selesai dan kolam sudah bisa untuk dipanen, maka har
 	\begin{equation}
 		\begin{split}
 			T
-			&= \frac{\sum_{i=1}^3 C_i \frac{C_l}{n} + \frac{C_a}{60}}{N}
+			&= \frac{\sum_{i=1}^3 C_i + \frac{C_l}{n} + \frac{C_a}{60}}{N}
 		\end{split}
 	\end{equation}
 
@@ -286,6 +270,45 @@ Ketika musim budidaya sudah selesai dan kolam sudah bisa untuk dipanen, maka har
 \end{itemize}	
 
 Harga dari perhitungan tersebut dapat digunakan oleh pembudidaya untuk menjadi harga dasar dalam penjualannya. Tentunya harga tersebut hanya merupakan harga panen dan pembudidaya tidak wajib menggunakan harga tersebut dalam transaksi.
+
+\section{Depresiasi Aset Bahan Organik}
+
+Dalam menyimpan bahan baku pada inventaris, bahan baku tersebut akan mengalami penurunan karena bahan baku mempunyai masa kadaluarsa. Maka dari itu, dapat dimisalkan jika per bulan bahan baku tersebut mengalami penurunan kualitas sebesar 25\% dari harga belinya, maka dalam 4 bulan bahan baku tersebut akan kadaluarsa dan sudah tidak lagi berharga. Namun, skala penurunan tersebut bervariasi tergantung pada jenis bahan baku yang digunakan. Variabel $W_p$ mewakili harga dari bahan baku yang digunakan dan variabel $\alpha$ mewakili skala depresiasi per bulan dari bahan baku yang digunakan. Formula depresiasi dapat dibuat menjadi persamaan berikut.
+
+\begin{equation}
+    \begin{split}
+		W_psesudah
+		&= W_psebelum\times(1 - \alpha)
+    \end{split}
+\end{equation}
+
+\begin{itemize}
+	\item $W_p$ = Harga dari bahan baku yang digunakan
+	\item $\alpha$ = skala depresiasi per bulan dari bahan baku yang digunakan
+\end{itemize}
+
+Formula depresiasi tersebut dapat berlaku jika masa minimum kadaluarsa bahan organik telah terpenuhi, sebagai contoh dapat dilihat pada kasus berikut.
+
+Jika sayur sisa untuk pakan ikan memiliki masa minimum kadaluarsa yaitu 1 hari dengan harga Rp10.000,00/10 kg, maka formula depresiasi akan berlaku setelah 1 hari pemasukkan pakan tersebut dengan hitungan sebagai berikut ($\alpha$ = 0.5).
+
+\begin{enumerate}
+	\item $W_psebelum$ = Rp10.000
+	\item $\alpha$ = 0.5
+\end{enumerate}
+
+Maka, dapat dihitung dengan formula depresiasi sebagai berikut.
+
+\begin{equation*}
+	\begin{aligned}
+	W_psesudah &= W_psebelum\times(1 - \alpha)\\
+	W_psesudah &= 10000\times(1 - 0.5)\\
+	W_psesudah &= 5000
+	\end{aligned}
+\end{equation*}
+
+Akan didapatkan $W_psesudah$ sebesar Rp5.000 yang akan terus berkurang sampai masa maksimum kadaluarsa dengan formula perhitungan yang sama. Masa maksimum ini dapat ditentukan oleh pengguna atau bisa secara otomatis ditentukan oleh sistem dengan perhitungan dua kali masa minimum kadaluarsa.
+
+Sebagai contoh, jika masa minimum kadaluarsa sayur sisa untuk pakan ikan yaitu 1 hari maka untuk masa maksimum kadaluarsa sayur sisa tersebut adalah 2 hari. Setelah 2 hari, maka nilai dari bahan tersebut ($Wp$) akan menjadi 0 (tidak bernilai) sehingga tidak termasuk dalam perhitungan harga dasar dan harga jual.
 
 \section{Tahapan Penelitian}
 
