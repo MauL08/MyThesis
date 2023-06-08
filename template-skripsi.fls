@@ -1005,11 +1005,11 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/ado
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
 INPUT template-skripsi.toc
 OUTPUT template-skripsi.toc
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./template-skripsi.lof
 INPUT template-skripsi.lof
 INPUT template-skripsi.lof
