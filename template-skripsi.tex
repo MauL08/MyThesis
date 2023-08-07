@@ -54,10 +54,15 @@
 
 \usepackage{pdfpages}
 
+\usepackage{longtable}
+
+\usepackage{bbding}
+
+
 %-----------------------------------------------------------------
 %Disini awal masukan untuk data proposal skripsi
 %-----------------------------------------------------------------
-\titleind{Ekspansi Aplikasi Aqua Breeding Dengan Penambahan Fitur Inventarisasi Untuk Penentuan Harga Dasar Produk Perikanan Berbasis \textit{Mobile}}
+\titleind{Ekspansi Aplikasi Aqua Breeding Dengan Penambahan Fitur Inventarisasi Untuk Penentuan Harga Dasar Produk Perikanan Berbasis Android}
 
 \fullname{Akbar Maulana Alfatih}
 
@@ -101,26 +106,33 @@
 % \definecolor{codepurple}{rgb}{0.58,0,0.82}
 % \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstset{frame=tb,
-  language=Java,
-  aboveskip=3mm,
-  belowskip=3mm,
-  showstringspaces=true,
-  columns=flexible,
-  basicstyle={\ttfamily},
-  numbers=none,
-%   numberstyle=\tiny\color{gray},
-%   keywordstyle=\color{blue},
-%   commentstyle=\color{dkgreen},
-%   stringstyle=\color{mauve},
-  breaklines=true,
-  breakatwhitespace=true,
-  tabsize=3
+\lstset{
+    language=Python,
+    backgroundcolor=\color{white},   
+    commentstyle=\color{black},
+    keywordstyle=\color{black},
+    numberstyle=\tiny\color{black},
+    stringstyle=\color{black},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=7pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=single
 }
 
 \begin{document}
 
 \cover
+
+\begin{spacing}{1.5}
+  
 %-----------------------------------------------------------------
 
 %-----------------------------------------------------------------
@@ -128,10 +140,14 @@
 %-----------------------------------------------------------------
 % \include{pengesahan}
 % \addcontentsline{toc}{chapter}{LEMBAR PENGESAHAN}
-% \include{lembar-pernyataan}
-% \addcontentsline{toc}{chapter}{LEMBAR PERNYATAAN}
+\include{lembar-pernyataan}
+\addcontentsline{toc}{chapter}{LEMBAR PERNYATAAN}
 \include{halaman-persembahan}
 \addcontentsline{toc}{chapter}{HALAMAN PERSEMBAHAN}
+\include{abstrak}
+\addcontentsline{toc}{chapter}{ABSTRAK}
+\include{abstract}
+\addcontentsline{toc}{chapter}{ABSTRACT}
 \include{kata-pengantar}
 \addcontentsline{toc}{chapter}{KATA PENGANTAR}
 \tableofcontents 
@@ -149,11 +165,19 @@
 \include{bab2}
 \include{bab3}
 % \include{lampiran}
+\include{bab4}
+\include{bab5}
+
+
 
 %-----------------------------------------------------------------
 %Disini akhir masukan Bab
 %-----------------------------------------------------------------
 
+
+\include{lampiran}
+
+\end{spacing}
 
 %-----------------------------------------------------------------
 % Disini awal masukan untuk Daftar Pustaka

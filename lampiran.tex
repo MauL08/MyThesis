@@ -1,41 +1,33 @@
 \addcontentsline{toc}{chapter}{LAMPIRAN}
-\appendix 
-\chapter{Transkrip Percakapan}
+\appendix
+\chapter {Transkrip Percakapan}
 \begin{flushleft}
-Hari: Sabtu
+Hari: Rabu
 \linebreak
-Tanggal: 16 April 2022
+Tanggal: 15 Maret 2023
 \linebreak
 PL: Penulis
 \linebreak
-SM: Scrum Master
+KL: Klien (Pemilik Farm)
 \linebreak
 \linebreak
-PL: Bagaimana cara kerja sistem search engine ini?
+PL: Sistem apa yang akan di buat?
 \linebreak
-SM: Kita akan membuat search engine yang berjalan di terminal dan menerima keyword pengguna dan juga bisa diakses melalui API sehingga bisa berguna jika ingin diintegrasikan ke tampilan yang lain.
+KL: Kita akan membuat sistem inventaris pada budidaya perikanan untuk penentuan harga jual minimum ikan
 \linebreak
-PL: Apakah sistem ini akan berjalan di lokal atau online?
+PL: Apa saja requirement dan fitur yang dibutuhkan oleh sistem ini?
 \linebreak
-SM: Untuk saat ini, sistem akan berjalan di lokal.
+KL: Fitur utama yang harus ada adalah sistem inventaris benih, inventaris pakan, inventaris suplemen, inventaris listrik, dan inventaris aset
 \linebreak
-PL: Apa saja yang dibutuhkan di product backlog?
+PL: Bagaimana cara menentukan harga jual minimum ikan dari sistem inventaris tersebut?
 \linebreak
-SM: Story yang pertama adalah mengubah struktur kode program crawler yang sudah ada menjadi modular, yang kedua mengintegrasikan document ranking TF IDF ke dalam arsitektur, yang ketiga mengintegrasikan PageRank ke dalam arsitektur.
+KL: Dengan cara menghitung pengeluaran benih, pakan, suplemen, aset serta pengeluaran listrik per kolam aktif selama musim budidaya berjalan. Kemudian, pengeluaran tersebut akan dibagi dengan total ikan ketika masa panen tiba.
 \linebreak
-PL: Bagaimana prioritas masing-masing story tersebut?
+PL: Apakah dengan masuknya inventaris aset akan mempengaruhi nilai jual ikan per musim panen?
 \linebreak
-SM: Sama penting.
+KL: Dengan masuknya harga aset kedalam perhitungan, harga ikan otomatis akan menjadi tinggi. Untuk itu, harga aset dibagi dengan 5 tahun masa pemakaian karena masa aset dalam inventaris bisa berlangsung lama. Dalam kasus ini diubah menjadi 60 bulan karena musim panen bisa dilakukan tiap bulan.
 \linebreak
-PL: Apakah ada story lainnya?
+PL: Dimulai dari manakah pengerjaan fitur-fitur tersebut?
 \linebreak
-SM: Story keempat adalah konfigurasi program sebagai background service di sistem operasi, dan ke yang lima untuk merancang REST API untuk fungsi utamanya.
-\linebreak
-PL: Apa saja fungsi utama dari API nya?
-\linebreak
-SM: Fungsi utamanya adalah melihat peringkat website berdasarkan PageRank, mencari dokumen yang relevan, dan melihat peringkat website secara overall.
-\linebreak
-PL: Baik. Bahasa pemrograman apa yang akan dipakai pada sistem ini?
-\linebreak
-SM: Karena web crawler dan komponen yang lain memakai Python, maka kita akan memakai bahasa Python 3 juga.
+KL: Dimulai dari inventaris benih
 \end{flushleft}

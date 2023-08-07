@@ -840,6 +840,28 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/li
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/multirow/multirow.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
@@ -865,9 +887,18 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3
 INPUT ./template-skripsi.aux
 INPUT template-skripsi.aux
 INPUT template-skripsi.aux
+INPUT ./lembar-pernyataan.aux
+INPUT lembar-pernyataan.aux
+INPUT lembar-pernyataan.aux
 INPUT ./halaman-persembahan.aux
 INPUT halaman-persembahan.aux
 INPUT halaman-persembahan.aux
+INPUT ./abstrak.aux
+INPUT abstrak.aux
+INPUT abstrak.aux
+INPUT ./abstract.aux
+INPUT abstract.aux
+INPUT abstract.aux
 INPUT ./kata-pengantar.aux
 INPUT kata-pengantar.aux
 INPUT kata-pengantar.aux
@@ -880,6 +911,15 @@ INPUT bab2.aux
 INPUT ./bab3.aux
 INPUT bab3.aux
 INPUT bab3.aux
+INPUT ./bab4.aux
+INPUT bab4.aux
+INPUT bab4.aux
+INPUT ./bab5.aux
+INPUT bab5.aux
+INPUT bab5.aux
+INPUT ./lampiran.aux
+INPUT lampiran.aux
+INPUT lampiran.aux
 OUTPUT template-skripsi.aux
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -912,6 +952,17 @@ OUTPUT template-skripsi.pdf
 INPUT ./template-skripsi.out
 INPUT ./template-skripsi.out
 OUTPUT template-skripsi.out
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/ltcaption.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflscape.sty
@@ -938,7 +989,6 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gr
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT gambar/logounj.png
@@ -946,42 +996,22 @@ INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
-OUTPUT halaman-persembahan.aux
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT halaman-persembahan.tex
-INPUT ./halaman-persembahan.tex
-INPUT halaman-persembahan.tex
+OUTPUT lembar-pernyataan.aux
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT lembar-pernyataan.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-OUTPUT kata-pengantar.aux
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
@@ -1003,8 +1033,53 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/pu
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+OUTPUT halaman-persembahan.aux
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
+INPUT ./halaman-persembahan.tex
+INPUT halaman-persembahan.tex
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./abstrak.tex
+INPUT ./abstrak.tex
+INPUT ./abstrak.tex
+OUTPUT abstrak.aux
+INPUT ./abstrak.tex
+INPUT ./abstrak.tex
+INPUT ./abstrak.tex
+INPUT abstrak.tex
+INPUT ./abstrak.tex
+INPUT abstrak.tex
+INPUT ./abstract.tex
+INPUT ./abstract.tex
+INPUT ./abstract.tex
+OUTPUT abstract.aux
+INPUT ./abstract.tex
+INPUT ./abstract.tex
+INPUT ./abstract.tex
+INPUT abstract.tex
+INPUT ./abstract.tex
+INPUT abstract.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+OUTPUT kata-pengantar.aux
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
@@ -1045,19 +1120,21 @@ INPUT ./gambar/logo_aquabreeding.jpeg
 INPUT ./gambar/logo_aquabreeding.jpeg
 INPUT ./gambar/logo_aquabreeding.jpeg
 INPUT ./gambar/logo_aquabreeding.jpeg
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbi8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1pcr.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1pcr.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1pcr.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/t1pcr.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrb8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrro8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/courier/pcrb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrb8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/courier/pcrro8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrro8r.tfm
 INPUT ./gambar/scaffold.png
 INPUT ./gambar/scaffold.png
 INPUT gambar/scaffold.png
@@ -1117,13 +1194,13 @@ INPUT ./gambar/tabel_inventaris_pakan.png
 INPUT ./gambar/tabel_inventaris_pakan.png
 INPUT ./gambar/tabel_inventaris_pakan.png
 INPUT ./gambar/tabel_inventaris_pakan.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
-INPUT gambar/tabel_inventaris_bahanorganik.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
-INPUT ./gambar/tabel_inventaris_bahanorganik.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
+INPUT gambar/tabel_inventaris_suplemen.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
+INPUT ./gambar/tabel_inventaris_suplemen.png
 INPUT ./gambar/tabel_inventaris_listrik.png
 INPUT ./gambar/tabel_inventaris_listrik.png
 INPUT gambar/tabel_inventaris_listrik.png
@@ -1150,7 +1227,6 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT gambar/tahapan_penelitian.png
@@ -1158,6 +1234,7 @@ INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT gambar/usecase_iterasi_2.png
@@ -1172,6 +1249,16 @@ INPUT ./gambar/scrum.png
 INPUT ./gambar/scrum.png
 INPUT ./gambar/scrum.png
 INPUT ./gambar/scrum.png
+INPUT ./bab4.tex
+INPUT ./bab4.tex
+INPUT ./bab4.tex
+OUTPUT bab4.aux
+INPUT ./bab4.tex
+INPUT ./bab4.tex
+INPUT ./bab4.tex
+INPUT bab4.tex
+INPUT ./bab4.tex
+INPUT bab4.tex
 INPUT ./gambar/sprint1/sprint1_inventaris_database.jpeg
 INPUT ./gambar/sprint1/sprint1_inventaris_database.jpeg
 INPUT gambar/sprint1/sprint1_inventaris_database.jpeg
@@ -1340,14 +1427,335 @@ INPUT ./gambar/sprint2/inventory_schema.jpeg
 INPUT ./gambar/sprint2/inventory_schema.jpeg
 INPUT ./gambar/sprint2/inventory_schema.jpeg
 INPUT ./gambar/sprint2/inventory_schema.jpeg
+INPUT ./gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/benih_route.png
+INPUT gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/benih_route.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/http_pub.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/pubspec_http.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_1.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_2.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint3/benih_3.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_1.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint4/aktivasi_2.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/history_benih_route.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint3/detail_benih.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/sample_route_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/input_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/detail_inv_pakan.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/suplemen_sample_route.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_1.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_2.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sup_3.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/sample_route_electric.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_1.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_2.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/el_3.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/samle_route_aset.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_1.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_2.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/as_3.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs_route.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/pakan_hs.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs_route.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/suplemen_hs.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint4/entry_2.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint5/merk_route.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/pakan_choose.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/input_name_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/detail_merk_pakan.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_1.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint4/treat_2.png
+INPUT ./gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/panen.png
+INPUT gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/panen.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/pembukuan_route.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/dashboard.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT gambar/sprint5/pembukuan.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT ./gambar/sprint5/pembukuan.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/Uding.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/Uding.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/Uding.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/Uding.fd
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/bbding/bbding10.tfm
+INPUT ./bab5.tex
+INPUT ./bab5.tex
+INPUT ./bab5.tex
+OUTPUT bab5.aux
+INPUT ./bab5.tex
+INPUT ./bab5.tex
+INPUT ./bab5.tex
+INPUT bab5.tex
+INPUT ./bab5.tex
+INPUT bab5.tex
+INPUT ./lampiran.tex
+INPUT ./lampiran.tex
+INPUT ./lampiran.tex
+OUTPUT lampiran.aux
+INPUT ./lampiran.tex
+INPUT ./lampiran.tex
+INPUT ./lampiran.tex
+INPUT lampiran.tex
+INPUT ./lampiran.tex
+INPUT lampiran.tex
 INPUT ./template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT ./template-skripsi.bbl
 INPUT template-skripsi.bbl
 INPUT template-skripsi.aux
+INPUT ./lembar-pernyataan.aux
+INPUT lembar-pernyataan.aux
+INPUT lembar-pernyataan.aux
 INPUT ./halaman-persembahan.aux
 INPUT halaman-persembahan.aux
 INPUT halaman-persembahan.aux
+INPUT ./abstrak.aux
+INPUT abstrak.aux
+INPUT abstrak.aux
+INPUT ./abstract.aux
+INPUT abstract.aux
+INPUT abstract.aux
 INPUT ./kata-pengantar.aux
 INPUT kata-pengantar.aux
 INPUT kata-pengantar.aux
@@ -1360,11 +1768,20 @@ INPUT bab2.aux
 INPUT ./bab3.aux
 INPUT bab3.aux
 INPUT bab3.aux
+INPUT ./bab4.aux
+INPUT bab4.aux
+INPUT bab4.aux
+INPUT ./bab5.aux
+INPUT bab5.aux
+INPUT bab5.aux
+INPUT ./lampiran.aux
+INPUT lampiran.aux
+INPUT lampiran.aux
 INPUT ./template-skripsi.out
 INPUT ./template-skripsi.out
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/bbding/dpi720/bbding10.pk
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/bbding/dpi720/bbding10.pk
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
@@ -1375,14 +1792,10 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrb8a.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrb8a.pfb
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrro8a.pfb
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrro8a.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb
