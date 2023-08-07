@@ -259,7 +259,7 @@
        \includegraphics[width=0.4\textwidth]{gambar/logounj.png}
        \vfill
        {\normalfont
-        \bfseries Oleh:\\
+        % \bfseries Oleh:\\
         \normalfont\bfseries \@fullname\\
         \normalfont\bfseries \@idnum}\\
        \vspace{1.5cm}

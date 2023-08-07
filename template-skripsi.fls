@@ -862,6 +862,7 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bb
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bbding/bbding.sty
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
@@ -996,12 +997,50 @@ INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
-INPUT ./lembar-pernyataan.tex
-INPUT ./lembar-pernyataan.tex
-INPUT ./lembar-pernyataan.tex
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT assets/lembar_pengesahan_skripsi.pdf
+INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
+INPUT ./lembar-pernyataan.tex
 OUTPUT lembar-pernyataan.aux
 INPUT ./lembar-pernyataan.tex
 INPUT ./lembar-pernyataan.tex
