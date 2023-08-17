@@ -1219,13 +1219,6 @@ INPUT ./bab3.tex
 INPUT bab3.tex
 INPUT ./bab3.tex
 INPUT bab3.tex
-INPUT ./gambar/research_tree.png
-INPUT ./gambar/research_tree.png
-INPUT gambar/research_tree.png
-INPUT ./gambar/research_tree.png
-INPUT ./gambar/research_tree.png
-INPUT ./gambar/research_tree.png
-INPUT ./gambar/research_tree.png
 INPUT ./gambar/tabel_inventaris_pakan.png
 INPUT ./gambar/tabel_inventaris_pakan.png
 INPUT gambar/tabel_inventaris_pakan.png
@@ -1261,11 +1254,26 @@ INPUT ./gambar/tabel_inventaris_aset.png
 INPUT ./gambar/tabel_inventaris_aset.png
 INPUT ./gambar/tabel_inventaris_aset.png
 INPUT ./gambar/tabel_inventaris_aset.png
+INPUT ./gambar/disk1.jpg
+INPUT ./gambar/disk1.jpg
+INPUT gambar/disk1.jpg
+INPUT ./gambar/disk1.jpg
+INPUT ./gambar/disk1.jpg
+INPUT ./gambar/disk1.jpg
+INPUT ./gambar/disk1.jpg
+INPUT ./gambar/disk2.jpg
+INPUT ./gambar/disk2.jpg
+INPUT gambar/disk2.jpg
+INPUT ./gambar/disk2.jpg
+INPUT ./gambar/disk2.jpg
+INPUT ./gambar/disk2.jpg
+INPUT ./gambar/disk2.jpg
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT gambar/tahapan_penelitian.png
@@ -1273,7 +1281,6 @@ INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
 INPUT ./gambar/tahapan_penelitian.png
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT ./gambar/usecase_iterasi_2.png
 INPUT gambar/usecase_iterasi_2.png
