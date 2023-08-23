@@ -54,8 +54,9 @@
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>authoryear.bbx</file>
+      <file>authoryear-icomp.bbx</file>
+      <file>authoryear-icomp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -77,6 +78,9 @@
     </provides>
     <requires type="dynamic">
       <file>template-skripsi.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>daftar-pustaka.bib</file>
     </requires>
   </external>
 </requests>
