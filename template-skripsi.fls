@@ -894,15 +894,15 @@ INPUT lembar-pernyataan.aux
 INPUT ./halaman-persembahan.aux
 INPUT halaman-persembahan.aux
 INPUT halaman-persembahan.aux
+INPUT ./kata-pengantar.aux
+INPUT kata-pengantar.aux
+INPUT kata-pengantar.aux
 INPUT ./abstrak.aux
 INPUT abstrak.aux
 INPUT abstrak.aux
 INPUT ./abstract.aux
 INPUT abstract.aux
 INPUT abstract.aux
-INPUT ./kata-pengantar.aux
-INPUT kata-pengantar.aux
-INPUT kata-pengantar.aux
 INPUT ./bab1.aux
 INPUT bab1.aux
 INPUT bab1.aux
@@ -1089,6 +1089,17 @@ INPUT halaman-persembahan.tex
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+OUTPUT kata-pengantar.aux
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
+INPUT ./kata-pengantar.tex
+INPUT kata-pengantar.tex
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./abstrak.tex
 INPUT ./abstrak.tex
 INPUT ./abstrak.tex
@@ -1109,17 +1120,6 @@ INPUT ./abstract.tex
 INPUT abstract.tex
 INPUT ./abstract.tex
 INPUT abstract.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-OUTPUT kata-pengantar.aux
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
-INPUT ./kata-pengantar.tex
-INPUT kata-pengantar.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmro8t.tfm
 INPUT ./template-skripsi.toc
 INPUT template-skripsi.toc
 INPUT template-skripsi.toc
@@ -1803,15 +1803,15 @@ INPUT lembar-pernyataan.aux
 INPUT ./halaman-persembahan.aux
 INPUT halaman-persembahan.aux
 INPUT halaman-persembahan.aux
+INPUT ./kata-pengantar.aux
+INPUT kata-pengantar.aux
+INPUT kata-pengantar.aux
 INPUT ./abstrak.aux
 INPUT abstrak.aux
 INPUT abstrak.aux
 INPUT ./abstract.aux
 INPUT abstract.aux
 INPUT abstract.aux
-INPUT ./kata-pengantar.aux
-INPUT kata-pengantar.aux
-INPUT kata-pengantar.aux
 INPUT ./bab1.aux
 INPUT bab1.aux
 INPUT bab1.aux
