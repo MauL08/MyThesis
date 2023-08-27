@@ -888,6 +888,9 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3
 INPUT ./template-skripsi.aux
 INPUT template-skripsi.aux
 INPUT template-skripsi.aux
+INPUT ./persetujuan-hasil-sidang.aux
+INPUT persetujuan-hasil-sidang.aux
+INPUT persetujuan-hasil-sidang.aux
 INPUT ./lembar-pernyataan.aux
 INPUT lembar-pernyataan.aux
 INPUT lembar-pernyataan.aux
@@ -921,6 +924,9 @@ INPUT bab5.aux
 INPUT ./lampiran.aux
 INPUT lampiran.aux
 INPUT lampiran.aux
+INPUT ./daftar-riwayat-hidup.aux
+INPUT daftar-riwayat-hidup.aux
+INPUT daftar-riwayat-hidup.aux
 OUTPUT template-skripsi.aux
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -997,47 +1003,32 @@ INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
 INPUT ./gambar/logounj.png
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
-INPUT assets/lembar_pengesahan_skripsi.pdf
-INPUT ./assets/lembar_pengesahan_skripsi.pdf
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT ./persetujuan-hasil-sidang.tex
+OUTPUT persetujuan-hasil-sidang.aux
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT persetujuan-hasil-sidang.tex
+INPUT ./persetujuan-hasil-sidang.tex
+INPUT persetujuan-hasil-sidang.tex
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT gambar/persetujuan-hasil-sidang.png
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT ./gambar/persetujuan-hasil-sidang.png
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./lembar-pernyataan.tex
 INPUT ./lembar-pernyataan.tex
 INPUT ./lembar-pernyataan.tex
@@ -1048,8 +1039,6 @@ INPUT ./lembar-pernyataan.tex
 INPUT lembar-pernyataan.tex
 INPUT ./lembar-pernyataan.tex
 INPUT lembar-pernyataan.tex
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
@@ -1070,10 +1059,6 @@ INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ba
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy8.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./halaman-persembahan.tex
@@ -1782,6 +1767,10 @@ INPUT ./bab5.tex
 INPUT bab5.tex
 INPUT ./bab5.tex
 INPUT bab5.tex
+INPUT ./template-skripsi.bbl
+INPUT template-skripsi.bbl
+INPUT ./template-skripsi.bbl
+INPUT template-skripsi.bbl
 INPUT ./lampiran.tex
 INPUT ./lampiran.tex
 INPUT ./lampiran.tex
@@ -1792,11 +1781,27 @@ INPUT ./lampiran.tex
 INPUT lampiran.tex
 INPUT ./lampiran.tex
 INPUT lampiran.tex
-INPUT ./template-skripsi.bbl
-INPUT template-skripsi.bbl
-INPUT ./template-skripsi.bbl
-INPUT template-skripsi.bbl
+INPUT ./daftar-riwayat-hidup.tex
+INPUT ./daftar-riwayat-hidup.tex
+INPUT ./daftar-riwayat-hidup.tex
+OUTPUT daftar-riwayat-hidup.aux
+INPUT ./daftar-riwayat-hidup.tex
+INPUT ./daftar-riwayat-hidup.tex
+INPUT ./daftar-riwayat-hidup.tex
+INPUT daftar-riwayat-hidup.tex
+INPUT ./daftar-riwayat-hidup.tex
+INPUT daftar-riwayat-hidup.tex
+INPUT ./gambar/me2.jpeg
+INPUT ./gambar/me2.jpeg
+INPUT gambar/me2.jpeg
+INPUT ./gambar/me2.jpeg
+INPUT ./gambar/me2.jpeg
+INPUT ./gambar/me2.jpeg
+INPUT ./gambar/me2.jpeg
 INPUT template-skripsi.aux
+INPUT ./persetujuan-hasil-sidang.aux
+INPUT persetujuan-hasil-sidang.aux
+INPUT persetujuan-hasil-sidang.aux
 INPUT ./lembar-pernyataan.aux
 INPUT lembar-pernyataan.aux
 INPUT lembar-pernyataan.aux
@@ -1830,6 +1835,9 @@ INPUT bab5.aux
 INPUT ./lampiran.aux
 INPUT lampiran.aux
 INPUT lampiran.aux
+INPUT ./daftar-riwayat-hidup.aux
+INPUT daftar-riwayat-hidup.aux
+INPUT daftar-riwayat-hidup.aux
 INPUT ./template-skripsi.out
 INPUT ./template-skripsi.out
 INPUT /Users/maul/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/bbding/dpi720/bbding10.pk

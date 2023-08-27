@@ -141,6 +141,8 @@
 \begin{document}
 
 \cover
+\newpage
+\pagenumbering{roman}
 
 \begin{spacing}{1.5}
   
@@ -151,7 +153,9 @@
 %-----------------------------------------------------------------
 % \include{pengesahan}
 % \addcontentsline{toc}{chapter}{LEMBAR PENGESAHAN}
-\includepdf[pages=-]{assets/lembar_pengesahan_skripsi.pdf}
+% \includepdf[pages=-]{assets/lembar_pengesahan_skripsi.pdf}
+\include{persetujuan-hasil-sidang}
+\addcontentsline{toc}{chapter}{LEMBAR PERSETUJUAN HASIL SIDANG SKRIPSI}
 \include{lembar-pernyataan}
 \addcontentsline{toc}{chapter}{LEMBAR PERNYATAAN}
 \include{halaman-persembahan}
@@ -176,7 +180,6 @@
 \include{bab1}
 \include{bab2}
 \include{bab3}
-% \include{lampiran}
 \include{bab4}
 \include{bab5}
 
@@ -186,6 +189,10 @@
 %Disini akhir masukan Bab
 %-----------------------------------------------------------------
 
+
+\bibliography{daftar-pustaka}
+\bibliographystyle{myapalike}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
 
 \include{lampiran}
 
@@ -199,12 +206,12 @@
 %   gunakan reference manager seperti Mendeley, Zotero, EndNote,
 %   dll.
 %-----------------------------------------------------------------
-\bibliography{daftar-pustaka}
-\bibliographystyle{myapalike}
-\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
 %-----------------------------------------------------------------
 %Disini akhir masukan Daftar Pustaka
 %-----------------------------------------------------------------
 
+\include{daftar-riwayat-hidup}
+\addcontentsline{toc}{chapter}{DAFTAR RIWAYAT HIDUP}
 
 \end{document}
