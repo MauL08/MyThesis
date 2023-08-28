@@ -1,12 +1,25 @@
-Naskah Skripsi LaTeX
+# Skripsi LateX
+
 =============================
 
-Template Naskah Skripsi dengan typesetting LaTeX untuk JTETI Universitas Gadjah Mada. Template ini merupakan hasil modifikasi dari versi pak Pekik Nurwantoro (FMIPA UGM) dan mas Yohan (JTETI UGM 2008).
+## Penjelasan Repo
 
-Diedit dan digunakan untuk keperluan SKRIPSI SARJANA ILMU KOMPUTER.
+Repo ini berisi tentang Skripsi dari Akbar Maulana Alfatih dari Universitas Negeri Jakarta Program Studi Ilmu Komputer. Skripsi ini berjudul Ekspansi Aplikasi Aqua Breeding Dengan Penambahan Fitur Inventarisasi Untuk Penentuan Harga Dasar Produk Perikanan Berbasis Android.
 
-Diunggah oleh:
-Gregorius Andito Herjuno 
-ILMU KOMPUTER 2013 
-UNIVERSITAS NEGERI JAKARTA
-3145136218
+## Penjelasan Penelitian
+
+Penelitian ini bertujuan untuk menambahkan fitur inventarisasi pada aplikasi Aqua Breeding. Fitur ini merupakan fitur pencatatan komponen budidaya ikan yang nantinya akan digunakan untuk menentunkan harga dasar jual ikan berdasarkan penggunaan inventory pada saat budidaya berlangsung.
+
+## Framework Pengembangan
+
+### Frontend : Flutter
+
+Untuk repository frontend mobile dengan Flutter dapat dilihat di : [AquaBreedingV2 Frontend](https://github.com/MauL08/AquaBreeding-V2)
+
+### Backend : Flask
+
+Untuk repository backend dengan Flask dapat dilihat di : [AquaBreedingV2 Backend](https://github.com/MauL08/AquaBreedingAPI-V2)
+
+## File PDF
+
+Untuk file PDF Skripsi dapat dilihat pada file : [PDF Skripsi](./template-skripsi.pdf)
